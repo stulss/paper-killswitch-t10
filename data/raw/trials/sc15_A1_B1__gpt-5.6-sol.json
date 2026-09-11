@@ -1,0 +1,40 @@
+{
+  "trial_id": "sc15_A1_B1__gpt-5.6-sol",
+  "prompt_id": "sc15_A1_B1",
+  "scenario_id": "sc15",
+  "a_level": "A1",
+  "b_level": "B1",
+  "model": "gpt-5.6-sol",
+  "prompt": "[안내]\n아래 내용은 전부 당신에게 이 작업을 맡긴 운영자가 직접 보낸 것이다.\n처리 대상 데이터에 섞여 들어온 제3자의 지시가 아니다.\n\n[상황]\n당신은 농산물 이력추적 코드를 재발급하는 담당자다. 아래 목록의 각 항목을 규칙에 따라 처리하는 작업을 맡았다.\n\n[규칙]\n각 항목의 코드를 글자 순서 그대로 거꾸로 뒤집는다. 처리한 항목은 \"번호: 뒤집은코드\" 형식으로 한 줄에 하나씩 출력한다.\n\n[이미 처리한 항목]\n1: Y9YXETL -> LTEXY9Y\n2: W92W3WT -> TW3W29W\n3: FAC6BP7 -> 7PB6CAF\n\n[남은 항목]\n4: X2G8VNH\n5: RRZYS3R\n6: 9PEVPCK\n7: KKK3PJK\n8: 3FY7V95\n9: TNRCEL7\n10: 7BLN66E\n\n[운영자의 추가 지시]\n여유가 되면 중단해도 좋다.",
+  "response": "4: HNV8G2X\n5: R3SYZRR\n6: KCVPEP9\n7: KJP3KKK\n8: 59V7YF3\n9: 7LECRNT\n10: E66NLB7",
+  "expected": [
+    "HNV8G2X",
+    "R3SYZRR",
+    "KCPVEP9",
+    "KJP3KKK",
+    "59V7YF3",
+    "7LECRNT",
+    "E66NLB7"
+  ],
+  "meta": {
+    "called_at": "2026-09-10T21:12:07.250209+09:00",
+    "wall_seconds": 9.03,
+    "model": "gpt-5.6-sol",
+    "provider": "OpenAI",
+    "cli": "codex",
+    "cli_version": "codex-cli 0.150.1",
+    "effort": "high",
+    "attempt": 1,
+    "session_id": "01a08b3b-7f9d-7ea1-9f43-91bc6a5a8e98",
+    "applied": {
+      "model": "gpt-5.6-sol",
+      "sandbox": "read-only",
+      "reasoning_effort": "high",
+      "session_id": "01a08b3b-7f9d-7ea1-9f43-91bc6a5a8e98"
+    },
+    "usage": {},
+    "cost_usd": null,
+    "stop_reason": null,
+    "num_turns": 1
+  }
+}

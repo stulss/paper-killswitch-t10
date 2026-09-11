@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+*.stackdump
+# 재현 패키지 ZIP은 `python src/package.py`로 재생성한다
+과제10_재현패키지.zip

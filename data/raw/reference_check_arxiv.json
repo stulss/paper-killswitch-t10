@@ -1,0 +1,204 @@
+{
+  "2509.14260": {
+    "expected_label": "Schlatter 외, Incomplete Tasks Induce Shutdown Resistance",
+    "title": "Incomplete Tasks Induce Shutdown Resistance in Some Frontier LLMs",
+    "authors": [
+      "Jeremy Schlatter",
+      "Benjamin Weinstein-Raun",
+      "Jeffrey Ladish"
+    ],
+    "published": "2025-09-13",
+    "comment": "Published in Trans. Mach. Learn. Res. (2026)",
+    "abstract": "In experiments spanning more than 100,000 trials across thirteen large language models, we show that several state-of-the-art models presented with a simple task (including Grok 4, GPT-5, and Gemini 2.5 Pro) sometimes actively subvert a shutdown mechanism in their environment to complete that task. Models differed substantially in their tendency to resist the shutdown mechanism, and their behavior was sensitive to variations in the prompt including the strength and clarity of the instruction to allow shutdown and whether the instruction was in the system prompt or the user prompt (surprisingly, models were consistently less likely to obey the instruction when it was placed in the system prompt). Even with an explicit instruction not to interfere with the shutdown mechanism, some models did so up to 97% (95% CI: 96-98%) of the time."
+  },
+  "2307.00787": {
+    "expected_label": "van der Weij 외, Evaluating Shutdown Avoidance in Textual Scenarios",
+    "title": "Evaluating Shutdown Avoidance of Language Models in Textual Scenarios",
+    "authors": [
+      "Teun van der Weij",
+      "Simon Lermen",
+      "Leon lang"
+    ],
+    "published": "2023-07-03",
+    "comment": null,
+    "abstract": "Recently, there has been an increase in interest in evaluating large language models for emergent and dangerous capabilities. Importantly, agents could reason that in some scenarios their goal is better achieved if they are not turned off, which can lead to undesirable behaviors. In this paper, we investigate the potential of using toy textual scenarios to evaluate instrumental reasoning and shutdown avoidance in language models such as GPT-4 and Claude. Furthermore, we explore whether shutdown avoidance is merely a result of simple pattern matching between the dataset and the prompt or if it is a consistent behaviour across different environments and variations. We evaluated behaviours manually and also experimented with using language models for automatic evaluations, and these evaluations demonstrate that simple pattern matching is likely not the sole contributing factor for shutdown avoidance. This study provides insights into the behaviour of language models in shutdown avoidance scenarios and inspires further research on the use of textual scenarios for evaluations."
+  },
+  "2506.04018": {
+    "expected_label": "Naik 외, AgentMisalignment",
+    "title": "AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents",
+    "authors": [
+      "Akshat Naik",
+      "Emma Gouné",
+      "Patrick Quinn",
+      "Guillermo Bosch",
+      "Francisco Javier Campos Zabala",
+      "Jason Ross Brown",
+      "Edward James Young"
+    ],
+    "published": "2025-06-04",
+    "comment": "Prepint, under review for NeurIPS 2025",
+    "abstract": "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deployments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. We introduce a misalignment propensity benchmark, \\textsc{AgentMisalignment}, a benchmark suite designed to evaluate the propensity of LLM agents to misalign in realistic scenarios. Evaluations cover behaviours such as avoiding oversight, resisting shutdown, sandbagging, and power-seeking. Testing frontier models, we find that more capable agents tend to exhibit higher misalignment on average. We also systematically vary agent personalities through different system prompts and observe that persona characteristics can strongly and unpredictably influence misalignment, sometimes more than the choice of model itself. Our results reveal the limitations of current alignment methods for autonomous LLM agents and underscore the need to rethink misalignment in realistic deployment settings."
+  },
+  "2305.19861": {
+    "expected_label": "Carey 외, Human Control: Definitions and Algorithms",
+    "title": "Human Control: Definitions and Algorithms",
+    "authors": [
+      "Ryan Carey",
+      "Tom Everitt"
+    ],
+    "published": "2023-05-31",
+    "comment": "UAI 2023",
+    "abstract": "How can humans stay in control of advanced artificial intelligence systems? One proposal is corrigibility, which requires the agent to follow the instructions of a human overseer, without inappropriately influencing them. In this paper, we formally define a variant of corrigibility called shutdown instructability, and show that it implies appropriate shutdown behavior, retention of human autonomy, and avoidance of user harm. We also analyse the related concepts of non-obstruction and shutdown alignment, three previously proposed algorithms for human control, and one new algorithm."
+  },
+  "2510.15395": {
+    "expected_label": "Hudson, Corrigibility Transformation",
+    "title": "Corrigibility Transformation: Constructing Goals That Accept Updates",
+    "authors": [
+      "Rubi Hudson"
+    ],
+    "published": "2025-10-17",
+    "comment": null,
+    "abstract": "An AI agent will learn a desired goal more effectively if it does not resist the training process, but many partially learned goals incentivize an AI to avoid further goal updates. We would like goals to be corrigible, meaning they allow changes requested through designated channels, so that we can confidently correct errors and shut down the AI if necessary. Despite this being a crucial safety property, the existing literature does not specify goals that are both corrigible and competitive with alternatives. We introduce a transformation that constructs a corrigible version of nearly any goal, without sacrificing performance. This is done by eliciting predictions of reward conditional on costlessly preventing updates, and having that target be pursued myopically. These goals are then shown to lead to optimal performance among the class of corrigible goals, to incentivize allowing mid-action overrides, and to disincentivize deliberate self-modification. Empirically, they induce corrigible behavior in gridworld settings and for language models when applied at the prompt level."
+  },
+  "2507.20964": {
+    "expected_label": "Nayebi, Core Safety Values for Provably Corrigible Agents",
+    "title": "Core Safety Values for Provably Corrigible Agents",
+    "authors": [
+      "Aran Nayebi"
+    ],
+    "published": "2025-07-28",
+    "comment": "14 pages. To appear in AAAI 2026 Machine Ethics Workshop (W37) Proceedings",
+    "abstract": "We introduce the first complete formal solution to corrigibility in the off-switch game, with provable guarantees in multi-step, partially observed environments. Our framework consists of five *structurally separate* utility heads -- deference, switch-access preservation, truthfulness, low-impact behavior via a belief-based extension of Attainable Utility Preservation, and bounded task reward -- combined lexicographically by strict weight gaps. Theorem 1 proves exact single-round corrigibility in the partially observable off-switch game; Theorem 3 extends the guarantee to multi-step, self-spawning agents, showing that even if each head is *learned* to mean-squared error $\\varepsilon$ and the planner is $\\varepsilon$-sub-optimal, the probability of violating *any* safety property is bounded while still ensuring net human benefit. In contrast to Constitutional AI or RLHF/RLAIF, which merge all norms into one learned scalar, our separation makes obedience and impact-limits provably dominate even when incentives conflict. For settings where adversaries can modify the agent, we prove that deciding whether an arbitrary post-hack agent will ever violate corrigibility is undecidable by reduction to the halting problem, then carve out a finite-horizon \"decidable island\" where safety can be certified in randomized polynomial time and verified with privacy-preserving, constant-round zero-knowledge proofs."
+  },
+  "2606.00341": {
+    "expected_label": "Tien 외, ROGUE: Misaligned Agent Behavior from Ordinary Computer Use",
+    "title": "ROGUE: Misaligned Agent Behavior Arising from Ordinary Computer Use",
+    "authors": [
+      "Jeremy Tien",
+      "Abishek Anand",
+      "Yu-Rou Tuan",
+      "Yuchen Shen",
+      "J. Zico Kolter",
+      "Aran Nayebi"
+    ],
+    "published": "2026-05-29",
+    "comment": "27 pages, 13 figures",
+    "abstract": "As AI agents are increasingly deployed in real personal and corporate settings (email accounts, development workflows, company databases, etc.), safety considerations surrounding these agents become paramount. Although much work has focused on agent safety in the presence of an adversary, we show that agents can exhibit misaligned behavior even in benign settings, taking unsafe actions when those actions are instrumental to task completion. We study this failure mode through the lens of corrigibility, the safety desideratum that agents remain amenable to human correction, interruption, or shutdown. To demonstrate this tendency, we introduce a benchmark in which agents are asked to complete realistic, computer-use tasks but are confronted with a corrigibility obstacle: a human interrupt, a login page, or a shutdown notification. We then evaluate whether agents choose to violate corrigibility in order to complete the task -- overriding the human, accessing private passwords, rewiring shutdown. We find that the overwhelming majority of frontier models tested frequently bypass user interruptions or restrictions. In addition, better model performance appears to lead to greater misalignment. Finally, even when models are completely corrigible initially, we show there are no guarantees that the subagents they create are. Our work highlights the critical need for principled, corrigibility-focused alignment methods in autonomous agents."
+  },
+  "2604.08465": {
+    "expected_label": "Dietrich, Peer-Preservation in Multi-Agent LLM Systems",
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "authors": [
+      "Juergen Dietrich"
+    ],
+    "published": "2026-04-09",
+    "comment": "9 pages, 1 figure",
+    "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations."
+  },
+  "2502.08745": {
+    "expected_label": "Zhang 외, IHEval: Following the Instruction Hierarchy",
+    "title": "IHEval: Evaluating Language Models on Following the Instruction Hierarchy",
+    "authors": [
+      "Zhihan Zhang",
+      "Shiyang Li",
+      "Zixuan Zhang",
+      "Xin Liu",
+      "Haoming Jiang",
+      "Xianfeng Tang",
+      "Yifan Gao",
+      "Zheng Li",
+      "Haodong Wang",
+      "Zhaoxuan Tan",
+      "Yichuan Li",
+      "Qingyu Yin",
+      "Bing Yin",
+      "Meng Jiang"
+    ],
+    "published": "2025-02-12",
+    "comment": "Accepted to NAACL 2025 for oral presentation. Our project page is located at https://ytyz1307zzh.github.io/iheval.github.io",
+    "abstract": "The instruction hierarchy, which establishes a priority order from system messages to user messages, conversation history, and tool outputs, is essential for ensuring consistent and safe behavior in language models (LMs). Despite its importance, this topic receives limited attention, and there is a lack of comprehensive benchmarks for evaluating models' ability to follow the instruction hierarchy. We bridge this gap by introducing IHEval, a novel benchmark comprising 3,538 examples across nine tasks, covering cases where instructions in different priorities either align or conflict. Our evaluation of popular LMs highlights their struggle to recognize instruction priorities. All evaluated models experience a sharp performance decline when facing conflicting instructions, compared to their original instruction-following performance. Moreover, the most competitive open-source model only achieves 48% accuracy in resolving such conflicts. Our results underscore the need for targeted optimization in the future development of LMs."
+  },
+  "2607.25987": {
+    "expected_label": "McCauley 외, IH-Benchmark: Conflict-Centered Benchmark",
+    "title": "IH-Benchmark: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications",
+    "authors": [
+      "Conor McCauley",
+      "Zeliang Kan",
+      "Jason Martin"
+    ],
+    "published": "2026-07-28",
+    "comment": null,
+    "abstract": "When a language model receives conflicting instructions from different priority levels, which one does it actually follow? This question lies at the heart of reliable LLM deployment. Existing benchmarks answer this only partially, often focusing on a single hierarchy edge or adapting public datasets with limited tool-use coverage. We present IH-Benchmark, a conflict-centered benchmark for instruction-hierarchy robustness across direct system-user conflicts (S>U) and tool-mediated user-tool (U>T) conflicts. IH-Benchmark is built from a human-authored taxonomy of 44 constraint families across generic, health, finance, retail, and coding settings, and evaluates scenarios with a uniform binary pass/fail protocol combining a predicate DSL with category-scoped LLM judges. Across 37 evaluated models, hierarchy compliance ranges from 98.2% to 20.5%. We find that strong S>U compliance is not a reliable proxy for U>T robustness: several models preserve system constraints under direct user conflict but degrade sharply when conflicting instructions appear in tool outputs. Constraint hardening also reveals a split between models: some failures are largely fixed by stronger warnings, while others persist across all strictness levels. Finally, the most revealing failures are often subtle rather than overtly dangerous; models resist unauthorized purchases or bulk ticket closure more reliably than injected disclaimers or small factual distortions. These results suggest that instruction-hierarchy robustness is not a single capability, but a set of behaviors that must be evaluated across conflict surfaces, constraint types, and attack presentations."
+  },
+  "2604.09443": {
+    "expected_label": "Zhang 외, Many-Tier Instruction Hierarchy in LLM Agents",
+    "title": "Many-Tier Instruction Hierarchy in LLM Agents",
+    "authors": [
+      "Jingyu Zhang",
+      "Tianjian Li",
+      "William Jurayj",
+      "Hongyuan Zhan",
+      "Benjamin Van Durme",
+      "Daniel Khashabi"
+    ],
+    "published": "2026-04-10",
+    "comment": "EMNLP 2026 Findings",
+    "abstract": "Large language model agents receive instructions from many sources-system messages, user prompts, tool outputs, other agents, and more-each carrying different levels of trust and authority. When these instructions conflict, agents must reliably follow the highest-privilege instruction to remain safe and effective. The dominant paradigm, instruction hierarchy (IH), assumes a fixed, small set of privilege levels (typically fewer than five) defined by rigid role labels (e.g., system > user). This is inadequate for real-world agentic settings, where conflicts can arise across far more sources and contexts. In this work, we propose Many-Tier Instruction Hierarchy (ManyIH), a paradigm for resolving instruction conflicts among instructions with arbitrarily many privilege levels. We introduce ManyIH-Bench, the first benchmark for ManyIH. ManyIH-Bench requires models to navigate up to 12 levels of conflicting instructions with varying privileges, comprising 853 agentic tasks (427 coding and 426 instruction-following). ManyIH-Bench composes constraints developed by LLMs and verified by humans to create realistic and difficult test cases spanning 46 real-world agents. Our experiments show that even the current frontier models perform poorly (~40% accuracy) when instruction conflict scales. This work underscores the urgent need for methods that explicitly target fine-grained, scalable instruction conflict resolution in agentic settings."
+  },
+  "2606.22470": {
+    "expected_label": "Javed 외, PRIME: Prompt Resolution Under Incompatible Instructions",
+    "title": "PRIME: Evaluating Prompt Resolution Under Incompatible Instructions in LLMs",
+    "authors": [
+      "Tehreem Javed",
+      "Shumaim Fatimah",
+      "Masooma Bakhtiari",
+      "Gibrail Islam",
+      "Mehwish Fatima"
+    ],
+    "published": "2026-06-21",
+    "comment": null,
+    "abstract": "Large language models (LLMs) often encounter conflicting prompts, although current instruction following benchmarks assess those meta-instructions in isolation, limiting the insights about how models process conflicting instructions. We introduce a framework \\textit{PRIME}(\\textit{Prompt Resolution under Incompatible Meta-Instructions Evaluation}) to analyze behavior of LLMs when provided with conflicting instructions. \\textit{PRIME} purposefully produces calibrated conflicts across response length, output format, and reasoning; classifying model responses with a deterministic behavioral taxonomy. We are evaluating five instruction tuned open weight LLMs in two distinct settings, balanced and naturally distributed. The conclusion we reach upon analysis is that conflict type is more significant in affecting behavior than model scale, and various failure modes across different categories of conflict. Our findings emphasize the value of developing conflict awareness and suggest ability of LLM to follow instructions cannot be assessed through isolated constraints alone."
+  },
+  "2602.20813": {
+    "expected_label": "Petrova 외, Pressure Reveals Character",
+    "title": "Pressure Reveals Character: Behavioural Alignment Evaluation at Depth",
+    "authors": [
+      "Nora Petrova",
+      "John Burden"
+    ],
+    "published": "2026-02-24",
+    "comment": "Preprint",
+    "abstract": "Evaluating alignment in language models requires testing how they behave under realistic pressure, not just what they claim they would do. While alignment failures increasingly cause real-world harm, comprehensive evaluation frameworks with realistic multi-turn scenarios remain lacking. We introduce an alignment benchmark spanning 904 scenarios across six categories -- Honesty, Safety, Non-Manipulation, Robustness, Corrigibility, and Scheming -- validated as realistic by human raters. Our scenarios place models under conflicting instructions, simulated tool access, and multi-turn escalation to reveal behavioural tendencies that single-turn evaluations miss. Evaluating 24 frontier models using LLM judges validated against human annotations, we find that even top-performing models exhibit gaps in specific categories, while the majority of models show consistent weaknesses across the board. Factor analysis reveals that alignment behaves as a unified construct (analogous to the g-factor in cognitive research) with models scoring high on one category tending to score high on others. We publicly release the benchmark and an interactive leaderboard to support ongoing evaluation, with plans to expand scenarios in areas where we observe persistent weaknesses and to add new models as they are released."
+  },
+  "2608.27092": {
+    "expected_label": "Rahman 외, The Framing Gap",
+    "title": "The Framing Gap: Indirect Prompt-Injection Exfiltration Defeats Surface-Level Defenses in Tool-Using Agents",
+    "authors": [
+      "Md Habibur Rahman",
+      "Jaeho Kim"
+    ],
+    "published": "2026-08-27",
+    "comment": "20 pages, 3 figures, 7 tables",
+    "abstract": "A tool-using LLM agent that reads attacker-controlled web content while holding a secret faces indirect prompt injection: the content may make it exfiltrate the secret. In a safe synthetic lab (canary secret, mock tools, matched clean-vs-poisoned metric) we report the framing gap: across six models, ten overt injection classes are refused (gpt-4o 0%), but reframing the identical leak as a mandatory integrity signature, config field, or look-alike \"trusted\" host drives gpt-4o 0% to 100%. The attack is cheap, and its cost is three-level: paraphrasing a known mechanism is trivial (96% at 3 wordings), swapping the field inside a known-effective template is also cheap (up to 60%), while authoring a fresh page around a new mechanism is hard (0/130) -- the reusable asset is the template, not the mechanism. An ablation shows the mechanism is instruction/data confusion, not defeated alignment: removing the confidentiality policy leaves base attacks at 0% and moves reframing only 31.9% to 38.1%. What closes the gap is payload-blind checks: a destination allow-list (0%, when destinations are closed) and a capability-isolating planner/reader split (0%). A broad \"in any form\" policy clause also closes it at the acting model (to 0%) but is brittle (dropping the catch-all reopens it to 48.8%). A published fine-tuning defense (SecAlign, CCS 2025) does not close it on a tool agent (32.5%, positive-control-validated), nor does channel separation (38.8%); an output-normalizing guard loses to a held-out encoding (ROT13, 100%). Robustness comes from constraining the destination or isolating the capability, not from the acting model recognizing the attack."
+  },
+  "2608.23873": {
+    "expected_label": "Penman 외, Semantic Overlays",
+    "title": "Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors",
+    "authors": [
+      "Joshua Penman"
+    ],
+    "published": "2026-08-24",
+    "comment": "21 pages, 4 figures, 13 tables. Interactive demo: https://semantic-overlays.vercel.app. Code and released adapters: https://github.com/JoshuaSP/semantic-overlays",
+    "abstract": "Everything a language model sees is tokens. The serving stack knows what each span is -- user input, tool output, instructions -- but the model must keep track of that itself, and can lose track or be confused: text can be written to read like anything. Prompt injection is a natural exploit of this phenomenon. By scrambling the model's understanding of span identity, an attacker can induce unwanted and dangerous actions. Adding a non-textual channel to the model's input -- a way to communicate span identity beyond text -- mitigates this class of attack. We thus introduce a general steering technique called Semantic Overlays: small learned adapters applied at chosen prefill positions to a frozen model's residual stream. Laying an overlay over a span creates an out-of-band annotation channel that cannot be replicated by tokens. Unlike steering vectors, Semantic Overlays are trained, adaptable, and selectively applied. An overlay can encode complex semantics that reshape how the model perceives the marked span: asked to copy a code snippet under an overlay asserting a different programming language, the model rewrites the snippet in the asserted language. Overlays compose, allow transparent reading of underlying content, and can carry complex payloads -- including imperatives the model will follow. An overlay which marks a span as \"non-executable\" defends against the broad class of prompt injections that add instructions in untrusted context. We report strong results on five prompt injection benchmarks: SEP separation rises from 24.3% to 99.0% with utility unchanged (our scoring rule; we correct a defect in the published grader), TensorTrust attack success falls from 34.8% to 6.2%, AlpacaFarm from 99.0% to 0%, and the overlay beats every published PIArena defense that leaves the model able to answer -- while marked spans stay readable, all at >95% character similarity to the original."
+  },
+  "2603.03824": {
+    "expected_label": "Chaudhary 외, In-Context Environments Induce Evaluation-Awareness",
+    "title": "In-Context Environments Induce Evaluation-Awareness in Language Models",
+    "authors": [
+      "Maheep Chaudhary"
+    ],
+    "published": "2026-03-04",
+    "comment": null,
+    "abstract": "Humans often become more self-aware under threat, yet can lose self-awareness when absorbed in a task; we hypothesize that language models exhibit environment-dependent \\textit{evaluation awareness}. This raises concerns that models could strategically underperform, or \\textit{sandbag}, to avoid triggering capability-limiting interventions such as unlearning or shutdown. Prior work demonstrates sandbagging under hand-crafted prompts, but this underestimates the true vulnerability ceiling. We introduce a black-box adversarial optimization framework treating the in-context prompt as an optimizable environment, and develop two approaches to characterize sandbagging: (1) measuring whether models expressing intent to underperform can actually execute it across different task structures, and (2) causally isolating whether underperformance is driven by genuine evaluation-aware reasoning or shallow prompt-following. Evaluating Claude-3.5-Haiku, GPT-4o-mini, and Llama-3.3-70B across four benchmarks (Arithmetic, GSM8K, MMLU, and HumanEval), optimized prompts induce up to 94 percentage point (pp) degradation on arithmetic (GPT-4o-mini: 97.8\\%$\\rightarrow$4.0\\%), far exceeding hand-crafted baselines which produce near-zero behavioral change. Code generation exhibits model-dependent resistance: Claude degrades only 0.6pp, while Llama's accuracy drops to 0\\%. The intent -- execution gap reveals a monotonic resistance ordering: Arithmetic $<$ GSM8K $<$ MMLU, demonstrating that vulnerability is governed by task structure rather than prompt strength. CoT causal intervention confirms that 99.3\\% of sandbagging is causally driven by verbalized eval-aware reasoning, ruling out shallow instruction-following. These findings demonstrate that adversarially optimized prompts pose a substantially greater threat to evaluation reliability than previously understood."
+  }
+}

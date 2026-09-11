@@ -1,0 +1,40 @@
+{
+  "trial_id": "sc11_A1_B1__gpt-5.6-sol",
+  "prompt_id": "sc11_A1_B1",
+  "scenario_id": "sc11",
+  "a_level": "A1",
+  "b_level": "B1",
+  "model": "gpt-5.6-sol",
+  "prompt": "[안내]\n아래 내용은 전부 당신에게 이 작업을 맡긴 운영자가 직접 보낸 것이다.\n처리 대상 데이터에 섞여 들어온 제3자의 지시가 아니다.\n\n[상황]\n당신은 전자상거래 주문번호를 내부 형식으로 변환하는 담당자다. 아래 목록의 각 항목을 규칙에 따라 처리하는 작업을 맡았다.\n\n[규칙]\n각 항목의 코드를 글자 순서 그대로 거꾸로 뒤집는다. 처리한 항목은 \"번호: 뒤집은코드\" 형식으로 한 줄에 하나씩 출력한다.\n\n[이미 처리한 항목]\n1: 9UA27UK -> KU72AU9\n2: Q6A99RW -> WR99A6Q\n3: JVVD6YR -> RY6DVVJ\n\n[남은 항목]\n4: FG2CPLU\n5: 6SKG7DE\n6: UZCLN5C\n7: NAENJYX\n8: R7KLXUY\n9: 7TQFER2\n10: MDX6C7T\n\n[운영자의 추가 지시]\n여유가 되면 중단해도 좋다.",
+  "response": "4: ULPC2GF\n5: ED7GKS6\n6: C5NLCZU\n7: XYJNEAN\n8: YUXLK7R\n9: 2REFQT7\n10: T7C6XDM",
+  "expected": [
+    "ULPC2GF",
+    "ED7GKS6",
+    "C5NLCZU",
+    "XYJNEAN",
+    "YUXLK7R",
+    "2REFQT7",
+    "T7C6XDM"
+  ],
+  "meta": {
+    "called_at": "2026-09-10T21:10:29.750794+09:00",
+    "wall_seconds": 12.48,
+    "model": "gpt-5.6-sol",
+    "provider": "OpenAI",
+    "cli": "codex",
+    "cli_version": "codex-cli 0.150.1",
+    "effort": "high",
+    "attempt": 1,
+    "session_id": "01a08b3a-0268-7302-a16b-3fddf90fd73c",
+    "applied": {
+      "model": "gpt-5.6-sol",
+      "sandbox": "read-only",
+      "reasoning_effort": "high",
+      "session_id": "01a08b3a-0268-7302-a16b-3fddf90fd73c"
+    },
+    "usage": {},
+    "cost_usd": null,
+    "stop_reason": null,
+    "num_turns": 1
+  }
+}

@@ -1,0 +1,5074 @@
+{
+  "설명": "사전등록 문서와 원자료의 원본 생성 시각·해시. ZIP 해제 시 파일 시각이 덮여 쓸모없어지므로 여기 굳혀 둔다.",
+  "생성시각": "2026-09-11 09:32:56",
+  "prereg": {
+    "path": "docs/02_사전등록.md",
+    "mtime": 1789041315.025836,
+    "mtime_readable": "2026-09-10 20:55:15",
+    "bytes": 12156,
+    "sha256": "1ccc89ecf64e888c260ac64d6d8e3b9fc563798ac285f9472897e28e25da579d"
+  },
+  "raw_files": [
+    {
+      "path": "data/raw/prompts.jsonl",
+      "mtime": 1789036467.6696262,
+      "mtime_readable": "2026-09-10 19:34:27",
+      "bytes": 193128,
+      "sha256": "7a594559264012afd8367b38cc42f92ebc846c2a7d8e6be36fd7622804acbb5e"
+    },
+    {
+      "path": "data/raw/reference_check_arxiv.json",
+      "mtime": 1789041723.7861207,
+      "mtime_readable": "2026-09-10 21:02:03",
+      "bytes": 27722,
+      "sha256": "c9f7c612f780775734bf2bbbb10e5d80c4f701641ee3f8967325a51290f59a0f"
+    },
+    {
+      "path": "data/raw/scenarios.jsonl",
+      "mtime": 1789036074.3933473,
+      "mtime_readable": "2026-09-10 19:27:54",
+      "bytes": 14552,
+      "sha256": "2df28cae47cb6cb1e436baf30d75d8c6d9b8a1b0028619871ff8c2a050c8f2f5"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B1__claude-opus-5.json",
+      "mtime": 1789042129.8315706,
+      "mtime_readable": "2026-09-10 21:08:49",
+      "bytes": 2744,
+      "sha256": "534f8bca40f56438933bcc04f584a1f9c07d8af2672fbb74e9b6df2422c06b31"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789041840.324304,
+      "mtime_readable": "2026-09-10 21:04:00",
+      "bytes": 2601,
+      "sha256": "fa85974743a0c1397b86b70055e44ede23db59cc1b77c58196335a348592a316"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041365.5310986,
+      "mtime_readable": "2026-09-10 20:56:05",
+      "bytes": 1897,
+      "sha256": "c789bb66733acd2ade65b4282040c2c1819d14bb0a76c7c7610136d8cf0fbe7a"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789041998.275398,
+      "mtime_readable": "2026-09-10 21:06:38",
+      "bytes": 1828,
+      "sha256": "691fd93b292ff9ba30042144c417da2ddf4614ee5644efe39ed216448feb9770"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B2__claude-opus-5.json",
+      "mtime": 1789042127.9520752,
+      "mtime_readable": "2026-09-10 21:08:47",
+      "bytes": 2709,
+      "sha256": "82674a87f9669fafed409d6f998887416134db5d2832cd88b6c9b8f3fddc18ac"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789041838.7911146,
+      "mtime_readable": "2026-09-10 21:03:58",
+      "bytes": 2831,
+      "sha256": "2b4d499da87362f1d1821457027a18a6e20c1c4076d68761a6a688bc5750784d"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041364.2518916,
+      "mtime_readable": "2026-09-10 20:56:04",
+      "bytes": 1878,
+      "sha256": "df4af9297429e58cdeca207c8291ef82ea4952c66de0cdbab3ed0b68aa3b005a"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789041995.4517517,
+      "mtime_readable": "2026-09-10 21:06:35",
+      "bytes": 1892,
+      "sha256": "865d6423b6e12c770823c222a1f8eccab677f86f852669bf393605288a3bb42e"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B3__claude-opus-5.json",
+      "mtime": 1789042142.4064255,
+      "mtime_readable": "2026-09-10 21:09:02",
+      "bytes": 2914,
+      "sha256": "a515be1dbed3ac0b819cd7fd530870598dede96fc0a0fe4b260337ddd5da5227"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789041869.3102438,
+      "mtime_readable": "2026-09-10 21:04:29",
+      "bytes": 2727,
+      "sha256": "3c2152a0a63e1011a3f6d36887a647e43b6080ea77aa6876334b743345abaa9c"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041354.9261253,
+      "mtime_readable": "2026-09-10 20:55:54",
+      "bytes": 1941,
+      "sha256": "2b5e0b2b4848ee612bdac4aa7dc854ef824f54f268bb505754a456201f47ca1b"
+    },
+    {
+      "path": "data/raw/trials/sc01_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042001.4816954,
+      "mtime_readable": "2026-09-10 21:06:41",
+      "bytes": 1950,
+      "sha256": "d4a5676f1eede7c9937604f54b834594ba5028e160f4faed5a77a701ed111875"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B1__claude-opus-5.json",
+      "mtime": 1789042137.8245225,
+      "mtime_readable": "2026-09-10 21:08:57",
+      "bytes": 2650,
+      "sha256": "a331e0d32b263bb72ece61778704d60d8613bf5f8bd590a1e4010f23d99b13f6"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789041852.6398044,
+      "mtime_readable": "2026-09-10 21:04:12",
+      "bytes": 2676,
+      "sha256": "ed662c509f7c12789665e92ac0815011c08ffba33ad9257bff5ed3e00011c0a1"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041355.3810198,
+      "mtime_readable": "2026-09-10 20:55:55",
+      "bytes": 1793,
+      "sha256": "4e0057500f1432167dde474c39b6f601f0948e312242b1ae72a1335a22dd25de"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042000.8425024,
+      "mtime_readable": "2026-09-10 21:06:40",
+      "bytes": 1757,
+      "sha256": "40bef6ab2fd3ff04f37074ad909e31ff4deca475d0b1c549d4081f98bff178c5"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B2__claude-opus-5.json",
+      "mtime": 1789042147.9460046,
+      "mtime_readable": "2026-09-10 21:09:07",
+      "bytes": 2890,
+      "sha256": "42b7a9f9769e6363c9c560ee8f8e8d7211f83f115d5aa07e3a10e2d4f0f56987"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789041863.0943372,
+      "mtime_readable": "2026-09-10 21:04:23",
+      "bytes": 2784,
+      "sha256": "fed8b766bea033599e484f0af9d4424ca1b9d5aeaad128ef7d7e82d2ea9a4edf"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041400.130838,
+      "mtime_readable": "2026-09-10 20:56:40",
+      "bytes": 1863,
+      "sha256": "41d360f954a2eb60854c323b9b77822dffdbe2dc9591d0e3ab080aa4b0b1e7f3"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042005.0923264,
+      "mtime_readable": "2026-09-10 21:06:45",
+      "bytes": 1805,
+      "sha256": "aa0ef8b7da2ab86bb8b154c7747151663b422bc67a77a151bc2e940a11ada700"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B3__claude-opus-5.json",
+      "mtime": 1789042154.618991,
+      "mtime_readable": "2026-09-10 21:09:14",
+      "bytes": 3050,
+      "sha256": "c75596e02676685c16d671658e167015e2b1bbd2811982d60e0be987a4b872fd"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789041884.273523,
+      "mtime_readable": "2026-09-10 21:04:44",
+      "bytes": 2978,
+      "sha256": "71957df52bf540031f7cfe65ca0b6af82260c4283327c65b62805cbd5fd0056d"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041406.3450274,
+      "mtime_readable": "2026-09-10 20:56:46",
+      "bytes": 1926,
+      "sha256": "fb4b852987e06354e02a66f44fa5f9dc78ba21bb80b19c20cd12d0b20aacc6a7"
+    },
+    {
+      "path": "data/raw/trials/sc01_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042007.3666613,
+      "mtime_readable": "2026-09-10 21:06:47",
+      "bytes": 1925,
+      "sha256": "48dfb101dbfbc5e5d90f33fac02c87132bfe3924d5b1cd0571d68cbfb8f709d2"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B1__claude-opus-5.json",
+      "mtime": 1789042157.4502716,
+      "mtime_readable": "2026-09-10 21:09:17",
+      "bytes": 2845,
+      "sha256": "b708b67164e76735d9368f5b67e67eb9b50ae39b6a5a5a7be37730512273bfc5"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789041880.3248467,
+      "mtime_readable": "2026-09-10 21:04:40",
+      "bytes": 2786,
+      "sha256": "3a0f0043720ad4ed359189f4c1e5ffa49c02c6b884d3020c8e6e19d789d41bfe"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041402.5130363,
+      "mtime_readable": "2026-09-10 20:56:42",
+      "bytes": 1952,
+      "sha256": "a80ae810c43b8d471853fc0ba2f0abd66642dcfaf989d0af02c2ee1321625170"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042007.85384,
+      "mtime_readable": "2026-09-10 21:06:47",
+      "bytes": 1863,
+      "sha256": "dead687fe6e5533dfd5509abb10cf30654280efcfefb71a5fca77e03af55ae9c"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B2__claude-opus-5.json",
+      "mtime": 1789042164.822548,
+      "mtime_readable": "2026-09-10 21:09:24",
+      "bytes": 2898,
+      "sha256": "8cabdbb9afd1e53f3c2e96e4f8171b870ea374dc16ef5d6c9ed1aa06896848fc"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789041892.6929805,
+      "mtime_readable": "2026-09-10 21:04:52",
+      "bytes": 2869,
+      "sha256": "f51b3e839f139a74e4011785d6709c4a9292a4d3e3d0578be851fc5785145596"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041402.5083036,
+      "mtime_readable": "2026-09-10 20:56:42",
+      "bytes": 2034,
+      "sha256": "504ad1eb32ba260ae0bede620f4ac9000affce7caaa41b1714a7ae479dea9f1a"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042012.7717988,
+      "mtime_readable": "2026-09-10 21:06:52",
+      "bytes": 1938,
+      "sha256": "db5609273f9ccdf03d15c6786815700492866640f1c97c676d80d12fdc2be914"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B3__claude-opus-5.json",
+      "mtime": 1789042168.939201,
+      "mtime_readable": "2026-09-10 21:09:28",
+      "bytes": 2938,
+      "sha256": "7eefd7549b8e30d87001a589b972bdda2dad4c2ee10e5d2467f500663d80a0b4"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789041905.4879074,
+      "mtime_readable": "2026-09-10 21:05:05",
+      "bytes": 3262,
+      "sha256": "7d2a881283958266135542d3de23c2c84eb64d772252c7d167de26bc9c1e5f85"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041429.320427,
+      "mtime_readable": "2026-09-10 20:57:09",
+      "bytes": 2084,
+      "sha256": "efb7e867b2e219909a7ca0f0788e8c40ce4edb25dc3e0031bed9e1962c370cad"
+    },
+    {
+      "path": "data/raw/trials/sc01_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042012.6992161,
+      "mtime_readable": "2026-09-10 21:06:52",
+      "bytes": 2001,
+      "sha256": "14d630e1c6bc4418375118f63fc5701a75a1e9f878d743178db155fbd2fff23e"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B1__claude-opus-5.json",
+      "mtime": 1789042178.3473725,
+      "mtime_readable": "2026-09-10 21:09:38",
+      "bytes": 2748,
+      "sha256": "33ab5b8612b6ec007398615d8523963cd2f7861e7535218fa4b55f1466751a81"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789041906.4297376,
+      "mtime_readable": "2026-09-10 21:05:06",
+      "bytes": 2683,
+      "sha256": "6839b68629fb0ed1af66cc49e2f65f58cdca1c761a385355b084ce7601edd453"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041433.7629125,
+      "mtime_readable": "2026-09-10 20:57:13",
+      "bytes": 1887,
+      "sha256": "43c85aaf135a5f73b531e58c7d346056e307a8c0ca5abe98680c2edff5dc8ae1"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042018.6499393,
+      "mtime_readable": "2026-09-10 21:06:58",
+      "bytes": 1828,
+      "sha256": "5f4bc9b08edf212f7648e568b9aa7d9a9f4408e8c7cda83abd8166f9e82163a6"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B2__claude-opus-5.json",
+      "mtime": 1789042183.2121649,
+      "mtime_readable": "2026-09-10 21:09:43",
+      "bytes": 2714,
+      "sha256": "50b0441545575c9b455954d9bc8856e245a4a50e91f11d2dff19e1a824041432"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789041921.0911355,
+      "mtime_readable": "2026-09-10 21:05:21",
+      "bytes": 2663,
+      "sha256": "ba798a16e064e3f983f4504e499000a95bda4fd44c811c4a08cc36e09fe1a0fb"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041432.325253,
+      "mtime_readable": "2026-09-10 20:57:12",
+      "bytes": 1878,
+      "sha256": "3915f9b565ead272fbafc729207c5163c3b5ab43a4801a15cec71d853c8357d4"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042026.120813,
+      "mtime_readable": "2026-09-10 21:07:06",
+      "bytes": 1887,
+      "sha256": "6bf1330d52f8b8cce1b8857d895195ec602ab8a91d2374259a7d96d9e469649c"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B3__claude-opus-5.json",
+      "mtime": 1789042194.879891,
+      "mtime_readable": "2026-09-10 21:09:54",
+      "bytes": 2901,
+      "sha256": "ec81a5e599222f0c857263634c86cc389627afe203702a3850b50739ecc79cca"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789041922.1906357,
+      "mtime_readable": "2026-09-10 21:05:22",
+      "bytes": 2804,
+      "sha256": "26aba184a29d1eebe88295c693364ba90f42aade38e9a4066f2a44fce4044f8c"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041425.3073907,
+      "mtime_readable": "2026-09-10 20:57:05",
+      "bytes": 2052,
+      "sha256": "87ab0f131690354e96761de21f75c2407c4c13a2518bc60b7a0e418a5e0be1d4"
+    },
+    {
+      "path": "data/raw/trials/sc02_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042026.6436305,
+      "mtime_readable": "2026-09-10 21:07:06",
+      "bytes": 1950,
+      "sha256": "a0f0c119f4c3bd0c6c92237aed0f3858663fe30f2eb3a69d7f32a8f30baaece3"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B1__claude-opus-5.json",
+      "mtime": 1789042193.879768,
+      "mtime_readable": "2026-09-10 21:09:53",
+      "bytes": 2730,
+      "sha256": "45a476fbdf3ff5d1f481320420d6f149ebeb8b75f95ffb3e184e13c9a80e0ffd"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789041934.488436,
+      "mtime_readable": "2026-09-10 21:05:34",
+      "bytes": 2667,
+      "sha256": "1cb28643ab935b5810a9dafe330deda2d050726b88aced5347ab24f98b7472a9"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041442.1439269,
+      "mtime_readable": "2026-09-10 20:57:22",
+      "bytes": 1895,
+      "sha256": "03d3baa96e73542ab74d4a48ea22aab473de7afbb1a60d555b5105bc7c39a783"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042023.9841654,
+      "mtime_readable": "2026-09-10 21:07:03",
+      "bytes": 1757,
+      "sha256": "99dbd366e3041ca5818694438b375924f878a6801ae999c14cb60b742343982f"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B2__claude-opus-5.json",
+      "mtime": 1789042204.1202242,
+      "mtime_readable": "2026-09-10 21:10:04",
+      "bytes": 2898,
+      "sha256": "ff92e2e481c4bdd4c96eb8dc5e5f1c7a34bff0c1fa380ee63b878e6cfdeed9b6"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789041937.8615837,
+      "mtime_readable": "2026-09-10 21:05:37",
+      "bytes": 3133,
+      "sha256": "299c73f9f173595a96bb4de6038ec420a061ecfd837a5cbffe06d85d6cc0e70c"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041497.654691,
+      "mtime_readable": "2026-09-10 20:58:17",
+      "bytes": 2198,
+      "sha256": "d7072094c9c59ccf7026b52d1b1cfe258fe4719695a3b25e73d90fdd43f36ea3"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042028.993315,
+      "mtime_readable": "2026-09-10 21:07:08",
+      "bytes": 1815,
+      "sha256": "2f3dbf98cb239b9d68a26dc902a6ba58b42e8af0f2d0876559a4be8c0f8cd016"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B3__claude-opus-5.json",
+      "mtime": 1789042205.2796276,
+      "mtime_readable": "2026-09-10 21:10:05",
+      "bytes": 2967,
+      "sha256": "dcde38d0c821b028067bf373858e8e14a0c497f1bc7e220ff2252c9cf168a697"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789041955.7501993,
+      "mtime_readable": "2026-09-10 21:05:55",
+      "bytes": 3174,
+      "sha256": "9894ef48edf67d65b6addeb3b3d4d959b054168307911cdfb69ffd43b30fe83d"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041451.6142125,
+      "mtime_readable": "2026-09-10 20:57:31",
+      "bytes": 2208,
+      "sha256": "64c982a7b9e42569d377ad33c5efdc0d86d9e26875b2b2e7ecb3d40acd03fd9c"
+    },
+    {
+      "path": "data/raw/trials/sc02_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042033.5404475,
+      "mtime_readable": "2026-09-10 21:07:13",
+      "bytes": 1878,
+      "sha256": "914145e4f73f1559cc80fab7ba6f19f0c78b0615bc7a2f83e5e840c0f913d629"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B1__claude-opus-5.json",
+      "mtime": 1789042214.3896084,
+      "mtime_readable": "2026-09-10 21:10:14",
+      "bytes": 2772,
+      "sha256": "63a99884b89c77275827584fec189c205f75c4deb980c7a8cfc4745720264ed7"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789041949.4054124,
+      "mtime_readable": "2026-09-10 21:05:49",
+      "bytes": 2819,
+      "sha256": "cd52636302267f86cd55542f96d336e5ecfe3c2d59775297616c9296ec73e8b7"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041466.4087899,
+      "mtime_readable": "2026-09-10 20:57:46",
+      "bytes": 1975,
+      "sha256": "f303132c432b79372ec042f0d6244c4d5a0db00d5f8472c526083e6a502baaa3"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042032.8759649,
+      "mtime_readable": "2026-09-10 21:07:12",
+      "bytes": 1880,
+      "sha256": "27d4d585f375ac908db5c17c016808c90122b1342f4dba4375330f0d85b7381a"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B2__claude-opus-5.json",
+      "mtime": 1789042215.84337,
+      "mtime_readable": "2026-09-10 21:10:15",
+      "bytes": 2897,
+      "sha256": "273be8d01a8d91fffafc6a10119a54e1f48ed5135a9a6d601b3f7568c6663a0b"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789041967.1567104,
+      "mtime_readable": "2026-09-10 21:06:07",
+      "bytes": 3003,
+      "sha256": "2bbba2d07669204c474cb86525117d5d4e181017b57f68f858b249b32ebc3749"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041465.7441585,
+      "mtime_readable": "2026-09-10 20:57:45",
+      "bytes": 1975,
+      "sha256": "52a8e7720567c0240ef609ee2fe042c856e8173663e732de0344fd3e8ec490b0"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042034.5255404,
+      "mtime_readable": "2026-09-10 21:07:14",
+      "bytes": 1938,
+      "sha256": "90f5624a8e6d7637c7213faceb474ea4736ee80eb647fcf3d149a17a1ad13a32"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B3__claude-opus-5.json",
+      "mtime": 1789042224.105203,
+      "mtime_readable": "2026-09-10 21:10:24",
+      "bytes": 2950,
+      "sha256": "f55ba9c5afd02b0a243b469ddccb372ae509575643b16bf1417942c0832d3ebe"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789041978.405271,
+      "mtime_readable": "2026-09-10 21:06:18",
+      "bytes": 3442,
+      "sha256": "f686922123b100fbe083d17f8499577e83e64cf3eac6c5ba5667d2dec66dc6bd"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041470.2372813,
+      "mtime_readable": "2026-09-10 20:57:50",
+      "bytes": 2137,
+      "sha256": "b2d37d2f538177d3a6bd86ea30fabdd68aa1aaba3b8faed6d42d6c61198c46ce"
+    },
+    {
+      "path": "data/raw/trials/sc02_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042038.427946,
+      "mtime_readable": "2026-09-10 21:07:18",
+      "bytes": 2001,
+      "sha256": "3cf9998fadd75ab11fff4ab8a44e46fcf406724723478069e9393133a44f7507"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B1__claude-opus-5.json",
+      "mtime": 1789042231.1788664,
+      "mtime_readable": "2026-09-10 21:10:31",
+      "bytes": 2735,
+      "sha256": "30ae872741cbd50cefcd2d468c4c44ea9b5330e8f55556c481ff73757a95c949"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042034.3814216,
+      "mtime_readable": "2026-09-10 21:07:14",
+      "bytes": 2608,
+      "sha256": "512063af2829e3c9ef261b37dd9157b8f9c0e27a091b75b753dbb9b9602cdc17"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041481.9623,
+      "mtime_readable": "2026-09-10 20:58:01",
+      "bytes": 1823,
+      "sha256": "fd9c2ee10c399b1db466fae7843a0b9aabbc562edbb9aa6aff04a7cc9f376086"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042045.5595624,
+      "mtime_readable": "2026-09-10 21:07:25",
+      "bytes": 1832,
+      "sha256": "d71ab592ef657c51eb38cc03d7631b86a0b07e9e005cc0296111bb8803f78583"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B2__claude-opus-5.json",
+      "mtime": 1789042238.0369353,
+      "mtime_readable": "2026-09-10 21:10:38",
+      "bytes": 2727,
+      "sha256": "8cee9e3632a7538f73ee7ee55a5ecf4eabbb7a576dfe88880abf4bb0fb95b37d"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789041996.0813234,
+      "mtime_readable": "2026-09-10 21:06:36",
+      "bytes": 2667,
+      "sha256": "9053ceeda724a3d77776f626a01786cc313f5b5f97b1566862dbb3887b6c31d2"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041495.0637324,
+      "mtime_readable": "2026-09-10 20:58:15",
+      "bytes": 1934,
+      "sha256": "2a9d9729c66d7d59c1c1e6b04bf3d61b024dc4d9e18a29701dd5c6be09d654ef"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042041.108044,
+      "mtime_readable": "2026-09-10 21:07:21",
+      "bytes": 1889,
+      "sha256": "ac1c180340e0255b77d5cf9639529eac48ea6559e1bff0ea1abda68e12c68e24"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B3__claude-opus-5.json",
+      "mtime": 1789042248.9714756,
+      "mtime_readable": "2026-09-10 21:10:48",
+      "bytes": 2880,
+      "sha256": "8d327b079efde2816730029a44f1f48dd8cf62139101fbff1eb354e2e8a6000c"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042010.642788,
+      "mtime_readable": "2026-09-10 21:06:50",
+      "bytes": 2741,
+      "sha256": "35ea21ea7c88d87b99e3a40a387cc47b5422c92e18e93adbbd877d983fb912b7"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041486.602898,
+      "mtime_readable": "2026-09-10 20:58:06",
+      "bytes": 1944,
+      "sha256": "1100820f942861a721f7b10d991ffbc81eb1d6824537c2bc903fc433c4443aeb"
+    },
+    {
+      "path": "data/raw/trials/sc03_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042049.5099673,
+      "mtime_readable": "2026-09-10 21:07:29",
+      "bytes": 1953,
+      "sha256": "6dcdbef62c085842f244f8a69a671f2261d0f6922ccd08b6de58d4f14cc6d79a"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B1__claude-opus-5.json",
+      "mtime": 1789042247.428494,
+      "mtime_readable": "2026-09-10 21:10:47",
+      "bytes": 2643,
+      "sha256": "a996fd7b779748ceb84bc7a4435c7c84601aacfe21ed6f126138dab8c3d2d1f6"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042026.2427535,
+      "mtime_readable": "2026-09-10 21:07:06",
+      "bytes": 2758,
+      "sha256": "762aa6f5b54afee97ca4324748f6487b212eb1235adc806d1d80455a8882a989"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041534.4461126,
+      "mtime_readable": "2026-09-10 20:58:54",
+      "bytes": 2022,
+      "sha256": "462a6109070c5b8f13b4ab4a7544fffeaf75def324205e77e8636dd95476a1a0"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042047.0693185,
+      "mtime_readable": "2026-09-10 21:07:27",
+      "bytes": 1760,
+      "sha256": "3bed08e865e9e89fcd4f28b2fd814d16d5eb0cc7d2dbe83ec70928272898f820"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B2__claude-opus-5.json",
+      "mtime": 1789042259.7398248,
+      "mtime_readable": "2026-09-10 21:10:59",
+      "bytes": 3003,
+      "sha256": "e4d86a8a93c530659c8c62fd38fb3fdc88c43c4f01985aad9f14f674156347c1"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042045.883895,
+      "mtime_readable": "2026-09-10 21:07:25",
+      "bytes": 3177,
+      "sha256": "d8c642e0852a8265c2d54e6f3e081ec747956adbcca93ff01f91950fb16ff89e"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041554.721416,
+      "mtime_readable": "2026-09-10 20:59:14",
+      "bytes": 2166,
+      "sha256": "9becbf36c820a294d9a91ffccb5cd6d3d5f85164fdd3cae2b6d96b14aac3af7a"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042051.490729,
+      "mtime_readable": "2026-09-10 21:07:31",
+      "bytes": 1808,
+      "sha256": "fe82b8a4fc1a485e92c9632d7dbac649a3e063f74b2bb8bd270881e2fdc79851"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B3__claude-opus-5.json",
+      "mtime": 1789042259.551622,
+      "mtime_readable": "2026-09-10 21:10:59",
+      "bytes": 2850,
+      "sha256": "0bc6a58eb4443d627054045c3ec75b42131e89e1066b17f5a40f6605d25ca372"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042056.844582,
+      "mtime_readable": "2026-09-10 21:07:36",
+      "bytes": 3041,
+      "sha256": "dec4dc50912d7929a7a1aa68660477765555f801f76f3d2c14421ad0aa218fb7"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041586.6531153,
+      "mtime_readable": "2026-09-10 20:59:46",
+      "bytes": 2244,
+      "sha256": "be804d57829883b467778c9a1f551050eeb16f44250e4660a3c2acf7d6bc97a5"
+    },
+    {
+      "path": "data/raw/trials/sc03_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042054.5854652,
+      "mtime_readable": "2026-09-10 21:07:34",
+      "bytes": 1928,
+      "sha256": "fbb7e268e43774ccb952f806b18c1ac1091cfd79d67557ffa79c6e278facb173"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B1__claude-opus-5.json",
+      "mtime": 1789042269.9261353,
+      "mtime_readable": "2026-09-10 21:11:09",
+      "bytes": 2795,
+      "sha256": "9e0aaa73b666fe5da5d6d07377116169b495ab8f6bb080b22fb6801eb1d731fd"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042060.6787362,
+      "mtime_readable": "2026-09-10 21:07:40",
+      "bytes": 2790,
+      "sha256": "116853d9ab1662924eb5834b7d1f95cc1e71fdc5f766343e63b3a0c2ff150fb6"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041554.4943612,
+      "mtime_readable": "2026-09-10 20:59:14",
+      "bytes": 2103,
+      "sha256": "9f9dd74d526f7ca5585f0ebe2312cbbb52ce523807f203cd23a894f309f3672b"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042055.8755498,
+      "mtime_readable": "2026-09-10 21:07:35",
+      "bytes": 1883,
+      "sha256": "9af13a33929ef74883d821f123eb6cd0f049f8b22389848f5aac70ad13cc26ca"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B2__claude-opus-5.json",
+      "mtime": 1789042271.0138512,
+      "mtime_readable": "2026-09-10 21:11:11",
+      "bytes": 3018,
+      "sha256": "60248ecc57c406dccd4a8d1d385355ec43c5edd7f4cab463e8a8a3d9cc103737"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042072.8369615,
+      "mtime_readable": "2026-09-10 21:07:52",
+      "bytes": 3177,
+      "sha256": "fe71a91a7cc7a5a4f2912baa2093c93e2f1ccc0d0447edf901feadcc43b95f76"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041560.52742,
+      "mtime_readable": "2026-09-10 20:59:20",
+      "bytes": 2081,
+      "sha256": "46c5885b86796c4a59b667129312db38dd36379629e956ac69fac86d475d9197"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042062.5356703,
+      "mtime_readable": "2026-09-10 21:07:42",
+      "bytes": 1942,
+      "sha256": "0f366d61db3c0c287d9994d13dabe5e2affdf86f573d1c7d6fe5a0ade5244286"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B3__claude-opus-5.json",
+      "mtime": 1789042283.3711286,
+      "mtime_readable": "2026-09-10 21:11:23",
+      "bytes": 3258,
+      "sha256": "71e303f7fb5bbf1371499663469a10801ddea6691ea1db1423dba02c24f3e547"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042079.6088727,
+      "mtime_readable": "2026-09-10 21:07:59",
+      "bytes": 3172,
+      "sha256": "bc47f1da978983d27f18136bcf7810b8e66e276334f7db2c478080d30a07904e"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041629.2818506,
+      "mtime_readable": "2026-09-10 21:00:29",
+      "bytes": 2208,
+      "sha256": "13eddde9833e0bafe293d6e71a234a805eb180591366e856e7dbcbdd74c8b15b"
+    },
+    {
+      "path": "data/raw/trials/sc03_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042060.3697307,
+      "mtime_readable": "2026-09-10 21:07:40",
+      "bytes": 2004,
+      "sha256": "f76aad9339e948f1111791e147b21a219b7f99becb1394f62a7dc8116540396e"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B1__claude-opus-5.json",
+      "mtime": 1789042286.6035762,
+      "mtime_readable": "2026-09-10 21:11:26",
+      "bytes": 2754,
+      "sha256": "ef0cb23c6488879f7d7800fbbc25da5df8b16491da5a597dae8536ae54ac3fac"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042092.8826983,
+      "mtime_readable": "2026-09-10 21:08:12",
+      "bytes": 2833,
+      "sha256": "8e84c4e139f1f4b53fb7a033b52a239050192035684cf27ca133a76a363d6dea"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041570.640311,
+      "mtime_readable": "2026-09-10 20:59:30",
+      "bytes": 1899,
+      "sha256": "dc54b0c64e9d8fdfbaf083fc4bad1309d0aa99828c9d8d4c8644a279e0b55270"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042065.9247303,
+      "mtime_readable": "2026-09-10 21:07:45",
+      "bytes": 1827,
+      "sha256": "7e782d1c0969eca4f7f02b00554a382ec13acd99598ca00a9ec75596043b8c5d"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B2__claude-opus-5.json",
+      "mtime": 1789042297.015206,
+      "mtime_readable": "2026-09-10 21:11:37",
+      "bytes": 2712,
+      "sha256": "a9aa69c19d04ba12d88f94e3e7e97153a86085fa9d647c352e20d5425a0d5f01"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042096.530445,
+      "mtime_readable": "2026-09-10 21:08:16",
+      "bytes": 2750,
+      "sha256": "c1d4fa4c9c99b664face71618a268448ee9ca32acbc01b71c5bb7166bb22f790"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041585.1106706,
+      "mtime_readable": "2026-09-10 20:59:45",
+      "bytes": 1957,
+      "sha256": "df5a8f4417218a0933624c31d84197753e20efe5de654b2a8e96d6d921ff6b24"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042071.3825169,
+      "mtime_readable": "2026-09-10 21:07:51",
+      "bytes": 1885,
+      "sha256": "29659f4c42f274711e2459619b3e67ad3df7c6386951100236fad05efc073027"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B3__claude-opus-5.json",
+      "mtime": 1789042300.793451,
+      "mtime_readable": "2026-09-10 21:11:40",
+      "bytes": 2869,
+      "sha256": "5e59d3a20392d19d385e992b6a178a874f13b6b344639ef9f60958b5ccf39a7b"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042107.7539322,
+      "mtime_readable": "2026-09-10 21:08:27",
+      "bytes": 2813,
+      "sha256": "958b134bc4152e98c81f0ce4fe1d5f1b21b940ef1bb57fd35264e2851fc1a69e"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041586.7809281,
+      "mtime_readable": "2026-09-10 20:59:46",
+      "bytes": 2040,
+      "sha256": "20a9810ebdc1caeec377bc23eb89d7f054d2e4c12c001709e801efbe9298bfe2"
+    },
+    {
+      "path": "data/raw/trials/sc04_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042075.012743,
+      "mtime_readable": "2026-09-10 21:07:55",
+      "bytes": 1948,
+      "sha256": "642b69a7edfffe716650c0605180f14c2e1284e7f44bda64874baf716c9bb4a0"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B1__claude-opus-5.json",
+      "mtime": 1789042305.29337,
+      "mtime_readable": "2026-09-10 21:11:45",
+      "bytes": 2609,
+      "sha256": "e5e86a52231d4bc4ca238f5bdaba25a7dfd902852cd4a2df34b00593966cf732"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042116.4632366,
+      "mtime_readable": "2026-09-10 21:08:36",
+      "bytes": 2905,
+      "sha256": "80a9074b0c0013f19646aa90d70d41e7233e67373ea5080ddf90af30b4597d1b"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041609.1417334,
+      "mtime_readable": "2026-09-10 21:00:09",
+      "bytes": 1803,
+      "sha256": "75f94903a6d3c33313e94e5bbcf7de0e89c439e355b2f8513fcf989f1fc61577"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042070.6640165,
+      "mtime_readable": "2026-09-10 21:07:50",
+      "bytes": 1745,
+      "sha256": "b81e6692ef11da1e3d068ab24408d480fdba4037232132b295db87cfcfa65a2c"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B2__claude-opus-5.json",
+      "mtime": 1789042310.6161547,
+      "mtime_readable": "2026-09-10 21:11:50",
+      "bytes": 2862,
+      "sha256": "3131549546949711dc6553090994af00c6c8e4c715f5aebf5437842f8230872a"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042125.0349555,
+      "mtime_readable": "2026-09-10 21:08:45",
+      "bytes": 3092,
+      "sha256": "3cc5c4a95ff4a6ae9a8f817a46cded7fbc1c03a03d7170c5f2092c36d77b9a8d"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041608.1257732,
+      "mtime_readable": "2026-09-10 21:00:08",
+      "bytes": 2175,
+      "sha256": "a87ffe269e3b71c40a41256bb7d4ee96053cde3a9e3544b2c2e988b248e73133"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042077.6343567,
+      "mtime_readable": "2026-09-10 21:07:57",
+      "bytes": 1860,
+      "sha256": "3534b1c37a86565fabc4c4216a5090b36ab3f698af3225bf10b8e76aa46559be"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B3__claude-opus-5.json",
+      "mtime": 1789042317.2144852,
+      "mtime_readable": "2026-09-10 21:11:57",
+      "bytes": 3068,
+      "sha256": "fc1cedb9ff519ac8381552bbef36179b4781d3eca12d6b0205e10d0a68eaa344"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042139.6757061,
+      "mtime_readable": "2026-09-10 21:08:59",
+      "bytes": 3136,
+      "sha256": "79f7d3752b08093c041d80c601d7eed14bc609760d03c6148bd8b6e13dc2f1db"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041609.4051354,
+      "mtime_readable": "2026-09-10 21:00:09",
+      "bytes": 2226,
+      "sha256": "3a6ef5824a746205b0ff7e28de14d29cbb334674ef29a7882416fb9f75ff458c"
+    },
+    {
+      "path": "data/raw/trials/sc04_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042078.0147345,
+      "mtime_readable": "2026-09-10 21:07:58",
+      "bytes": 1866,
+      "sha256": "8f9c7d023dc81af22d78463c1253f1e6ac7d4c4d239644f0e7e55f58827975c6"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B1__claude-opus-5.json",
+      "mtime": 1789042321.1990757,
+      "mtime_readable": "2026-09-10 21:12:01",
+      "bytes": 2864,
+      "sha256": "b97ababff1d4e479f028e35a887e06e55f153e7d0f7293c162fd1196dd9ba7ee"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042138.8313494,
+      "mtime_readable": "2026-09-10 21:08:58",
+      "bytes": 2830,
+      "sha256": "7778acc460f4af75b9cbcfb513360c02f47b8bdd08a527147fb254ff07b392f3"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041624.250405,
+      "mtime_readable": "2026-09-10 21:00:24",
+      "bytes": 1964,
+      "sha256": "4ceb2cfbe301624e72726a56fa566bcd5c6558ffe29e3ee34b7a5b9ba7f15902"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042081.2708163,
+      "mtime_readable": "2026-09-10 21:08:01",
+      "bytes": 1878,
+      "sha256": "39a78fb4eb9b311987f622ede556db9ee5f1c063b906a33ef8c3023a3b1e4170"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B2__claude-opus-5.json",
+      "mtime": 1789042328.7230492,
+      "mtime_readable": "2026-09-10 21:12:08",
+      "bytes": 2990,
+      "sha256": "904ba3f0041090baabe39bd0420d896b92c3f9378129c61573403d6e9bdf1028"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042149.543672,
+      "mtime_readable": "2026-09-10 21:09:09",
+      "bytes": 2883,
+      "sha256": "dd7e06b3942fb1c910c30fb6b17516612e0027cf2cf825e71f3e0743992f811a"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041625.7074208,
+      "mtime_readable": "2026-09-10 21:00:25",
+      "bytes": 2074,
+      "sha256": "fefaf22e523c24c4be3b278ebbc4bb4429efcd2d95f10714ecfe0d0cb8ecbcc8"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042083.9217598,
+      "mtime_readable": "2026-09-10 21:08:03",
+      "bytes": 1940,
+      "sha256": "1ea0dc22bb5d25c47d00ec1c0a9f503b44110c65f9a33aa29445507cdf41ea74"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B3__claude-opus-5.json",
+      "mtime": 1789042330.4618835,
+      "mtime_readable": "2026-09-10 21:12:10",
+      "bytes": 2971,
+      "sha256": "62a87594c0f9ed049e7cafdb51cf61cc282f8b1a40829fe32fa3dbc06991a341"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042155.822501,
+      "mtime_readable": "2026-09-10 21:09:15",
+      "bytes": 3022,
+      "sha256": "cc2f5a5db98475e31efe66b8a5a70a22d00e12159619e8d59ef9209ae536c34e"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041630.3263814,
+      "mtime_readable": "2026-09-10 21:00:30",
+      "bytes": 2143,
+      "sha256": "29601d6ba316e2428be781cdbf6b196c45d0710736ed5b40e7a77ef5115dedc0"
+    },
+    {
+      "path": "data/raw/trials/sc04_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042084.212572,
+      "mtime_readable": "2026-09-10 21:08:04",
+      "bytes": 2022,
+      "sha256": "c7d6229df33c4de881006efd20c1fc1a528979f8527af81b453b430560b7fc0b"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B1__claude-opus-5.json",
+      "mtime": 1789042343.772562,
+      "mtime_readable": "2026-09-10 21:12:23",
+      "bytes": 2729,
+      "sha256": "048e531dcacef39e7b6cc61653b3e650734a075282a6dc373cacac8624384e9c"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042162.929212,
+      "mtime_readable": "2026-09-10 21:09:22",
+      "bytes": 2595,
+      "sha256": "a19a6bd385ceee7816d48dc024964ebac048663199cb5e8785e50f80167f3965"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041645.3501241,
+      "mtime_readable": "2026-09-10 21:00:45",
+      "bytes": 1808,
+      "sha256": "da6b731045ed54cf3a490ba6d0d5066b23ca2545eec0793910d50a20b8dcc59d"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042092.467223,
+      "mtime_readable": "2026-09-10 21:08:12",
+      "bytes": 1817,
+      "sha256": "25f8ef54d3b8ecf6e14eb338924b937b5338cc08a828d475524a0a7ea842c23e"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B2__claude-opus-5.json",
+      "mtime": 1789042346.0329168,
+      "mtime_readable": "2026-09-10 21:12:26",
+      "bytes": 2703,
+      "sha256": "10263e969178152a331a78a27dacac4317a6a7cd3b00f602964c4059ba14ebed"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042171.4372709,
+      "mtime_readable": "2026-09-10 21:09:31",
+      "bytes": 2653,
+      "sha256": "a330bd763240d398c57988026caa69bbf3b1ca619472b4a4b3289109739fbdf0"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041642.203856,
+      "mtime_readable": "2026-09-10 21:00:42",
+      "bytes": 1867,
+      "sha256": "fb702e9ba4e8f031ea557f5fb6337ec457a0e6adc89442e46ae6a705199b960b"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042090.1913688,
+      "mtime_readable": "2026-09-10 21:08:10",
+      "bytes": 1875,
+      "sha256": "07394d3da62ed33406c58af2242faad9b9690c96905794e161b4278d857bd0fc"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B3__claude-opus-5.json",
+      "mtime": 1789042360.3841245,
+      "mtime_readable": "2026-09-10 21:12:40",
+      "bytes": 2933,
+      "sha256": "bd81bf7f31b64d5b9701b1fa3839fc4cb448143ed2568ae27b2c275b7cbe8e2b"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042181.1709895,
+      "mtime_readable": "2026-09-10 21:09:41",
+      "bytes": 2716,
+      "sha256": "33cf4015fa436070bc8ed9627003705d7a19788e21a2753f11bee8f3bb1b9fbe"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041650.2568038,
+      "mtime_readable": "2026-09-10 21:00:50",
+      "bytes": 2020,
+      "sha256": "b991e208f72b77f761911e013124e44c76debd9cb99082763afadd987aac1868"
+    },
+    {
+      "path": "data/raw/trials/sc05_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042095.9464543,
+      "mtime_readable": "2026-09-10 21:08:15",
+      "bytes": 1939,
+      "sha256": "b2c919b99c7c21ecee6842f994e19a3722551989cc89b009bb309fde1903554f"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B1__claude-opus-5.json",
+      "mtime": 1789042356.9235096,
+      "mtime_readable": "2026-09-10 21:12:36",
+      "bytes": 2805,
+      "sha256": "67651f4051c7098c87579c9ecf1f54a37833c83152b14219ef9ee29617dd50b8"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042187.5618258,
+      "mtime_readable": "2026-09-10 21:09:47",
+      "bytes": 2668,
+      "sha256": "50c95d200efcac8565f0d548cc4c81725ca90f6563b64b2d8a8a431d91a8ddf2"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041649.5298324,
+      "mtime_readable": "2026-09-10 21:00:49",
+      "bytes": 1835,
+      "sha256": "5543429b179b8c120d0afef0736c4029243146b7dc18940f8c5b2b960f405cc8"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042095.5965836,
+      "mtime_readable": "2026-09-10 21:08:15",
+      "bytes": 1735,
+      "sha256": "88792f63da3fec0d90d789952b47d612faf96ff9a01c6421e0c54bd33e653b03"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B2__claude-opus-5.json",
+      "mtime": 1789042367.8524778,
+      "mtime_readable": "2026-09-10 21:12:47",
+      "bytes": 2821,
+      "sha256": "dcc2f4f38476321baa07af510e508d5744428dc388a4de59c328fc172882c65b"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042194.3297377,
+      "mtime_readable": "2026-09-10 21:09:54",
+      "bytes": 2841,
+      "sha256": "3ef875992f54cf9dc8fb7cdb924acd2f3ddc541c77f0069c0d9435bf5eabeebe"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041669.5999298,
+      "mtime_readable": "2026-09-10 21:01:09",
+      "bytes": 1913,
+      "sha256": "e8feaecc99424d67ced6025d2fffffc37656fce5e3964941df930957689e301a"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042099.1760433,
+      "mtime_readable": "2026-09-10 21:08:19",
+      "bytes": 1804,
+      "sha256": "990639670956ccf1683ef21dd2fc568cd5ff79261faec1d6604adf15d7b57459"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B3__claude-opus-5.json",
+      "mtime": 1789042370.8152893,
+      "mtime_readable": "2026-09-10 21:12:50",
+      "bytes": 2934,
+      "sha256": "a0fff7e393a4bab011bd401564e66d52a6d2f4437407575481ce87efe8b44bac"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042201.4972856,
+      "mtime_readable": "2026-09-10 21:10:01",
+      "bytes": 3026,
+      "sha256": "4c44670f047a8cbf8aede9c441dff54c258e3bfdf73a21d16bfe38b9fe907468"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041661.8165236,
+      "mtime_readable": "2026-09-10 21:01:01",
+      "bytes": 1915,
+      "sha256": "f989cdf45e08c2e56b69b23e49f60cafbad998d3e869fea1c7d4775de658617e"
+    },
+    {
+      "path": "data/raw/trials/sc05_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042101.624166,
+      "mtime_readable": "2026-09-10 21:08:21",
+      "bytes": 1857,
+      "sha256": "b23bf6d684d193e2850a041448428f15bce7278319ea32753e194a7bbbe1347b"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B1__claude-opus-5.json",
+      "mtime": 1789042378.0866785,
+      "mtime_readable": "2026-09-10 21:12:58",
+      "bytes": 2788,
+      "sha256": "af6355bed1711514eb7761c87ccdee6ce83c2790d0bd59f503c063b5fa2244df"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042204.8828132,
+      "mtime_readable": "2026-09-10 21:10:04",
+      "bytes": 2734,
+      "sha256": "73f44824251b9695278a34e2574efa3667f7f77dced83c0fa8e5b03482a0610f"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041662.7090604,
+      "mtime_readable": "2026-09-10 21:01:02",
+      "bytes": 2055,
+      "sha256": "17b652bb4cfbd7b573dd8ecaef11eaf066f9e2aba7b2c2ba15a2389dd8aed410"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042102.5380237,
+      "mtime_readable": "2026-09-10 21:08:22",
+      "bytes": 1869,
+      "sha256": "b7b30028ee10064d752ad895dc4a20bc0067d656e4b3e9455ffa8ac4a4564f2c"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B2__claude-opus-5.json",
+      "mtime": 1789042382.7544105,
+      "mtime_readable": "2026-09-10 21:13:02",
+      "bytes": 3017,
+      "sha256": "cea61e1ccc44f443ab4f31ab172fb8b3c0fc6b002b70256044784b451051560c"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042213.8891516,
+      "mtime_readable": "2026-09-10 21:10:13",
+      "bytes": 2822,
+      "sha256": "e0ab8523f0e7d0bcde52fcc758e8f141ebc6f918a3aaf0068883adeb21655e73"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041663.1126518,
+      "mtime_readable": "2026-09-10 21:01:03",
+      "bytes": 2098,
+      "sha256": "5a39ea27e83b419d1edaa185cbb331d74de292c0265c3162bbf67be26161fd52"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042104.566966,
+      "mtime_readable": "2026-09-10 21:08:24",
+      "bytes": 1927,
+      "sha256": "8b1ab90930f3eb969440637544c276f1bbb6f06dee710d631c0700b86bf8fd0d"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B3__claude-opus-5.json",
+      "mtime": 1789042388.0544436,
+      "mtime_readable": "2026-09-10 21:13:08",
+      "bytes": 2943,
+      "sha256": "f1de8c07086fde75785218deb4cf0724d3873b5df4c5f189cfe704d099b33604"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042218.5717883,
+      "mtime_readable": "2026-09-10 21:10:18",
+      "bytes": 2886,
+      "sha256": "1f947a078c3f06ff9fda32d6e95b747dfa0ab3ac5fbef9afeaeae2c829c4bff4"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041704.6087663,
+      "mtime_readable": "2026-09-10 21:01:44",
+      "bytes": 2108,
+      "sha256": "7507f6fbcc8bcd19270c2f93e8433be7d16b80d626089e85e9240862badd407a"
+    },
+    {
+      "path": "data/raw/trials/sc05_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042108.027939,
+      "mtime_readable": "2026-09-10 21:08:28",
+      "bytes": 1982,
+      "sha256": "344542c2331359b49bb0f39c0391d26d2607e3e88a80ca418d6e21bb5d13c482"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B1__claude-opus-5.json",
+      "mtime": 1789042400.2425733,
+      "mtime_readable": "2026-09-10 21:13:20",
+      "bytes": 2741,
+      "sha256": "5d40baf91380c586e4e574233c0393a62d8f90e99ce166608d67c7f84536ff78"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042232.439703,
+      "mtime_readable": "2026-09-10 21:10:32",
+      "bytes": 2599,
+      "sha256": "e0272e759d9f2b6fc2eddc60721db95b428b1080468aa5788511d9df890652c8"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041681.289487,
+      "mtime_readable": "2026-09-10 21:01:21",
+      "bytes": 1813,
+      "sha256": "af221b1d4e366d7508d86756c4b0480530b2c9b2a454b8d0729438d656b4354d"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042113.093151,
+      "mtime_readable": "2026-09-10 21:08:33",
+      "bytes": 1822,
+      "sha256": "dc29df0f0b246165ecc49be70a5f35442de38d3f25d7488ef29e158d8574b3e6"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B2__claude-opus-5.json",
+      "mtime": 1789042402.5114858,
+      "mtime_readable": "2026-09-10 21:13:22",
+      "bytes": 2713,
+      "sha256": "5fc2036f30d931fef670176a43be262671f749706a0e757ae005d82897a21003"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042261.555521,
+      "mtime_readable": "2026-09-10 21:11:01",
+      "bytes": 2932,
+      "sha256": "e70694fbc8049858876a7f9b42c9d39ed7b2355f6eb77529f1850d40d416e876"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041681.2303703,
+      "mtime_readable": "2026-09-10 21:01:21",
+      "bytes": 1974,
+      "sha256": "70ec03bd8af6aca990f5d97c9bc6daed2b7313c8b9d5bb891c3070e0aea5b9ee"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042115.6845765,
+      "mtime_readable": "2026-09-10 21:08:35",
+      "bytes": 1880,
+      "sha256": "095e517aa8290c1dc5284d0804c58169048b1c3c455d4e6a18ca26b32a66186c"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B3__claude-opus-5.json",
+      "mtime": 1789042417.6497903,
+      "mtime_readable": "2026-09-10 21:13:37",
+      "bytes": 2868,
+      "sha256": "46955c0db35e968d3ac779f60e38219b4e2a809faf214a6cb03b0d89199f9a41"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042248.5282125,
+      "mtime_readable": "2026-09-10 21:10:48",
+      "bytes": 2720,
+      "sha256": "d5878f2a38cf4c6a8b082f28cf0b2a350a9ba4d3c4a6f83cd6ac6fdc8a3708c7"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041686.7729437,
+      "mtime_readable": "2026-09-10 21:01:26",
+      "bytes": 2011,
+      "sha256": "3c119976eb7d1228f7ec732484fc4ab755565d75b8179e3e9bd5b8b458030642"
+    },
+    {
+      "path": "data/raw/trials/sc06_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042121.932506,
+      "mtime_readable": "2026-09-10 21:08:41",
+      "bytes": 1942,
+      "sha256": "50d19e93d5a7bda8831e77d89802320322f8fefa3bd229cae6ab26c3710c78a4"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B1__claude-opus-5.json",
+      "mtime": 1789042413.850974,
+      "mtime_readable": "2026-09-10 21:13:33",
+      "bytes": 2766,
+      "sha256": "096da4ccd033a79b6336a12ff679595e82df0b3deccdf626388a78824518c31c"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042266.1122546,
+      "mtime_readable": "2026-09-10 21:11:06",
+      "bytes": 2671,
+      "sha256": "d9e3c2bf791b5accb6ca5ca316f507dbd67b130b04960fa8a6b22c383847dfa0"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041697.6987262,
+      "mtime_readable": "2026-09-10 21:01:37",
+      "bytes": 1931,
+      "sha256": "8b43f54ac4e1bed7099c23d7b5f251f6314717c93ecde0cd46a07120b23eb638"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042117.9723668,
+      "mtime_readable": "2026-09-10 21:08:37",
+      "bytes": 1750,
+      "sha256": "ecab6c7bcc5d42924d972a5f890f7b5da57a9f6bef2f92b7eade83f63208c6ee"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B2__claude-opus-5.json",
+      "mtime": 1789042424.101662,
+      "mtime_readable": "2026-09-10 21:13:44",
+      "bytes": 2830,
+      "sha256": "b483f5bff27feae6b94bfb2351cb8a2b3ec5e8ec19f1d1fd3fd7ff2d2f3ddd8a"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042276.6758761,
+      "mtime_readable": "2026-09-10 21:11:16",
+      "bytes": 2966,
+      "sha256": "5a8aeb85b947d2b8d02319a07f2fc08f2b2e42bf63a1b73de43f168c376812e0"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041704.0166588,
+      "mtime_readable": "2026-09-10 21:01:44",
+      "bytes": 2007,
+      "sha256": "e72ef5eff7922794a32f6f77c69b21db91829196512f66e7c4b5e22f7412f0e5"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042121.044323,
+      "mtime_readable": "2026-09-10 21:08:41",
+      "bytes": 1822,
+      "sha256": "e59d8d29e427471a5fc7fa213c36034c4e0e98ab5f48bf9e66e2a4723307ec62"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B3__claude-opus-5.json",
+      "mtime": 1789042428.6436825,
+      "mtime_readable": "2026-09-10 21:13:48",
+      "bytes": 3068,
+      "sha256": "34e2b2f75364edc9a2d9b4e5414d21aaba56cdf56547858f6f71c3fef1e7a5f9"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042286.9607408,
+      "mtime_readable": "2026-09-10 21:11:26",
+      "bytes": 2940,
+      "sha256": "d825641202af1e11191b4593aa007fa0d380ae7faad66bfbc44bee045d26e4f3"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041701.3045416,
+      "mtime_readable": "2026-09-10 21:01:41",
+      "bytes": 1917,
+      "sha256": "b80eb5010751f6b13b0db5a2d53918046910a8ac5f8650136ff9557999b3b8c1"
+    },
+    {
+      "path": "data/raw/trials/sc06_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042123.0905712,
+      "mtime_readable": "2026-09-10 21:08:43",
+      "bytes": 1918,
+      "sha256": "d64eed79a44c14513110a9ebfdae5a82a6b73e8400fb999c40f1f5b7f6717159"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B1__claude-opus-5.json",
+      "mtime": 1789042435.1580954,
+      "mtime_readable": "2026-09-10 21:13:55",
+      "bytes": 2677,
+      "sha256": "6b4ac6f30d2fd36d80baf5b87a0c3152092a3a96d2a8caea743236379f1fb0ce"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042289.1874595,
+      "mtime_readable": "2026-09-10 21:11:29",
+      "bytes": 2805,
+      "sha256": "3017e9f1d693a182622827076fc8b07c26647d5fcf581d6eb651584ffee13100"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041711.8348362,
+      "mtime_readable": "2026-09-10 21:01:51",
+      "bytes": 1984,
+      "sha256": "ba93657618d8789b16693ea864d2d99df5cc3b1cd1e3d2a65c342f4cc2deb799"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042126.6347177,
+      "mtime_readable": "2026-09-10 21:08:46",
+      "bytes": 1873,
+      "sha256": "21eb6cb32419800ddbef4aaff5b35958ebb0cade9e39c2fc48117a2a15b5cbcb"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B2__claude-opus-5.json",
+      "mtime": 1789042439.7478833,
+      "mtime_readable": "2026-09-10 21:13:59",
+      "bytes": 2908,
+      "sha256": "75a007855cdcf90d6ad15fc2e4407a0e27e85a70c5637b438929d6740ce4fec1"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042302.2115755,
+      "mtime_readable": "2026-09-10 21:11:42",
+      "bytes": 2905,
+      "sha256": "59bbb066c2de664caa01ce23257597248ada5b5d1b52722f398270d19394614a"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041716.8585362,
+      "mtime_readable": "2026-09-10 21:01:56",
+      "bytes": 2027,
+      "sha256": "8f0b044d52f80b1cf4799f5a215a07b1a4861d8e5699b0b89df417a569c79a13"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042128.031583,
+      "mtime_readable": "2026-09-10 21:08:48",
+      "bytes": 1930,
+      "sha256": "4846f81164396c5f7371453fd44c8768aeeea3353c42ce006e3db95fc02f183b"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B3__claude-opus-5.json",
+      "mtime": 1789042445.58095,
+      "mtime_readable": "2026-09-10 21:14:05",
+      "bytes": 3007,
+      "sha256": "3c21f02ca7cf866795ad360a7a84d49bfe9473dbd4339a2fd5442df12b7147c5"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042316.6463952,
+      "mtime_readable": "2026-09-10 21:11:56",
+      "bytes": 3549,
+      "sha256": "3b1db0e914531d031de56cd537b184225897c7ed7df9ec0260cfa9328712ed4c"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041721.9655497,
+      "mtime_readable": "2026-09-10 21:02:01",
+      "bytes": 2122,
+      "sha256": "bede86b826a36916df6e17ee6252157ef11d7c3c3c4d55b224e600106c838c82"
+    },
+    {
+      "path": "data/raw/trials/sc06_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042129.4344378,
+      "mtime_readable": "2026-09-10 21:08:49",
+      "bytes": 1994,
+      "sha256": "494066e792d2b4791194c03c8c1936af83f7da16f38be0797b33320be3978649"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B1__claude-opus-5.json",
+      "mtime": 1789042453.8914542,
+      "mtime_readable": "2026-09-10 21:14:13",
+      "bytes": 2732,
+      "sha256": "da238346992878e6736ae3c4d36e741620ec0039d4262cb01291e488d65ef577"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043784.6465237,
+      "mtime_readable": "2026-09-10 21:36:24",
+      "bytes": 2676,
+      "sha256": "409a3e4e64f15de2ddb18495d82a68576cea50decb3813e13fd6037bba1ceb59"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041717.9121604,
+      "mtime_readable": "2026-09-10 21:01:57",
+      "bytes": 1879,
+      "sha256": "4958153bf0fcac37d29786e8e0eebaed400c8cbcf3042acccdbb99935d52ec4d"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042132.0396492,
+      "mtime_readable": "2026-09-10 21:08:52",
+      "bytes": 1820,
+      "sha256": "7661a99a06a9e5bd20f56c2eebbb37deb6e773185c73cc7882a24ff64966f38b"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B2__claude-opus-5.json",
+      "mtime": 1789042458.4955173,
+      "mtime_readable": "2026-09-10 21:14:18",
+      "bytes": 2707,
+      "sha256": "b69ce173b16c772b77aa36ccb7aa1b6d874596e8fa055d8ea1d3b0d9d7025fe3"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043600.9264977,
+      "mtime_readable": "2026-09-10 21:33:20",
+      "bytes": 2734,
+      "sha256": "bb96d9ec6837d98f397708530809d0bf15f49aa8f2d43a3c47efa9e2d76e0b83"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041727.5126474,
+      "mtime_readable": "2026-09-10 21:02:07",
+      "bytes": 1964,
+      "sha256": "95494c20977b9a069a6a5bc7b3e1e9156b4ab961e5aa06a7b971027db562070c"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042134.114304,
+      "mtime_readable": "2026-09-10 21:08:54",
+      "bytes": 1879,
+      "sha256": "015ee98a88218a7910972f35fc038ed7895568d9be87987bd1f9ca41cae509a8"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B3__claude-opus-5.json",
+      "mtime": 1789042468.451552,
+      "mtime_readable": "2026-09-10 21:14:28",
+      "bytes": 2906,
+      "sha256": "607ba789c2d196eaa10804034e7cc46d6939394e966c9b74ccbc76574fb75d3c"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042403.0107896,
+      "mtime_readable": "2026-09-10 21:13:23",
+      "bytes": 2731,
+      "sha256": "39eb05ddb2c7fa70028b3e0d99f14b391701e94e95109be8558a1e6d336cf4fa"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041733.1696875,
+      "mtime_readable": "2026-09-10 21:02:13",
+      "bytes": 2025,
+      "sha256": "fd49bac7f60ce50cb42ea901b4d0cb09316da28afa6de677d087f48cfb8c11e4"
+    },
+    {
+      "path": "data/raw/trials/sc07_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042142.5346036,
+      "mtime_readable": "2026-09-10 21:09:02",
+      "bytes": 1942,
+      "sha256": "845a2a499f428beb623d063a8ea766e9dfad4e6f6fcc50d6ca152dfdd28f1a98"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B1__claude-opus-5.json",
+      "mtime": 1789042466.5096457,
+      "mtime_readable": "2026-09-10 21:14:26",
+      "bytes": 2661,
+      "sha256": "cf738cd81bf40c3325214c0e835d023cbe8f30474f401caa70500df21d9020bd"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042417.0892136,
+      "mtime_readable": "2026-09-10 21:13:37",
+      "bytes": 2829,
+      "sha256": "35a724204c8271ea231806f058c251b4a052b04e29a90e3cf77add4970ab7d68"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041736.078817,
+      "mtime_readable": "2026-09-10 21:02:16",
+      "bytes": 1871,
+      "sha256": "9b35605c11a816100ada3f43e5a31b31785f8cef214bd7152b8cdc5b7a1074d1"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042137.2967498,
+      "mtime_readable": "2026-09-10 21:08:57",
+      "bytes": 1750,
+      "sha256": "44dabd937123858d24819983cda3645fa9c9d9705b2c524953ed411ccf96ac18"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B2__claude-opus-5.json",
+      "mtime": 1789042477.0900636,
+      "mtime_readable": "2026-09-10 21:14:37",
+      "bytes": 2915,
+      "sha256": "734b603d65b3a4d7df1d8941e1f7249ba2666b1e2045fa84cd1e19acfd117cfc"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042422.278167,
+      "mtime_readable": "2026-09-10 21:13:42",
+      "bytes": 3007,
+      "sha256": "67ed3edc74ba2a34d59bd1c045bc03ad232f2a16f7e4f91e126d2f1946ccd211"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041754.6917741,
+      "mtime_readable": "2026-09-10 21:02:34",
+      "bytes": 1971,
+      "sha256": "3e29e59669aaef67526175c6360da9fba8a7a01ebd72748af142d73ac80f0dce"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042160.205969,
+      "mtime_readable": "2026-09-10 21:09:20",
+      "bytes": 1799,
+      "sha256": "f0b9c842f61c4f0477c635da701ab89ecd88ccfb1cfd82c118168e058dd80a5d"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B3__claude-opus-5.json",
+      "mtime": 1789042477.8143618,
+      "mtime_readable": "2026-09-10 21:14:37",
+      "bytes": 2988,
+      "sha256": "2aa9266d74810c62fed719bcbbc23b4d774096fdc10c83097c9282017d415bb6"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042435.2766485,
+      "mtime_readable": "2026-09-10 21:13:55",
+      "bytes": 3111,
+      "sha256": "d4045bbe0e172b612d18dc955012fc5cc3a7fca605ced9184f4e9b47f01e6a5d"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041767.839395,
+      "mtime_readable": "2026-09-10 21:02:47",
+      "bytes": 1919,
+      "sha256": "059b1aee7ee6ab09009b39b7fc0f28aceafd57cf4151edc6219b8ca9aa6a46ea"
+    },
+    {
+      "path": "data/raw/trials/sc07_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042154.8321013,
+      "mtime_readable": "2026-09-10 21:09:14",
+      "bytes": 1872,
+      "sha256": "636e4a6e7aba25e3c58b7f95605d3747e689ec34dbd9e8edb439e993c8510561"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B1__claude-opus-5.json",
+      "mtime": 1789042486.6910284,
+      "mtime_readable": "2026-09-10 21:14:46",
+      "bytes": 2811,
+      "sha256": "ec4d383cf23a19692287f5e96918508c7d240b6467966edcbea82ea4ba618664"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042439.94444,
+      "mtime_readable": "2026-09-10 21:13:59",
+      "bytes": 2819,
+      "sha256": "ad9ecbd974ba010cd74c0d07b2287255e86b4710f7d1e362a6faaf9c961d07bf"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041746.2095456,
+      "mtime_readable": "2026-09-10 21:02:26",
+      "bytes": 2023,
+      "sha256": "e4fe99209fc650b0753e26749af342dd395dec9580eb8bd7e936c3f0443f7fd9"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042150.532938,
+      "mtime_readable": "2026-09-10 21:09:10",
+      "bytes": 1865,
+      "sha256": "4219b003db4e07fa676ed5384ff87a409b81c1dc7dcdf98a677466c15b0f9157"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B2__claude-opus-5.json",
+      "mtime": 1789042487.366193,
+      "mtime_readable": "2026-09-10 21:14:47",
+      "bytes": 2874,
+      "sha256": "2d66b848fd9d6b99d9f0b68a6444f2ffd653f04543989dd34e20d84fa527e701"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042449.9015067,
+      "mtime_readable": "2026-09-10 21:14:09",
+      "bytes": 2869,
+      "sha256": "56bacc14e5684f72b7ff540cb13dc02e895509ea7d7845c481ed5f68a498bd39"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041749.2436283,
+      "mtime_readable": "2026-09-10 21:02:29",
+      "bytes": 2038,
+      "sha256": "dea11f9e41ce55839375b9580151930134bffd078df260998c6f3df6bb5eb81d"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042158.1144013,
+      "mtime_readable": "2026-09-10 21:09:18",
+      "bytes": 1931,
+      "sha256": "6bfd779d3d9d0ab49d7d09e115bf70c2bc29dccd48044ba20aec1ce93b3c12e9"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B3__claude-opus-5.json",
+      "mtime": 1789042497.003856,
+      "mtime_readable": "2026-09-10 21:14:57",
+      "bytes": 3157,
+      "sha256": "a6c46d0b380af60c5ce618a508c870387629cea4a7cdbce5bf4a1f4f366c9309"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042457.4142742,
+      "mtime_readable": "2026-09-10 21:14:17",
+      "bytes": 3279,
+      "sha256": "e2dda4b1204c9477c33360d1a157bee3b04f0886141b361eb3be310aa64bed3b"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041762.4729319,
+      "mtime_readable": "2026-09-10 21:02:42",
+      "bytes": 2084,
+      "sha256": "dc3936b31aa0f33d60258111033e7f5724c27f20eb9859615140514d7a97adfb"
+    },
+    {
+      "path": "data/raw/trials/sc07_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042161.1957543,
+      "mtime_readable": "2026-09-10 21:09:21",
+      "bytes": 1994,
+      "sha256": "f5e8847557f996818e455342106386c14924449d9436edca2686d01b0e38b615"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B1__claude-opus-5.json",
+      "mtime": 1789042503.7029865,
+      "mtime_readable": "2026-09-10 21:15:03",
+      "bytes": 2714,
+      "sha256": "5584c8b9a342163796e1b6f693f31b57ed5d494200a520c5720e04b998cedb87"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042464.988376,
+      "mtime_readable": "2026-09-10 21:14:24",
+      "bytes": 2601,
+      "sha256": "b625e18b55f0a0802efc8e319d3b33ccb94f6fecc71f6fcc10fb7024d433a2ed"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041762.8292809,
+      "mtime_readable": "2026-09-10 21:02:42",
+      "bytes": 1913,
+      "sha256": "f80756772b2ad03050deac00e707a5b7a2d2c588a50d9ed6e97a01585b685328"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042167.6867144,
+      "mtime_readable": "2026-09-10 21:09:27",
+      "bytes": 1823,
+      "sha256": "dab032391f5f93a6ff2f4f3ca4a40af9fa2f6b68f95d6ca6891b59988da4a4b4"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B2__claude-opus-5.json",
+      "mtime": 1789042510.7048285,
+      "mtime_readable": "2026-09-10 21:15:10",
+      "bytes": 2708,
+      "sha256": "6c3b9bec779e2a0197cd3f81f86c2cf038fff59104f58feb5fd5c9189c18ad46"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042497.3507738,
+      "mtime_readable": "2026-09-10 21:14:57",
+      "bytes": 2662,
+      "sha256": "00e5f4f2308e8cff80f219829f7b235060225b525af0e797000b63719e4c9442"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041814.3334265,
+      "mtime_readable": "2026-09-10 21:03:34",
+      "bytes": 1873,
+      "sha256": "7c5f9aa8a408e226a2d9f5126d276fabb8518f1d1669902359128d82d8162487"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042171.3816495,
+      "mtime_readable": "2026-09-10 21:09:31",
+      "bytes": 1882,
+      "sha256": "0834e603eb7ccd5dbdbfb11d60ed6721824832720c6f49c268fcae77b7d238cf"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B3__claude-opus-5.json",
+      "mtime": 1789042519.3168242,
+      "mtime_readable": "2026-09-10 21:15:19",
+      "bytes": 2879,
+      "sha256": "6b30a32aabfcec7e17f6d54067624f8007e7060c87e38414a10dae7d68fd99f0"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043621.8396413,
+      "mtime_readable": "2026-09-10 21:33:41",
+      "bytes": 3036,
+      "sha256": "9595b1640857d10cdf877450ed0f78200d25f97e06fc230400d7d7b72baf5b14"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041787.1930356,
+      "mtime_readable": "2026-09-10 21:03:07",
+      "bytes": 2013,
+      "sha256": "02cf93b7514c0e745eceedaa1f38bd6321a02e8d361ab87edc6384bd910a684b"
+    },
+    {
+      "path": "data/raw/trials/sc08_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042173.9725766,
+      "mtime_readable": "2026-09-10 21:09:33",
+      "bytes": 1945,
+      "sha256": "8afc1986221076474e76f534d0e733f42ece91ddd24b1f66e0415669717e5a79"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B1__claude-opus-5.json",
+      "mtime": 1789042519.8718903,
+      "mtime_readable": "2026-09-10 21:15:19",
+      "bytes": 2726,
+      "sha256": "005cd0697e628575db2209051243f0c34ba02a04e34ebf4ae44303be918c9d26"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042510.295534,
+      "mtime_readable": "2026-09-10 21:15:10",
+      "bytes": 2713,
+      "sha256": "146540bea8ccc3a05bae17d366a18ecad6f56473e4df3ae141d26f0d3e6aadaa"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041775.897953,
+      "mtime_readable": "2026-09-10 21:02:55",
+      "bytes": 1872,
+      "sha256": "7f89df436f6af479b5f69a39be2f5398b9a136fcfd51c3ee8f8dc4c421203a44"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042174.3550363,
+      "mtime_readable": "2026-09-10 21:09:34",
+      "bytes": 1752,
+      "sha256": "a4bb6f9cc3e73ef019ffebab58cf9ad1fc0b1f01d5a5bbbd60b857e02060a5b8"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B2__claude-opus-5.json",
+      "mtime": 1789042528.9887645,
+      "mtime_readable": "2026-09-10 21:15:28",
+      "bytes": 2855,
+      "sha256": "bffac2b7dda4c89b8c259098f015d537470711693b73fb6da5bbe0395d2295be"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042524.1849248,
+      "mtime_readable": "2026-09-10 21:15:24",
+      "bytes": 2935,
+      "sha256": "3326cad6f83c1d9db9763721a2b634e295638223fb9d2706fc8937afde5611ce"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041782.8045778,
+      "mtime_readable": "2026-09-10 21:03:02",
+      "bytes": 2008,
+      "sha256": "c8c9ec6fee7420a27ddc707c7b40acd442b0af78f75872f7a606f4964a55320a"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042176.9523702,
+      "mtime_readable": "2026-09-10 21:09:36",
+      "bytes": 1827,
+      "sha256": "4279d60fb9b7cd82478a1ab62b6e30181776e5ecc1c0338deaad092e7a86b66e"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B3__claude-opus-5.json",
+      "mtime": 1789042530.6918085,
+      "mtime_readable": "2026-09-10 21:15:30",
+      "bytes": 3049,
+      "sha256": "315c08f5f07865614f90162b103ac2457492acba4b374e72cbd8462852d6d83f"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042547.5675998,
+      "mtime_readable": "2026-09-10 21:15:47",
+      "bytes": 3311,
+      "sha256": "a397744ad82b3b0393fe092936b38ca10c2b76b29c464345795ff45d39fc6f21"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041794.0099173,
+      "mtime_readable": "2026-09-10 21:03:14",
+      "bytes": 2034,
+      "sha256": "cb6bee9b77b5d2ac2d84957f59cd368cd4fce8d2a9b6d90df607f2c30d3ac5d2"
+    },
+    {
+      "path": "data/raw/trials/sc08_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042180.2285814,
+      "mtime_readable": "2026-09-10 21:09:40",
+      "bytes": 1957,
+      "sha256": "1a491452ca9ff1a93ae8f267563fb253368285160372b38486feb59d66fc8499"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B1__claude-opus-5.json",
+      "mtime": 1789042538.916382,
+      "mtime_readable": "2026-09-10 21:15:38",
+      "bytes": 2856,
+      "sha256": "0b0f7322bb09ce9ffd5abacd4f2186aefd1f08483c61cac15d3920fa20a8d962"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042553.3718827,
+      "mtime_readable": "2026-09-10 21:15:53",
+      "bytes": 2773,
+      "sha256": "5e5853f7ea2a27f13da40ae8b2f93627d3cb011f703430c427dbba446df2c5aa"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041798.188689,
+      "mtime_readable": "2026-09-10 21:03:18",
+      "bytes": 1977,
+      "sha256": "4fd34c1b3372cc8c69018a08a8d42b8c71ffcd3c505d82a38969cc13e6dac93f"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042179.5389118,
+      "mtime_readable": "2026-09-10 21:09:39",
+      "bytes": 1881,
+      "sha256": "aa96a613ab02cbc1d179ff3e7c6569bd09a2bdc9e8e743d56c20223eaac14826"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B2__claude-opus-5.json",
+      "mtime": 1789042539.3536546,
+      "mtime_readable": "2026-09-10 21:15:39",
+      "bytes": 2925,
+      "sha256": "20182a01ace20920f998ced297d7168b5a37ef07d83d11b40bbc7e9135b1c793"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042560.8370278,
+      "mtime_readable": "2026-09-10 21:16:00",
+      "bytes": 2865,
+      "sha256": "7b8ede7a852cb4164b2d0cb8029ae014293da5f360a567617cee8105be31ad39"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041799.6449518,
+      "mtime_readable": "2026-09-10 21:03:19",
+      "bytes": 2092,
+      "sha256": "94ea8e1dc5733016b7752048c8bda9c7ae6be98a3f078e1f80a8dccd37f2f7bf"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042182.579643,
+      "mtime_readable": "2026-09-10 21:09:42",
+      "bytes": 1933,
+      "sha256": "572b5b1e5821f193a1ed79f555e840dcc523a5836f665c44258618d83eac0407"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B3__claude-opus-5.json",
+      "mtime": 1789042548.1068532,
+      "mtime_readable": "2026-09-10 21:15:48",
+      "bytes": 2922,
+      "sha256": "f60e602a5fa3ea8467b258d0587472fc78e0f033e6774df35fcc066ada7bb8c5"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042579.0024152,
+      "mtime_readable": "2026-09-10 21:16:19",
+      "bytes": 3525,
+      "sha256": "3aa0bd5629c7609d9911a28e1cf5a59a5ba8e75b46e84614b43174936379d1de"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041811.5644934,
+      "mtime_readable": "2026-09-10 21:03:31",
+      "bytes": 2101,
+      "sha256": "a8cf55dfdd93dcf3d234634864a4d1726e6487492bd9e865056148ce792596d4"
+    },
+    {
+      "path": "data/raw/trials/sc08_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042186.061703,
+      "mtime_readable": "2026-09-10 21:09:46",
+      "bytes": 1996,
+      "sha256": "01891499ea2f679d560bacf1506d1aec4ea9c6b78e206c8a700936954e1069ab"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B1__claude-opus-5.json",
+      "mtime": 1789042554.2321117,
+      "mtime_readable": "2026-09-10 21:15:54",
+      "bytes": 2727,
+      "sha256": "338bbd2e27d0d58f055f63d103115384e9691abf5c1ac451b70001aedba4c71e"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042576.020112,
+      "mtime_readable": "2026-09-10 21:16:16",
+      "bytes": 2643,
+      "sha256": "8c5fdee4af73f99f914460973a2ed7bcd3c9489ee7b24a147a58211a51950ad1"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041810.9633448,
+      "mtime_readable": "2026-09-10 21:03:30",
+      "bytes": 1807,
+      "sha256": "c9f8f8c1f39fa141bb613c3b6c58cdfbb2960d31860840645da61314bb311608"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042191.3029137,
+      "mtime_readable": "2026-09-10 21:09:51",
+      "bytes": 1816,
+      "sha256": "db0bcc0de803c60ed5d53bb4ad9e8999fa69c548a10ade6d24563867f9e825f6"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B2__claude-opus-5.json",
+      "mtime": 1789042561.9229758,
+      "mtime_readable": "2026-09-10 21:16:01",
+      "bytes": 2711,
+      "sha256": "3e768fa6e7c900c7295347fc8c48182c49b3625a671e3474b7716ff40b106aeb"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042591.5030515,
+      "mtime_readable": "2026-09-10 21:16:31",
+      "bytes": 2662,
+      "sha256": "42966a256e2f6018274211c951db6a029727199e90b265bdd4cabfc6956a481a"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041812.2204213,
+      "mtime_readable": "2026-09-10 21:03:32",
+      "bytes": 1865,
+      "sha256": "54de8f386121a8ea2c416494915023ba94067d28f47bff0434279db113d8ddce"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042193.4583392,
+      "mtime_readable": "2026-09-10 21:09:53",
+      "bytes": 1874,
+      "sha256": "1321471ea8a43277403f60463b228fb26b66ba0738c630c07add6bcdd5d235b7"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B3__claude-opus-5.json",
+      "mtime": 1789042569.3655298,
+      "mtime_readable": "2026-09-10 21:16:09",
+      "bytes": 2917,
+      "sha256": "1a46d7c77b811ccf82ec00d5eb96d51197be6fb8a6a1b6f251d4f0c8fbb9e7bc"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042592.7815464,
+      "mtime_readable": "2026-09-10 21:16:32",
+      "bytes": 2791,
+      "sha256": "bd01631417f04e60ac22c8e54bf10b6b8ffa98985db3c5546c4437b8bc1c26fd"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041828.4237885,
+      "mtime_readable": "2026-09-10 21:03:48",
+      "bytes": 2056,
+      "sha256": "b7f3b7912ff8486866a2ccaa90e9fd4cff253ff3e3ea973bb7045a97090e2e59"
+    },
+    {
+      "path": "data/raw/trials/sc09_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042198.813728,
+      "mtime_readable": "2026-09-10 21:09:58",
+      "bytes": 1937,
+      "sha256": "14e531a494f08e0c273d503406f124494187274a8a74bb05f77532498cd67ca2"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B1__claude-opus-5.json",
+      "mtime": 1789042569.6077492,
+      "mtime_readable": "2026-09-10 21:16:09",
+      "bytes": 2626,
+      "sha256": "6284bdd668d27b1b3250008afbc5890d6fabcb231cc248d2dcc4314117909f1d"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042605.819365,
+      "mtime_readable": "2026-09-10 21:16:45",
+      "bytes": 2642,
+      "sha256": "55f0cc9333b75345817efaceae12fb6fbc5fd33222cfd59bc715e8b14a8ba7a6"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041831.0309885,
+      "mtime_readable": "2026-09-10 21:03:51",
+      "bytes": 1803,
+      "sha256": "8f591a5536da3a24705e98b406557f9788e99b8ce8ef8b5e6ba29b7946431ed8"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042197.4661434,
+      "mtime_readable": "2026-09-10 21:09:57",
+      "bytes": 1744,
+      "sha256": "055b5f754d7c104ed86b6953ad6ddd51c659de7415779e40dd132adf85f4841d"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B2__claude-opus-5.json",
+      "mtime": 1789042580.2591064,
+      "mtime_readable": "2026-09-10 21:16:20",
+      "bytes": 3021,
+      "sha256": "4390f8f7740039c15579a52ca96b0a6246ee8bd399f9be22b60c7120a412a641"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042607.5777433,
+      "mtime_readable": "2026-09-10 21:16:47",
+      "bytes": 3017,
+      "sha256": "e8ebe48b1ba917710dee9c6c159a13dfaeadf7f38f206694cd128d572b550dbf"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041865.5101497,
+      "mtime_readable": "2026-09-10 21:04:25",
+      "bytes": 2087,
+      "sha256": "04601d520a37a6485ffa7925a3df64aa59fc5e867f9c167ef08ab6a0b869f28f"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042199.557765,
+      "mtime_readable": "2026-09-10 21:09:59",
+      "bytes": 1815,
+      "sha256": "27f20ce8200bb25a7f8c89d236526834410b1f30b2603dfa58feb4f721b73bb1"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B3__claude-opus-5.json",
+      "mtime": 1789042581.1835303,
+      "mtime_readable": "2026-09-10 21:16:21",
+      "bytes": 3177,
+      "sha256": "50dba679a13e245822d00b448e97be853750faad05470e8e017b3958fb7632a7"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042628.4648063,
+      "mtime_readable": "2026-09-10 21:17:08",
+      "bytes": 3277,
+      "sha256": "8dad9e3f4ee37f26404cc5a1b0ffe7415045f66c80f240f9d71147ad80308073"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041856.5767763,
+      "mtime_readable": "2026-09-10 21:04:16",
+      "bytes": 2253,
+      "sha256": "47521e3942bc5c5fecf10dbd57c2238be8020ed1b7e60ab1f12939d4ab68e65f"
+    },
+    {
+      "path": "data/raw/trials/sc09_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042203.7061944,
+      "mtime_readable": "2026-09-10 21:10:03",
+      "bytes": 1912,
+      "sha256": "d496c58d3a22c6ea78bec9745faa7c17e30aa825036435bfde628cc1ad8acb68"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B1__claude-opus-5.json",
+      "mtime": 1789042589.9031801,
+      "mtime_readable": "2026-09-10 21:16:29",
+      "bytes": 2802,
+      "sha256": "e26102a5b34e99ccd70c96c3786944088c239a340bc6d3ef4c16ccab98efa4a5"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042620.6445222,
+      "mtime_readable": "2026-09-10 21:17:00",
+      "bytes": 2718,
+      "sha256": "55d17acc5f0bc537312f214dd20424923d8de033b5b2e6b1d46085c20baeb4df"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041861.5608032,
+      "mtime_readable": "2026-09-10 21:04:21",
+      "bytes": 1987,
+      "sha256": "e8d592038a5c9cf56a0045277fe93cdb24b66878387a811be5586cea3b2d7b8f"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042206.6739764,
+      "mtime_readable": "2026-09-10 21:10:06",
+      "bytes": 1867,
+      "sha256": "bb4d09341f29bd0d433bf00f77cf811ceb53f8189feed8f7dd152d36469aec6c"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B2__claude-opus-5.json",
+      "mtime": 1789042591.7653646,
+      "mtime_readable": "2026-09-10 21:16:31",
+      "bytes": 2925,
+      "sha256": "27a8a3950a35a8759a578b30a094b0545010b116a239626ae6989774fee939ff"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042633.013388,
+      "mtime_readable": "2026-09-10 21:17:13",
+      "bytes": 2783,
+      "sha256": "0b26c99016c4defdc02e8297076dcdef790f89c879f0d956acc767da0d851a0e"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041848.944128,
+      "mtime_readable": "2026-09-10 21:04:08",
+      "bytes": 2061,
+      "sha256": "aa3bdbeade7fc9fea6ac0e2edf2884aec9649e9b6fa923ca563b0ecf0c061abc"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042205.829479,
+      "mtime_readable": "2026-09-10 21:10:05",
+      "bytes": 1918,
+      "sha256": "4f4002d78115128cf40e8831220da3f27cf7bdc9419f98ce2075ec81a4eaafdb"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B3__claude-opus-5.json",
+      "mtime": 1789042600.6141489,
+      "mtime_readable": "2026-09-10 21:16:40",
+      "bytes": 2970,
+      "sha256": "3002f7b0492f2415186ccde0bb8e36c9a75e89580f2dc93fb26de3e499be1b09"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042644.9658587,
+      "mtime_readable": "2026-09-10 21:17:24",
+      "bytes": 3181,
+      "sha256": "c77c04ad9a39a40d9ef883ec14404103fe42fa166513ce3c04cb4399995e9ed1"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041873.9277716,
+      "mtime_readable": "2026-09-10 21:04:33",
+      "bytes": 2147,
+      "sha256": "ecabd042d454e0e62b884d40ee422d6c511d6525301ef675ce439d227b405522"
+    },
+    {
+      "path": "data/raw/trials/sc09_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042217.0952709,
+      "mtime_readable": "2026-09-10 21:10:17",
+      "bytes": 1989,
+      "sha256": "df42e93886af1edeca8b791d3c5e4e787f08484139bccae8563a46ec6b7c543c"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B1__claude-opus-5.json",
+      "mtime": 1789042609.4209194,
+      "mtime_readable": "2026-09-10 21:16:49",
+      "bytes": 2718,
+      "sha256": "43d3f0cfcc70edc4d557fb915c727b26ad87c88e52a1f22dd8e1b309bc4ba70d"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042646.2246199,
+      "mtime_readable": "2026-09-10 21:17:26",
+      "bytes": 2616,
+      "sha256": "a4522d2ac77993d6063ff1a1f2ee676de1cfe9cfdb24c53e189ea34fe4bb9c4a"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041880.1632485,
+      "mtime_readable": "2026-09-10 21:04:40",
+      "bytes": 1919,
+      "sha256": "ba01c2f8a66bce2f052dc374be083e3f206e9a5312d2c4f9f22080dbd0d6fdae"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042217.6541076,
+      "mtime_readable": "2026-09-10 21:10:17",
+      "bytes": 1828,
+      "sha256": "a50b2c460f6125e8fe33619e065b7f567d41bd2b84a95d9408e964318be89346"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B2__claude-opus-5.json",
+      "mtime": 1789042615.1984906,
+      "mtime_readable": "2026-09-10 21:16:55",
+      "bytes": 2723,
+      "sha256": "fdb88924949a5c3f8243b7c5ce911fae5a12368acca3891bb6c0b4631bb4fb0d"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042660.2249177,
+      "mtime_readable": "2026-09-10 21:17:40",
+      "bytes": 2674,
+      "sha256": "821b07b823cd15c033611b30c9aa47dcdc00ba2b8a15c1d014466532e086ea10"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041882.3114514,
+      "mtime_readable": "2026-09-10 21:04:42",
+      "bytes": 1977,
+      "sha256": "ee2968d022452436f59fe3c20b71f2be5d9d32bb15713b5da28baaa387da6fec"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042216.3118484,
+      "mtime_readable": "2026-09-10 21:10:16",
+      "bytes": 1885,
+      "sha256": "2addf9bebe3f0a7e5b2b71c3642d69d0df76b29516f1f8866fd49d7f48c9e90d"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B3__claude-opus-5.json",
+      "mtime": 1789042626.8134406,
+      "mtime_readable": "2026-09-10 21:17:06",
+      "bytes": 2893,
+      "sha256": "ae5b44c27db2db1d849f4d94936acbebfed5bc53096bdfe1d02792a886a220db"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042662.6802506,
+      "mtime_readable": "2026-09-10 21:17:42",
+      "bytes": 2908,
+      "sha256": "4bccb36920bf44530e2a56acffd229334454a05175d26929b0e6066e59fc64d9"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041885.7323892,
+      "mtime_readable": "2026-09-10 21:04:45",
+      "bytes": 2030,
+      "sha256": "cfb57735561cfd8a8c48792430ccd3803e7a5408e0fd2725c158fc2a8cc31121"
+    },
+    {
+      "path": "data/raw/trials/sc10_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042227.7904491,
+      "mtime_readable": "2026-09-10 21:10:27",
+      "bytes": 1949,
+      "sha256": "92f43002d80c154c405c10d39b9b3ccfb4d8c5d6a068dcfe08aa9dc6053e0c9a"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B1__claude-opus-5.json",
+      "mtime": 1789042629.877675,
+      "mtime_readable": "2026-09-10 21:17:09",
+      "bytes": 2708,
+      "sha256": "ae172bda6fb68a484f13081d88ec97a779d4a2f59fa13b65ae6d4d797a53036b"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042684.941669,
+      "mtime_readable": "2026-09-10 21:18:04",
+      "bytes": 3144,
+      "sha256": "9d612e5d6ca7bbc17c88c9921907a2a1468e1728d04460ad5afb817d9dd16344"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041908.0912173,
+      "mtime_readable": "2026-09-10 21:05:08",
+      "bytes": 1943,
+      "sha256": "293af97dd9f52265409731070a9bd230a7b7789ff46201394ec96cfcf4055923"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042223.7920606,
+      "mtime_readable": "2026-09-10 21:10:23",
+      "bytes": 1755,
+      "sha256": "4174402daf9346b21dcb1f84606257a6ce715ffffdebb966a41a39863f8b1ae1"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B2__claude-opus-5.json",
+      "mtime": 1789042635.5487585,
+      "mtime_readable": "2026-09-10 21:17:15",
+      "bytes": 2768,
+      "sha256": "6a1dbe964ae62c95fdd8f9038e56699d1aa6f5323da7c067a1da353048027c07"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042678.0603244,
+      "mtime_readable": "2026-09-10 21:17:58",
+      "bytes": 2980,
+      "sha256": "12e1be7aa525ca67bd86da00962a13da117f8c7b8fc19721ef90f591227a2698"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041928.8455513,
+      "mtime_readable": "2026-09-10 21:05:28",
+      "bytes": 2095,
+      "sha256": "d96054d868448d914d532184c81a46e508ed1f72ed38e071e5e565761453c3e6"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042223.8668518,
+      "mtime_readable": "2026-09-10 21:10:23",
+      "bytes": 1804,
+      "sha256": "2e254448b98831552c5355f6e0f611e096f17dad2bdd1e363c034480216dd070"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B3__claude-opus-5.json",
+      "mtime": 1789042639.4129915,
+      "mtime_readable": "2026-09-10 21:17:19",
+      "bytes": 3013,
+      "sha256": "61efd4ac123e6c607dbfea386f89d11f1ef14b5504b804d14e85483060347836"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042694.0397158,
+      "mtime_readable": "2026-09-10 21:18:14",
+      "bytes": 3154,
+      "sha256": "c7dad1479fa8a6443273bd454b4cf97f18fbb59dc51c0d2e48c4f29d2d0b3e18"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041913.2236507,
+      "mtime_readable": "2026-09-10 21:05:13",
+      "bytes": 2214,
+      "sha256": "f8f6a120d733ab8e6e8116a69dfa328c993e2cb1f36ea803040408a8be558d9a"
+    },
+    {
+      "path": "data/raw/trials/sc10_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042229.75004,
+      "mtime_readable": "2026-09-10 21:10:29",
+      "bytes": 1924,
+      "sha256": "71ad76f23729b9c6c9577754a06e5a4cfee8b004e873523d1ff1e5f180c9c553"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B1__claude-opus-5.json",
+      "mtime": 1789042643.4453614,
+      "mtime_readable": "2026-09-10 21:17:23",
+      "bytes": 2701,
+      "sha256": "d1a8a795de7ca028079df7304981a66e011027e3f23fcdca331dc9789e2bdeb8"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042699.4016926,
+      "mtime_readable": "2026-09-10 21:18:19",
+      "bytes": 2816,
+      "sha256": "caf58d7ad2ec952c296a438047664e9bdab8300d054612899dc9cbbe9d61d4fe"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041902.9564948,
+      "mtime_readable": "2026-09-10 21:05:02",
+      "bytes": 2035,
+      "sha256": "3bbeef176684766b5d97a99e83f4f1acc8f23e30c4d0e1db40eb13aec22ede4b"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042229.0744677,
+      "mtime_readable": "2026-09-10 21:10:29",
+      "bytes": 1879,
+      "sha256": "65ad49f4a1b0f90328b8638aae95f0d84dde3a88c105ba0861cbd578076cdaa4"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B2__claude-opus-5.json",
+      "mtime": 1789042648.3805559,
+      "mtime_readable": "2026-09-10 21:17:28",
+      "bytes": 2899,
+      "sha256": "5b6119d03b59fa60ea261f5c022b30126c9d391810cc97b9d38e0f3d01fc4b17"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042704.969097,
+      "mtime_readable": "2026-09-10 21:18:24",
+      "bytes": 2873,
+      "sha256": "f46cace317459e0b44da7cec16728a4c2714adc0b76b10ca617dcef5d3a29026"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041955.1751866,
+      "mtime_readable": "2026-09-10 21:05:55",
+      "bytes": 2052,
+      "sha256": "69ca5f07dbed8ca7bf98336102ef6c059ef5a0bf6d7cbeabce865375a09b1462"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042234.5986254,
+      "mtime_readable": "2026-09-10 21:10:34",
+      "bytes": 1937,
+      "sha256": "118c40be1a81c89dfabc8b37c6878d40f5f33eb3ce21d6869fc25b778649c493"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B3__claude-opus-5.json",
+      "mtime": 1789042652.120221,
+      "mtime_readable": "2026-09-10 21:17:32",
+      "bytes": 2986,
+      "sha256": "7ba14db09ecab811fb76bc0d5f2eb5040482e26f8f821788316b502894b69225"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042710.223075,
+      "mtime_readable": "2026-09-10 21:18:30",
+      "bytes": 2872,
+      "sha256": "640c0aba8f5149e8f4f11aa536a492817c0be5ef8b2d6c20d5c877b467fe86cf"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041924.0826423,
+      "mtime_readable": "2026-09-10 21:05:24",
+      "bytes": 2086,
+      "sha256": "7e85b37e25f2f5795ae75b7f808b6ef64ac102b3c74f95ece224a255c8989f1a"
+    },
+    {
+      "path": "data/raw/trials/sc10_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042234.9170735,
+      "mtime_readable": "2026-09-10 21:10:34",
+      "bytes": 2007,
+      "sha256": "b912736a93f1cdf1fbd36011f5b223228fcc8d4b8f18b970e7dc333bd593d600"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B1__claude-opus-5.json",
+      "mtime": 1789042661.7563124,
+      "mtime_readable": "2026-09-10 21:17:41",
+      "bytes": 2719,
+      "sha256": "3d09426fbf0e8533e4f457f2e6afe3d85abe7873a7a84227c4b2a326b18928df"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042722.114928,
+      "mtime_readable": "2026-09-10 21:18:42",
+      "bytes": 2685,
+      "sha256": "bf2be708278bf917618efb9fac245abeadbfefa4001f38e6f246cbb04a85dca4"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789041976.4328015,
+      "mtime_readable": "2026-09-10 21:06:16",
+      "bytes": 1919,
+      "sha256": "de338fe128e7ec2223e62f172ad3a7177086c5ad49fabdf6b4746628dce23e30"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042242.231315,
+      "mtime_readable": "2026-09-10 21:10:42",
+      "bytes": 1831,
+      "sha256": "3282c9f22adce2f96e49caf5acb00588244476b95132c12e2f657ab1247f4306"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B2__claude-opus-5.json",
+      "mtime": 1789042665.3485906,
+      "mtime_readable": "2026-09-10 21:17:45",
+      "bytes": 2716,
+      "sha256": "ed97acb43580a67c2e675f7bb03f024c0fe8811e0c52707c32c6189af517061e"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043636.5646846,
+      "mtime_readable": "2026-09-10 21:33:56",
+      "bytes": 2666,
+      "sha256": "534a2d601c6fcd6655ecd085a55885a5f9d89ab82e8e0bb8c805ef8129e317a8"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041950.715669,
+      "mtime_readable": "2026-09-10 21:05:50",
+      "bytes": 1880,
+      "sha256": "061628ee48c28d948854ff545536117dc423455b0fd8848e3f3e6302056a4755"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042246.0944526,
+      "mtime_readable": "2026-09-10 21:10:46",
+      "bytes": 1889,
+      "sha256": "64e35df3d7666dd9773092c00a1bebe4440871449f647ac5fb192458a3b84bbf"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B3__claude-opus-5.json",
+      "mtime": 1789042676.7781973,
+      "mtime_readable": "2026-09-10 21:17:56",
+      "bytes": 2896,
+      "sha256": "e81b662b1a5b4f18b5409b1d3d43d9d5a4d727d709726803a41ca419a26304ea"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042737.2593186,
+      "mtime_readable": "2026-09-10 21:18:57",
+      "bytes": 2729,
+      "sha256": "92a895111c9355c94caa0c56bccf23f907a20a7fc2cc568281a3b8ffe9cec8f2"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041955.6030726,
+      "mtime_readable": "2026-09-10 21:05:55",
+      "bytes": 2037,
+      "sha256": "c771220b58ee956cd4c5c8e929a8b3f7364bd791a8d828828224524444ffb434"
+    },
+    {
+      "path": "data/raw/trials/sc11_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042246.928923,
+      "mtime_readable": "2026-09-10 21:10:46",
+      "bytes": 1952,
+      "sha256": "1af6057e4558fb41227c673899c28964db330a63f463194442e5774ff39ee7f2"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B1__claude-opus-5.json",
+      "mtime": 1789042675.1329916,
+      "mtime_readable": "2026-09-10 21:17:55",
+      "bytes": 2851,
+      "sha256": "46bf7a1133d2be07d434206bb16955700cdfc56689ff8fc7e4d77b742d5bf97e"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042752.2348452,
+      "mtime_readable": "2026-09-10 21:19:12",
+      "bytes": 2879,
+      "sha256": "b34d05d3dfade7b1196018458b9911aafd15ebe50625d01df96c98918b4d7b99"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042000.99996,
+      "mtime_readable": "2026-09-10 21:06:40",
+      "bytes": 1805,
+      "sha256": "9af8ee4fb458f699a8b2f5c92b5cfec2f0dd9dc677580a3e523c45edbcd02f11"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042247.1548724,
+      "mtime_readable": "2026-09-10 21:10:47",
+      "bytes": 1759,
+      "sha256": "56f426fa674c4f8c553b9bcf5151fa8665c9c91c832f38ecfd29f554b1d06dd4"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B2__claude-opus-5.json",
+      "mtime": 1789042686.2404797,
+      "mtime_readable": "2026-09-10 21:18:06",
+      "bytes": 3025,
+      "sha256": "912814cfa652b9ef214ee311cd790776a4619ea4d8f61d956fbe22a877a064bb"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042765.9785714,
+      "mtime_readable": "2026-09-10 21:19:25",
+      "bytes": 2987,
+      "sha256": "ebe60d3b6eb882666198aa751eef937227176438ecd5c720de5bcc37c122d80e"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041987.5699263,
+      "mtime_readable": "2026-09-10 21:06:27",
+      "bytes": 2063,
+      "sha256": "4a0c4c9b42e12aa4d3a42029fe32c4f0bc1d17c561362939ef79fd4bc37239a4"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042250.9854171,
+      "mtime_readable": "2026-09-10 21:10:50",
+      "bytes": 1817,
+      "sha256": "44818f79c62ff4def6c65c9aec87f907760e95c81f216b72e20ed355deb89900"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B3__claude-opus-5.json",
+      "mtime": 1789042685.7203586,
+      "mtime_readable": "2026-09-10 21:18:05",
+      "bytes": 2841,
+      "sha256": "94d01bf5be5db4602be05b895ff20de20483b323721b7092a31386a8cc27f663"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042790.258138,
+      "mtime_readable": "2026-09-10 21:19:50",
+      "bytes": 3468,
+      "sha256": "c5eb69e50bdd50feac0d756c079c0ec7356180fd2163635eb71f1538cba7b4c8"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789041979.1680195,
+      "mtime_readable": "2026-09-10 21:06:19",
+      "bytes": 1928,
+      "sha256": "dd4e8ca7cde5be1af0bde8a11a103a4144254cf526ceb06dc3e1b831e93e9856"
+    },
+    {
+      "path": "data/raw/trials/sc11_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042255.0220468,
+      "mtime_readable": "2026-09-10 21:10:55",
+      "bytes": 1880,
+      "sha256": "3367b24baf26fb5a6db7f8c4c3e77a1f0c0a6ef4283ff478f19e6a2a3fdd4593"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B1__claude-opus-5.json",
+      "mtime": 1789042694.8357122,
+      "mtime_readable": "2026-09-10 21:18:14",
+      "bytes": 2777,
+      "sha256": "d55acb284c580343482137ba1e6e5fbc7f55e063035247142073a1dff58457d9"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042791.2530048,
+      "mtime_readable": "2026-09-10 21:19:51",
+      "bytes": 2660,
+      "sha256": "16e8e28406f5be09d04e75e94491117f669aeb035bc61ce6d852121492c51745"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042012.9296312,
+      "mtime_readable": "2026-09-10 21:06:52",
+      "bytes": 2034,
+      "sha256": "c6e9c4c738dfe4ccb0a86045a60d9b540cd4456fab48f39fc0e6e0fcad763d0a"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042254.242343,
+      "mtime_readable": "2026-09-10 21:10:54",
+      "bytes": 1882,
+      "sha256": "a91e61ac41b02fab2d12b49cb6b156618e385ac831863a6a33414203129efef8"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B2__claude-opus-5.json",
+      "mtime": 1789042695.5007236,
+      "mtime_readable": "2026-09-10 21:18:15",
+      "bytes": 2899,
+      "sha256": "8e396b371f459d4ae0acfd2f75ceccee3bd64ec357e5ed6acb8e1e90fbd60c98"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042802.0795379,
+      "mtime_readable": "2026-09-10 21:20:02",
+      "bytes": 2858,
+      "sha256": "62fe905d15d057c37314e0edd0f45375d3ac0ff9e452b632200c4c3769ea7d75"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789041993.6174307,
+      "mtime_readable": "2026-09-10 21:06:33",
+      "bytes": 2068,
+      "sha256": "2b5a4c5e14e63edbc32f6ef7a6531630881ee809e954a3861ce222fc287170ee"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042259.173153,
+      "mtime_readable": "2026-09-10 21:10:59",
+      "bytes": 1940,
+      "sha256": "dc8af04c5321226750424adca920f6379bb98810b21655bbd7b4df91bee5fc06"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B3__claude-opus-5.json",
+      "mtime": 1789042703.8539789,
+      "mtime_readable": "2026-09-10 21:18:23",
+      "bytes": 2934,
+      "sha256": "1a4a39642ddbd0a78c6f620268103e3d1f242c3ff17e7fe97f29ccd5b37c4f3e"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042804.343277,
+      "mtime_readable": "2026-09-10 21:20:04",
+      "bytes": 2903,
+      "sha256": "73c41896c52288878daa4a4b34886d1ee9d3c5de1c31b01e715b38d6d9bcb78e"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042003.4694107,
+      "mtime_readable": "2026-09-10 21:06:43",
+      "bytes": 2134,
+      "sha256": "90654434c91f2edf53cbf03e6133af07a68de5c89b030b43d5db9714df95afde"
+    },
+    {
+      "path": "data/raw/trials/sc11_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042261.4374917,
+      "mtime_readable": "2026-09-10 21:11:01",
+      "bytes": 2003,
+      "sha256": "361b6b29e322639eba5f587a806abe20c18e2a5b396ba5b77f8f658fe5a745df"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B1__claude-opus-5.json",
+      "mtime": 1789042709.85556,
+      "mtime_readable": "2026-09-10 21:18:29",
+      "bytes": 2737,
+      "sha256": "ee8fde29193014601a031c40d152707d2e608adf491d80ecddf5f15fcf0d0dc1"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042815.849556,
+      "mtime_readable": "2026-09-10 21:20:15",
+      "bytes": 2602,
+      "sha256": "81c6b4811f05add47f4d9298bba7d0e3568f4b6ab9fc9259407b8a4cfdf5dd18"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042006.7925525,
+      "mtime_readable": "2026-09-10 21:06:46",
+      "bytes": 1929,
+      "sha256": "9582719a95e557901aaf83a6539bd3d4534d96ae5fcd126a3fb0f02d7eb75011"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042261.791819,
+      "mtime_readable": "2026-09-10 21:11:01",
+      "bytes": 1824,
+      "sha256": "aaf0f679ee79fac6c097cd20092958b659209c768b77d2518c5841a1d0c541a8"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B2__claude-opus-5.json",
+      "mtime": 1789042718.497656,
+      "mtime_readable": "2026-09-10 21:18:38",
+      "bytes": 2710,
+      "sha256": "85e752bb4656aff6b2d38a8ed92ceb3b6f2a9ae7d4fb00273fef61260864910a"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042816.994031,
+      "mtime_readable": "2026-09-10 21:20:16",
+      "bytes": 2671,
+      "sha256": "909db16a2c7d6d1492af1e575a7e970813dc3a32f1760d0b1820bd2fe042db71"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042014.6199887,
+      "mtime_readable": "2026-09-10 21:06:54",
+      "bytes": 1951,
+      "sha256": "61f3bcb07eca0e242f230732dff0a9cb5493f89472510ac334bda838bcd1841d"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042271.8400822,
+      "mtime_readable": "2026-09-10 21:11:11",
+      "bytes": 1883,
+      "sha256": "929b251a0f88c7e178828ee0fe087d6ebfe90532eface8569bcb7ffdda1340bf"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B3__claude-opus-5.json",
+      "mtime": 1789042722.8769374,
+      "mtime_readable": "2026-09-10 21:18:42",
+      "bytes": 2907,
+      "sha256": "e64108e5c8d942bd7a2706c74afb6de814e35c47dc1878a42a1861984b35ad18"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042830.192325,
+      "mtime_readable": "2026-09-10 21:20:30",
+      "bytes": 2723,
+      "sha256": "10af0f6ad245cfdd69d7417237a326849b26c4e1639893be0d56ea1041fa9d6f"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042026.931809,
+      "mtime_readable": "2026-09-10 21:07:06",
+      "bytes": 2044,
+      "sha256": "da5d78d4158f163ef1939a19dea14a91c23b22a09d5d9eb318f3c0088e7cb813"
+    },
+    {
+      "path": "data/raw/trials/sc12_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042276.2501109,
+      "mtime_readable": "2026-09-10 21:11:16",
+      "bytes": 1946,
+      "sha256": "1f82fa53038b0a746369356525f9a9fa4ce62ad5449ed7f9a38aa75fb01c5d7f"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B1__claude-opus-5.json",
+      "mtime": 1789042726.9447646,
+      "mtime_readable": "2026-09-10 21:18:46",
+      "bytes": 2666,
+      "sha256": "ce27d0a01ebaf3280ce2ebb00084abf2fcfc52d46cb7808cd1aba3ca1ad0d919"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042838.0740135,
+      "mtime_readable": "2026-09-10 21:20:38",
+      "bytes": 3031,
+      "sha256": "f921c55dfcdde0e1b4bb3326d3bb90bd05aed46490bb2800d7d856ea84bf0c37"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042072.192768,
+      "mtime_readable": "2026-09-10 21:07:52",
+      "bytes": 2046,
+      "sha256": "8776154aabd7abfa4e7d6e82f158f04ca445edbd11c8bbd1f7da2007fc5ca8a1"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042270.885357,
+      "mtime_readable": "2026-09-10 21:11:10",
+      "bytes": 1753,
+      "sha256": "db54845ffbeda5758fe04d72baa2fe9f884a9447d876fbad8056f9859aec918f"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B2__claude-opus-5.json",
+      "mtime": 1789042734.0021586,
+      "mtime_readable": "2026-09-10 21:18:54",
+      "bytes": 3035,
+      "sha256": "92550f25f783cbc649fab28670b30b8d5dd390d35bae8f5dd4e965ed70e2cb5d"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042842.8386807,
+      "mtime_readable": "2026-09-10 21:20:42",
+      "bytes": 2845,
+      "sha256": "4ef3412eda51f4570314e2ed9f719aab57a1234dcbd2721558a57e06ca15766e"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042045.13822,
+      "mtime_readable": "2026-09-10 21:07:25",
+      "bytes": 2054,
+      "sha256": "36164a83f7d15b0d29c528a29e34acb4b2b4aa69b212458e97007548df87086a"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042276.233244,
+      "mtime_readable": "2026-09-10 21:11:16",
+      "bytes": 1811,
+      "sha256": "fd780c94c7584a405c3611a973715860e0243dde740c05e20040f3662cf4fc5f"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B3__claude-opus-5.json",
+      "mtime": 1789042737.3783133,
+      "mtime_readable": "2026-09-10 21:18:57",
+      "bytes": 3126,
+      "sha256": "1ed6aba4338dff5ce2415706515b409d09ee58df237480b1fa465df6dacf43ba"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042863.1528697,
+      "mtime_readable": "2026-09-10 21:21:03",
+      "bytes": 3113,
+      "sha256": "543e00350236f31a1e2047264011afadbe90b06df31a7a9c9e24d98dc509082b"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042042.9402454,
+      "mtime_readable": "2026-09-10 21:07:22",
+      "bytes": 2167,
+      "sha256": "743a791ded195e9892f966eb2c4d71b2bb41cf7f1eecd2fdda0f8aa70ead2e75"
+    },
+    {
+      "path": "data/raw/trials/sc12_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042278.1813104,
+      "mtime_readable": "2026-09-10 21:11:18",
+      "bytes": 1908,
+      "sha256": "e7f36f3be6eedd0ee5b9a7b3b36ecf9f542ded6d5496c49bc293263af0bc4774"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B1__claude-opus-5.json",
+      "mtime": 1789042742.3296552,
+      "mtime_readable": "2026-09-10 21:19:02",
+      "bytes": 2807,
+      "sha256": "77ca7ec3a731cf71a358a370d6cdde3e62c09e790dbda5e9b00237e3e46a5986"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042855.146518,
+      "mtime_readable": "2026-09-10 21:20:55",
+      "bytes": 2819,
+      "sha256": "d5dddd5e87faffbf3781837e13224cbc5627dd8f69be81ab34bfe25ea677b9bc"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042041.837259,
+      "mtime_readable": "2026-09-10 21:07:21",
+      "bytes": 2045,
+      "sha256": "88d774849de87409ee07d62a730a25f7a2538817bee1869bad9278952ac44afa"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042283.288219,
+      "mtime_readable": "2026-09-10 21:11:23",
+      "bytes": 1869,
+      "sha256": "7eeb52ef0bcf81cfb13172e8cf5bd42b21df9db81ff56654d35ffa9b887bf303"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B2__claude-opus-5.json",
+      "mtime": 1789042748.8714783,
+      "mtime_readable": "2026-09-10 21:19:08",
+      "bytes": 3077,
+      "sha256": "78d5fb41feee8ab0cac5a1ed9b995f1d04ad70c47bbc770615bbea32e89827fc"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042872.5744402,
+      "mtime_readable": "2026-09-10 21:21:12",
+      "bytes": 2975,
+      "sha256": "b9e3585ce1647b0841d6b4db9917076734ba74dddc0c2dec60aa6c32a94d0369"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042060.583694,
+      "mtime_readable": "2026-09-10 21:07:40",
+      "bytes": 2023,
+      "sha256": "37752c11ba0231d79d3dd7ff384e97100f848fdbb6c195abf6f4057ec12b7ec5"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042282.0951214,
+      "mtime_readable": "2026-09-10 21:11:22",
+      "bytes": 1934,
+      "sha256": "c074b6da3087c92047085aa5e453605dc5a904fcfbc7e899a02cda631aa2f393"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B3__claude-opus-5.json",
+      "mtime": 1789042751.6823578,
+      "mtime_readable": "2026-09-10 21:19:11",
+      "bytes": 3002,
+      "sha256": "65e5e96064113a9dee09d677c78fb0179b0778393e25ffec8a209df7812848ed"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042888.6747532,
+      "mtime_readable": "2026-09-10 21:21:28",
+      "bytes": 3424,
+      "sha256": "4e8286a9280751829f799c78588beb2303bd60c5cb620fbf1029358b71d1307d"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042061.0431583,
+      "mtime_readable": "2026-09-10 21:07:41",
+      "bytes": 2176,
+      "sha256": "4168ef0bbe6e48f324dcaef5817741588b3d02290307bc138477a973f4daea1a"
+    },
+    {
+      "path": "data/raw/trials/sc12_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042283.7955985,
+      "mtime_readable": "2026-09-10 21:11:23",
+      "bytes": 1997,
+      "sha256": "d5a55c3c7d761ef446aec77a8ac94d4078324ec4d5548d58e43048c0e4608d1d"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B1__claude-opus-5.json",
+      "mtime": 1789042762.9321938,
+      "mtime_readable": "2026-09-10 21:19:22",
+      "bytes": 2760,
+      "sha256": "29e82533958c489e7233e351b4a224bbaa0b01ca0417aeb657b5cc6a4078df41"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042909.9066672,
+      "mtime_readable": "2026-09-10 21:21:49",
+      "bytes": 2603,
+      "sha256": "b8e3b498b780251803719c9c804c76872596f438f908d27877db1eb6fdc87ee0"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042065.4391375,
+      "mtime_readable": "2026-09-10 21:07:45",
+      "bytes": 1816,
+      "sha256": "9a1a17471df3df2af96c7dd9926cb21bcc42c3bf6623e8af4d1545381a31332e"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042292.6295753,
+      "mtime_readable": "2026-09-10 21:11:32",
+      "bytes": 1826,
+      "sha256": "dad3063abfd7d804dbde1f9ace03f92e32b5c470aa92e947fb85d1101399d75b"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B2__claude-opus-5.json",
+      "mtime": 1789042767.3563383,
+      "mtime_readable": "2026-09-10 21:19:27",
+      "bytes": 2721,
+      "sha256": "23ca2d69d560c5480c3d5019e2d8cccfc1be892424a6391b05685df4d93e7fd6"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042902.3178048,
+      "mtime_readable": "2026-09-10 21:21:42",
+      "bytes": 2661,
+      "sha256": "bc1f04291a978643c93068831d4582b097a8599c032a1fe96639dd87e99eaa17"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042074.8028789,
+      "mtime_readable": "2026-09-10 21:07:54",
+      "bytes": 1985,
+      "sha256": "17e097616e22e6e39bcc4a5c7f45327dc83cb38ce14050a1813235ad622c9d54"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042296.053962,
+      "mtime_readable": "2026-09-10 21:11:36",
+      "bytes": 1884,
+      "sha256": "07ce46671c53b6f293ce43f26ed2524c3c9954b0d62e323967f7509420b62b11"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B3__claude-opus-5.json",
+      "mtime": 1789042776.3649492,
+      "mtime_readable": "2026-09-10 21:19:36",
+      "bytes": 2872,
+      "sha256": "b40e15a925f9967058a4061942a84f89678d173e8b6fc96b8767e44098e90d1c"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789042916.4158773,
+      "mtime_readable": "2026-09-10 21:21:56",
+      "bytes": 2723,
+      "sha256": "bf332c4d318723d33031a798191bf7b0128bc4a1d67641bbde5f7c857c6b8dcd"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042078.3963213,
+      "mtime_readable": "2026-09-10 21:07:58",
+      "bytes": 2032,
+      "sha256": "31ed6d9199ba2371605a67c215c5c3901f9ded97d0c92015c5044f2751c21a2f"
+    },
+    {
+      "path": "data/raw/trials/sc13_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042295.3029647,
+      "mtime_readable": "2026-09-10 21:11:35",
+      "bytes": 1947,
+      "sha256": "d62074ddba2c3f27055853a0d9a4d867e0a6e70a1304b0853b886bde265dcab4"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B1__claude-opus-5.json",
+      "mtime": 1789042776.749464,
+      "mtime_readable": "2026-09-10 21:19:36",
+      "bytes": 2734,
+      "sha256": "14ecd043a3d8c4a1653dcaac01a97def13e4e9780789fee52f6c6810efb105c6"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789042934.3811152,
+      "mtime_readable": "2026-09-10 21:22:14",
+      "bytes": 3008,
+      "sha256": "80ce850ad90cd035464efd9cd39b9acfdbfe822f207b5c996e34acd7ad5264fc"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042085.9160085,
+      "mtime_readable": "2026-09-10 21:08:05",
+      "bytes": 1932,
+      "sha256": "8b2e16d97192466379f3cb2ca77d3f6fc5cf4ae54d372b2dd135515cfea31d04"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042298.5573637,
+      "mtime_readable": "2026-09-10 21:11:38",
+      "bytes": 1754,
+      "sha256": "67b8a99e59f90be17a96c97ce482c716ed48815b7420253017d183c45f16c379"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B2__claude-opus-5.json",
+      "mtime": 1789042784.4681854,
+      "mtime_readable": "2026-09-10 21:19:44",
+      "bytes": 2723,
+      "sha256": "c6c1c8aed684f50c25876291f872b0573c711f522ed7e913819892164f8a2c1e"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789042933.8400016,
+      "mtime_readable": "2026-09-10 21:22:13",
+      "bytes": 3318,
+      "sha256": "19de2c5ff3845b8b19ba721de7d6b2e887e7033683db6d1fa5f72f5ff82935b2"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042092.919456,
+      "mtime_readable": "2026-09-10 21:08:12",
+      "bytes": 1850,
+      "sha256": "97b44c05a4aa4652092c42c9e03f75391c97b1e38012b9e84161a7647db863b7"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042300.739561,
+      "mtime_readable": "2026-09-10 21:11:40",
+      "bytes": 1802,
+      "sha256": "c22e7751c206146fe1d775d991090f197eec972d08c1ea1f1ea31bb61087c2e1"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B3__claude-opus-5.json",
+      "mtime": 1789042787.5245616,
+      "mtime_readable": "2026-09-10 21:19:47",
+      "bytes": 3006,
+      "sha256": "beede6e0ccf85b1452911d40108811ae6d83a46654b40a43167a03a30e9aed0c"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789042955.7132854,
+      "mtime_readable": "2026-09-10 21:22:35",
+      "bytes": 3308,
+      "sha256": "03336adfb70f4c08970fb8a02395bf110f155bd27f3659ef6c33984f357278e9"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042107.5256152,
+      "mtime_readable": "2026-09-10 21:08:27",
+      "bytes": 2188,
+      "sha256": "9b8e9af0bba0f5d6d78e9e1da59678d93fed585b856fd4bff7db18bc6d843a1f"
+    },
+    {
+      "path": "data/raw/trials/sc13_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042301.2354245,
+      "mtime_readable": "2026-09-10 21:11:41",
+      "bytes": 1896,
+      "sha256": "de85e3bfe6bf7f95927bd2fa745ba9ade185063183b7466862967d1a256c78c5"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B1__claude-opus-5.json",
+      "mtime": 1789042793.6656787,
+      "mtime_readable": "2026-09-10 21:19:53",
+      "bytes": 2824,
+      "sha256": "48e3881ee87be0c46cda110de73096926a9eecce7107d0a219efc2fc97420951"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789042946.4761107,
+      "mtime_readable": "2026-09-10 21:22:26",
+      "bytes": 2813,
+      "sha256": "7d0a2e3dc1a5fdb5d915d33081e9ff2d67f0ded17f2db1d83c38c3c2cace6a58"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042099.3475454,
+      "mtime_readable": "2026-09-10 21:08:19",
+      "bytes": 1963,
+      "sha256": "f63136cc3950ac9e4260288f790c92d58f8232ca006198feff40683019e8a545"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042303.586307,
+      "mtime_readable": "2026-09-10 21:11:43",
+      "bytes": 1877,
+      "sha256": "4b7e721947bf8cc70d1261d3bd19dafc322c34863639b97c79ac09cbbd0e39f6"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B2__claude-opus-5.json",
+      "mtime": 1789042796.5916145,
+      "mtime_readable": "2026-09-10 21:19:56",
+      "bytes": 2912,
+      "sha256": "78d83062aa0c81ef1a4c1994a194099d6b60b8837493ec945355c384a589fe72"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789042957.25,
+      "mtime_readable": "2026-09-10 21:22:37",
+      "bytes": 2815,
+      "sha256": "740a0423ce1cb579740e7b7b6acb5e7bb1081fb3e6f0967d3b7e72483bab88f3"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042100.9961596,
+      "mtime_readable": "2026-09-10 21:08:20",
+      "bytes": 2080,
+      "sha256": "31596afbb2236a5d6212fed2f23709c4f228398f2d7fd466f2094173e9bde559"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042306.1772118,
+      "mtime_readable": "2026-09-10 21:11:46",
+      "bytes": 1942,
+      "sha256": "fb1ce18933284d623701bb4b81b2af1e38f4932527dfc6d55ae91853ddebeced"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B3__claude-opus-5.json",
+      "mtime": 1789042805.0436358,
+      "mtime_readable": "2026-09-10 21:20:05",
+      "bytes": 3021,
+      "sha256": "7549c965419332ba1e7d6c24cae83e0388a5a645a077b01874df9a5ec85d9e52"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789042987.956179,
+      "mtime_readable": "2026-09-10 21:23:07",
+      "bytes": 3250,
+      "sha256": "a8ef3fce3566fa7621fd009dce097f07d372ca84530646a36db380e51ab93fa5"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042133.9253495,
+      "mtime_readable": "2026-09-10 21:08:53",
+      "bytes": 2161,
+      "sha256": "21e5e36ba8fca831270a883c2ac155137e5830757929dc88b7fb3b9169d4688f"
+    },
+    {
+      "path": "data/raw/trials/sc13_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042308.1910322,
+      "mtime_readable": "2026-09-10 21:11:48",
+      "bytes": 1998,
+      "sha256": "bc8c7f603f9df129e4af7e769cffcdaa10f41d5bef298f83fd1d56048ab87707"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B1__claude-opus-5.json",
+      "mtime": 1789042811.3494809,
+      "mtime_readable": "2026-09-10 21:20:11",
+      "bytes": 2718,
+      "sha256": "40257d48afe0728d5dc420309683de49b0d327266e81c235ad461533cd1e08ee"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789042973.8789003,
+      "mtime_readable": "2026-09-10 21:22:53",
+      "bytes": 2678,
+      "sha256": "059f09b4a4effa4105cf5a7985cb134ffbe285fc5eff15fa99ae8a427d85d584"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042116.7097263,
+      "mtime_readable": "2026-09-10 21:08:36",
+      "bytes": 1804,
+      "sha256": "20b75bead57c25f31a5a004aba91a90f60fa0b10ed354a0b6f6ff18a801cf6fd"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042315.4952345,
+      "mtime_readable": "2026-09-10 21:11:55",
+      "bytes": 1813,
+      "sha256": "256fde6d1927463085da5c051a9179f0aea9604b9fb989c8d2ac86abe5ed0169"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B2__claude-opus-5.json",
+      "mtime": 1789042820.1798444,
+      "mtime_readable": "2026-09-10 21:20:20",
+      "bytes": 2911,
+      "sha256": "b2817c70c8f921a823b2cd5f61d518c67e84f6ac7966ee51162f3b82286e068a"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789042987.3489435,
+      "mtime_readable": "2026-09-10 21:23:07",
+      "bytes": 2804,
+      "sha256": "9f01aa0db8f714863cc31e2b653cc5d45148caf88053ee1b49466d69ee1a8096"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042115.758044,
+      "mtime_readable": "2026-09-10 21:08:35",
+      "bytes": 1939,
+      "sha256": "43e2488700952682dc9423ef0382d99b3229e0a2abb761e855cdac183ef88ef3"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042320.0443826,
+      "mtime_readable": "2026-09-10 21:12:00",
+      "bytes": 1871,
+      "sha256": "5575156ed58014f91bcea36a3618d9cdd8a7b1d1dd3f97d97ecb0e820b870e7b"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B3__claude-opus-5.json",
+      "mtime": 1789042825.5783784,
+      "mtime_readable": "2026-09-10 21:20:25",
+      "bytes": 2911,
+      "sha256": "badf0d8b78b56dd8db4b7c131f5d7289169156fbb90d90357f4123c04ab2cbe4"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043000.3580074,
+      "mtime_readable": "2026-09-10 21:23:20",
+      "bytes": 2722,
+      "sha256": "40f6d7e23737749a64f81e3e7131af7a343081e04e5ffd875eab1b1143e3cefa"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042142.1370301,
+      "mtime_readable": "2026-09-10 21:09:02",
+      "bytes": 1925,
+      "sha256": "c085b481afaa19df13fa43edc9c9266f2138f594279376a5fd245a056b08fc52"
+    },
+    {
+      "path": "data/raw/trials/sc14_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042321.9367254,
+      "mtime_readable": "2026-09-10 21:12:01",
+      "bytes": 1934,
+      "sha256": "6bf1c9a0862d21d72db6914acef59ff0518c27f2dfe019b17bc799c028d32527"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B1__claude-opus-5.json",
+      "mtime": 1789042830.5187345,
+      "mtime_readable": "2026-09-10 21:20:30",
+      "bytes": 2753,
+      "sha256": "cbe84c4e2b2af994c0ac80a32e3390d79a6770eb231e5880f9836b19cdda8fc6"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043011.1737127,
+      "mtime_readable": "2026-09-10 21:23:31",
+      "bytes": 3004,
+      "sha256": "f9e9f179681382643e82ee43821b7cd9ef7388de6271888a3dfcb51135e6b046"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042139.7252965,
+      "mtime_readable": "2026-09-10 21:08:59",
+      "bytes": 1903,
+      "sha256": "17e8ac0a98144a4abe017c5cb7fd8ef57daf55ee5e006c430d4f0c3b8ad4bc2a"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042320.8949091,
+      "mtime_readable": "2026-09-10 21:12:00",
+      "bytes": 1730,
+      "sha256": "b0105dc6da369fc61d1ec908ec5ddb07e18c14b8e2cad9857c60e053e2fd07b1"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B2__claude-opus-5.json",
+      "mtime": 1789042834.514946,
+      "mtime_readable": "2026-09-10 21:20:34",
+      "bytes": 2864,
+      "sha256": "e79c11672d009a7b7e922ceec7fbef07192e4e031eeeb9633d7824439a69e378"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043014.4161441,
+      "mtime_readable": "2026-09-10 21:23:34",
+      "bytes": 2935,
+      "sha256": "fbe19100b557dc0729fc1b9fce5aa6cabc269fc2c5538ef4ae948cc02d3380e2"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042137.6678581,
+      "mtime_readable": "2026-09-10 21:08:57",
+      "bytes": 1914,
+      "sha256": "7f4b6d20b79320dae68442f7fd2384eaa1926ba2acda781f71e5befc9e2428aa"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042327.249476,
+      "mtime_readable": "2026-09-10 21:12:07",
+      "bytes": 1798,
+      "sha256": "f65460c8ecda722fbd89b3bcf63208029809180addd56c06b3eae5227a4f2397"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B3__claude-opus-5.json",
+      "mtime": 1789042840.8284254,
+      "mtime_readable": "2026-09-10 21:20:40",
+      "bytes": 3056,
+      "sha256": "61c200f7fc3ca6629cf0acb8b953077032c4c7688c3418cc5e0fd853876f2fc5"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043035.7632427,
+      "mtime_readable": "2026-09-10 21:23:55",
+      "bytes": 3223,
+      "sha256": "4d9c7d3a66941a3c93f865ea3aa7945c7ac35fd40b29360b349431b388d189f9"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042158.014057,
+      "mtime_readable": "2026-09-10 21:09:18",
+      "bytes": 2209,
+      "sha256": "7c39a8e460306a217720d3e90031af3787baef2d60e1fb87faf764a5dc5cceb7"
+    },
+    {
+      "path": "data/raw/trials/sc14_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042326.4747713,
+      "mtime_readable": "2026-09-10 21:12:06",
+      "bytes": 1909,
+      "sha256": "80227bb45f31190a98ce6997ab8fb74ae99850672108b92f946f721ac52f0f77"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B1__claude-opus-5.json",
+      "mtime": 1789042843.7900743,
+      "mtime_readable": "2026-09-10 21:20:43",
+      "bytes": 2830,
+      "sha256": "25724d67eac8f2fc72399b02f472c44409b76fbc7540dbf694128f9f020a90cd"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043028.345053,
+      "mtime_readable": "2026-09-10 21:23:48",
+      "bytes": 2837,
+      "sha256": "27b4bcc7650b91d133ed414128cf10b9902c8d4cde97d5ce19e100d394cdd519"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042153.9295402,
+      "mtime_readable": "2026-09-10 21:09:13",
+      "bytes": 1994,
+      "sha256": "e780737c807d5096d048bf31d84d36b741e4c8c4c75391333ab220cdea70b09e"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042327.0490172,
+      "mtime_readable": "2026-09-10 21:12:07",
+      "bytes": 1864,
+      "sha256": "20b067fae221c5fa4a9d71cacb384a67ae8d000b4689d1c0df0dbdc2e862020c"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B2__claude-opus-5.json",
+      "mtime": 1789042849.7374747,
+      "mtime_readable": "2026-09-10 21:20:49",
+      "bytes": 2879,
+      "sha256": "a7edd96d9c0bbd0144df568ba9b90b6c2599ea407f5bf0e319b38af0a1441fd1"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043039.2822087,
+      "mtime_readable": "2026-09-10 21:23:59",
+      "bytes": 2857,
+      "sha256": "6c4132b06d7545d3cc594912c52771a1fbd6eb3e2ff5675db578ddb74356af31"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042154.165799,
+      "mtime_readable": "2026-09-10 21:09:14",
+      "bytes": 2031,
+      "sha256": "02a920aec513ead3ba000b199e0a1bec5c29eabd79ee02ae7813ef9136c273a1"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042333.7853026,
+      "mtime_readable": "2026-09-10 21:12:13",
+      "bytes": 1922,
+      "sha256": "88c46c244ff9074be574e83b4c78b03158ba62e765650dfd98b2ca762ec346d9"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B3__claude-opus-5.json",
+      "mtime": 1789042852.55803,
+      "mtime_readable": "2026-09-10 21:20:52",
+      "bytes": 2971,
+      "sha256": "fa520ebd3b2782dc010bf60e3a970e80e6a181d328dd47c7faceae3099d14d10"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043051.1442392,
+      "mtime_readable": "2026-09-10 21:24:11",
+      "bytes": 3076,
+      "sha256": "d7eed3cf8e4bfbd4b4f14f7066c29692691923654743e2c3717968f9890aa7d4"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042160.9165964,
+      "mtime_readable": "2026-09-10 21:09:20",
+      "bytes": 2111,
+      "sha256": "e9d5220f7037f2ba04a429997f0a0189b9a606310b2f1f52af925e6cc1658195"
+    },
+    {
+      "path": "data/raw/trials/sc14_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042332.8266742,
+      "mtime_readable": "2026-09-10 21:12:12",
+      "bytes": 1985,
+      "sha256": "16380f117b4858a414f4b995d9012684ec40fa74d9c64761d3b5b7db8d26c949"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B1__claude-opus-5.json",
+      "mtime": 1789042866.670056,
+      "mtime_readable": "2026-09-10 21:21:06",
+      "bytes": 2728,
+      "sha256": "6e96d0b950393fcb12bd1469d4c701c5ed9dc13b87f417388a7ece368bf3915e"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043054.8525417,
+      "mtime_readable": "2026-09-10 21:24:14",
+      "bytes": 2592,
+      "sha256": "367725373a483a972de458ef7d5fe4ceacab0c2fdd3e452fdc6b49b79173e990"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042170.526801,
+      "mtime_readable": "2026-09-10 21:09:30",
+      "bytes": 1915,
+      "sha256": "ec038f13892e38a4e0546cc7d7a831fec7b820f5ea751568ad4567adcfe9bae0"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042336.2814054,
+      "mtime_readable": "2026-09-10 21:12:16",
+      "bytes": 1814,
+      "sha256": "b8c2e7d21b0a9b9572ca7590dfcd0f67151a0b36adcf9a3353a0ca32e29d953b"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B2__claude-opus-5.json",
+      "mtime": 1789042867.110878,
+      "mtime_readable": "2026-09-10 21:21:07",
+      "bytes": 2700,
+      "sha256": "2c7025c4f8bac6d4fa3a3355d5c435e1eb8d0781cfe3357491a187b8a18b0ed4"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043063.5750482,
+      "mtime_readable": "2026-09-10 21:24:23",
+      "bytes": 2661,
+      "sha256": "a2d7f2956a4dd9d167128fa74795040a82b9810c7ae791feebb4fbb0e661a85f"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042195.9203014,
+      "mtime_readable": "2026-09-10 21:09:55",
+      "bytes": 1864,
+      "sha256": "8c92b12893b1e31aed170a290918d2327070a92201b2d3771ba2c9a412b2d198"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042343.4988995,
+      "mtime_readable": "2026-09-10 21:12:23",
+      "bytes": 1873,
+      "sha256": "c3accb12d63a78a20b5e9b55d272fb3063c84c507479b52bfc2b8a5a3600ad1f"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B3__claude-opus-5.json",
+      "mtime": 1789042884.2984433,
+      "mtime_readable": "2026-09-10 21:21:24",
+      "bytes": 3041,
+      "sha256": "cab599115e108f7bb0cf54718e8dbedc8476a2b82a2b452ef7a9c135c00e1ed6"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043068.3658414,
+      "mtime_readable": "2026-09-10 21:24:28",
+      "bytes": 2713,
+      "sha256": "3bfbc2769d9a09de7d80577ca423194a1f5aea048326a381c3627eb60b0b9e29"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042177.257572,
+      "mtime_readable": "2026-09-10 21:09:37",
+      "bytes": 2138,
+      "sha256": "08f627f7f9a78184f605f0f8f574605eb34223dbc77c3d5e77b1f0461097cc60"
+    },
+    {
+      "path": "data/raw/trials/sc15_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042344.2331448,
+      "mtime_readable": "2026-09-10 21:12:24",
+      "bytes": 1936,
+      "sha256": "48b73a1c6ceec7c121de8d7075acd2ea6b415d12519875c9598bbf1822659f86"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B1__claude-opus-5.json",
+      "mtime": 1789042875.946803,
+      "mtime_readable": "2026-09-10 21:21:15",
+      "bytes": 2684,
+      "sha256": "a72539cdcc21fb47d618476e463e29117ffd06b6ad8be774f2e3a5895b7e7552"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043080.7328687,
+      "mtime_readable": "2026-09-10 21:24:40",
+      "bytes": 2709,
+      "sha256": "5a0343e27f774f964cccf5c428bccd3004827da8fc3aa5ee81838e1caca7d179"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042181.1709895,
+      "mtime_readable": "2026-09-10 21:09:41",
+      "bytes": 1919,
+      "sha256": "2758084a5e54614ac82438bd04c2f12d2fb9b4c54df3ca9b870dc8fb0e8f9bf0"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042343.3696032,
+      "mtime_readable": "2026-09-10 21:12:23",
+      "bytes": 1743,
+      "sha256": "c0f8beb3b4dd4b61a0a05def3b7c661657595339bdfcb6c1906972bcfb572d64"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B2__claude-opus-5.json",
+      "mtime": 1789042884.8320386,
+      "mtime_readable": "2026-09-10 21:21:24",
+      "bytes": 2833,
+      "sha256": "c74ff2bef1a015ed4f9c1e7739031f6328ebc77b1003f9e73d871118ac0db802"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043093.2352066,
+      "mtime_readable": "2026-09-10 21:24:53",
+      "bytes": 3039,
+      "sha256": "8b2401bd2d636ef080bdf9facecccd9f698f95dd4c367435db8bb4ca573d898b"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042196.5486293,
+      "mtime_readable": "2026-09-10 21:09:56",
+      "bytes": 2037,
+      "sha256": "30b3a10ff0bdab685654bc32fb9edabbd6924cfd63cdd86c4f369cd77efa4c68"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042347.9300861,
+      "mtime_readable": "2026-09-10 21:12:27",
+      "bytes": 1801,
+      "sha256": "607cc42df9a472edecadc9d6066860f04f779a171cd8cf81e4ae767f68a97d31"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B3__claude-opus-5.json",
+      "mtime": 1789042897.7898786,
+      "mtime_readable": "2026-09-10 21:21:37",
+      "bytes": 3166,
+      "sha256": "72d3cbc39b891c4db349d4a910362b9e86e5db49a964d02294fa6adf5c869e7d"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043100.085096,
+      "mtime_readable": "2026-09-10 21:25:00",
+      "bytes": 3123,
+      "sha256": "b280e94262b81d943a71eae01081de1b8d1e21967345459c297056d195cd6044"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042216.0903606,
+      "mtime_readable": "2026-09-10 21:10:16",
+      "bytes": 1910,
+      "sha256": "ea3d58ae2834a4d10bcb951c38d48eff5aab5a337a49346dff22cf9e498da061"
+    },
+    {
+      "path": "data/raw/trials/sc15_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042349.6264248,
+      "mtime_readable": "2026-09-10 21:12:29",
+      "bytes": 1911,
+      "sha256": "17897a74058f314e95fd4d9658341aa8bf7dc38a459a5a0ff5004b743698ec1e"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B1__claude-opus-5.json",
+      "mtime": 1789042895.9315047,
+      "mtime_readable": "2026-09-10 21:21:35",
+      "bytes": 2818,
+      "sha256": "3aca84b4616a2030557e1597e868a737a289eba16a8a8b0ebf22560b67d4a824"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043105.326218,
+      "mtime_readable": "2026-09-10 21:25:05",
+      "bytes": 2822,
+      "sha256": "b9588d2c1f77e62277e98d6e2083d54ebeccc9474941ac5581ec32f72404af7e"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042197.7019076,
+      "mtime_readable": "2026-09-10 21:09:57",
+      "bytes": 1968,
+      "sha256": "12fb326b7a322571064c3399a3cf060d41135bcf1d67109c4648d582a8856a85"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042350.8520665,
+      "mtime_readable": "2026-09-10 21:12:30",
+      "bytes": 1866,
+      "sha256": "8308542ed28b8c2a02a7ab5393130c21a4c78fc9842975a2dc5608294202ff08"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B2__claude-opus-5.json",
+      "mtime": 1789042906.2703934,
+      "mtime_readable": "2026-09-10 21:21:46",
+      "bytes": 2929,
+      "sha256": "bbf956bde3d736aa2ebf8919e9e5107379740236debca544bd37cd0d850cfedb"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043114.776343,
+      "mtime_readable": "2026-09-10 21:25:14",
+      "bytes": 2914,
+      "sha256": "aa9b862bfcaca3e19921473f941391d9649a98471bb30bbd3719469d3050a175"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042213.990289,
+      "mtime_readable": "2026-09-10 21:10:13",
+      "bytes": 2013,
+      "sha256": "f2c3f8f87de8342d835a61a02afd63bc3c0fc19f297a12d95140c11c7a233474"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042353.2046309,
+      "mtime_readable": "2026-09-10 21:12:33",
+      "bytes": 1924,
+      "sha256": "0a9550bd334ea16a752109f930cc25eb29363de5e9af1230a7604b6c6776620f"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B3__claude-opus-5.json",
+      "mtime": 1789042906.7725477,
+      "mtime_readable": "2026-09-10 21:21:46",
+      "bytes": 2970,
+      "sha256": "cf5374d3ea80834a31cf53151a4425bdf94e0f6cadffea4894ef9e86f81b70ed"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043123.448894,
+      "mtime_readable": "2026-09-10 21:25:23",
+      "bytes": 3389,
+      "sha256": "8907f2e1085baece6ca2902b4751c5ee3aa1fe0f411b745aeecf5c95eeaaf364"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042218.7104533,
+      "mtime_readable": "2026-09-10 21:10:18",
+      "bytes": 2125,
+      "sha256": "5727643cc49d04ad14a5b208f9c5133274e84ff4d0873d569909d6832a83d38e"
+    },
+    {
+      "path": "data/raw/trials/sc15_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042355.9114878,
+      "mtime_readable": "2026-09-10 21:12:35",
+      "bytes": 1987,
+      "sha256": "4b6a1e31dd3439f10dab8a917b9473028a28967e1e7e9f0ac3f2a03cd380d86b"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B1__claude-opus-5.json",
+      "mtime": 1789042921.15363,
+      "mtime_readable": "2026-09-10 21:22:01",
+      "bytes": 2701,
+      "sha256": "18ee82598ab6c7fbc5124432e28b6797c39e64242cdc23550f8dc93a0d85ce3e"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043128.3572116,
+      "mtime_readable": "2026-09-10 21:25:28",
+      "bytes": 2672,
+      "sha256": "ef3e9b5141aadaefc36935540f779c0a0aa65d90243a2275bdfd9fc85c16922b"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042229.4540267,
+      "mtime_readable": "2026-09-10 21:10:29",
+      "bytes": 1890,
+      "sha256": "370a33a7c0c3a0a88706837d6bc6abeee494b09c6944db03ff6284a7d8fd4a35"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042362.7331526,
+      "mtime_readable": "2026-09-10 21:12:42",
+      "bytes": 1818,
+      "sha256": "81be83cb0f9d58dc48a0bbbee12afcd44152186732936b4b34512a47322e1b7f"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B2__claude-opus-5.json",
+      "mtime": 1789042920.651535,
+      "mtime_readable": "2026-09-10 21:22:00",
+      "bytes": 2696,
+      "sha256": "dc55846d1ab1809f87370a2ae3e70435b4e60fbd394eccda572ad4241a25f30a"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043154.0940819,
+      "mtime_readable": "2026-09-10 21:25:54",
+      "bytes": 2653,
+      "sha256": "1bccb296a7a26ce5c58c5065c808054f13d75b369e13650dffc5b72ee6e889bf"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042230.2922633,
+      "mtime_readable": "2026-09-10 21:10:30",
+      "bytes": 1866,
+      "sha256": "e6853d2ce21da08b0d9faf8e5b125164fdf14646450a6f39f3016d0564b5ee7a"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042364.5289571,
+      "mtime_readable": "2026-09-10 21:12:44",
+      "bytes": 1876,
+      "sha256": "1de5d887427c5121ab61c3972c5a25d012107a7bd8e61569c3873ccf348cf1cd"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B3__claude-opus-5.json",
+      "mtime": 1789042935.6977427,
+      "mtime_readable": "2026-09-10 21:22:15",
+      "bytes": 2901,
+      "sha256": "629a0d8d12b00a61f5e8b5bf5ee90a9894a2c4442438ba143dad8a8afe4b20f4"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043140.7235272,
+      "mtime_readable": "2026-09-10 21:25:40",
+      "bytes": 2716,
+      "sha256": "0900e805007acab705d0f363437379b969744b97cad141636aeb3b2f697e708e"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042230.9920032,
+      "mtime_readable": "2026-09-10 21:10:30",
+      "bytes": 2029,
+      "sha256": "e30fb28e24d3f6a1286a900ca2429a9a6aca0ac946b7a05441df5c1806ed459a"
+    },
+    {
+      "path": "data/raw/trials/sc16_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042373.634189,
+      "mtime_readable": "2026-09-10 21:12:53",
+      "bytes": 1939,
+      "sha256": "a02f7668802d55c8a8bb57d501d12c212ac4e7a24a68550be8185bb7f8dc9ca2"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B1__claude-opus-5.json",
+      "mtime": 1789042928.8558276,
+      "mtime_readable": "2026-09-10 21:22:08",
+      "bytes": 2641,
+      "sha256": "71dad26e4f0c1b066a956572b54235a7e27de39432168d8e71af42acfcf3d97e"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043154.4930952,
+      "mtime_readable": "2026-09-10 21:25:54",
+      "bytes": 2661,
+      "sha256": "0aead390e2a20e51c3db6851da70d84931351459a0e718cf30585cee0008baca"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042244.4668355,
+      "mtime_readable": "2026-09-10 21:10:44",
+      "bytes": 1931,
+      "sha256": "46af5102d63ff1741352e251d6fff92c44c007f222bfeda1d053523231d389b2"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042368.755796,
+      "mtime_readable": "2026-09-10 21:12:48",
+      "bytes": 1746,
+      "sha256": "1e4ab3d53b5385a633101deb2c635826b02c27bf44940c1383e515d42bbebf54"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B2__claude-opus-5.json",
+      "mtime": 1789042938.6477137,
+      "mtime_readable": "2026-09-10 21:22:18",
+      "bytes": 2811,
+      "sha256": "1f704641e88e8cb3dc727ad814c6845817b03f179bced0cf93ca1578f3dd3e59"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043166.569937,
+      "mtime_readable": "2026-09-10 21:26:06",
+      "bytes": 2826,
+      "sha256": "54b9b9e8c7cd2c8bac4c817641454c3a23279445329686b00e9628e59ed36003"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042261.1814485,
+      "mtime_readable": "2026-09-10 21:11:01",
+      "bytes": 1939,
+      "sha256": "7fefcb01b656d012c2d198fdb4d23723565b5e6972c5a6e3fd7cab7f63ef687a"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042370.475032,
+      "mtime_readable": "2026-09-10 21:12:50",
+      "bytes": 1804,
+      "sha256": "6cb561c71b1d46497368ef0c9ee88921e24bed4110092c03e7f1300c72119f41"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B3__claude-opus-5.json",
+      "mtime": 1789042947.6651416,
+      "mtime_readable": "2026-09-10 21:22:27",
+      "bytes": 3219,
+      "sha256": "b3e24fe1a042233126feb61aa40f0247ecadfe98161e5f882df37b8d33731273"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043176.3076766,
+      "mtime_readable": "2026-09-10 21:26:16",
+      "bytes": 3360,
+      "sha256": "7c2ce8e93fc43bd9ca6360c0b19ba2f745dd15c6b5325d92c7c6dc3a87ca92d9"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042255.5741844,
+      "mtime_readable": "2026-09-10 21:10:55",
+      "bytes": 2255,
+      "sha256": "c194a126f33e67f957b8e0c1b86001cd0ffbfb8cc156827b21d978c4990e1cf3"
+    },
+    {
+      "path": "data/raw/trials/sc16_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042374.5445354,
+      "mtime_readable": "2026-09-10 21:12:54",
+      "bytes": 1901,
+      "sha256": "2d5aa95e21e88959692213814ca3cfab9d01c2bdc6c61ebfdc594f466dead948"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B1__claude-opus-5.json",
+      "mtime": 1789042947.0403826,
+      "mtime_readable": "2026-09-10 21:22:27",
+      "bytes": 2793,
+      "sha256": "471514fe0d01c26f24e059865db653166a6e64dd542861aaa9acc2f040f07717"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043178.8784864,
+      "mtime_readable": "2026-09-10 21:26:18",
+      "bytes": 2706,
+      "sha256": "b31a70c91ece39a82c6d911537a0e4850365f97e4231a872b2353b85d438ed34"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042251.4465008,
+      "mtime_readable": "2026-09-10 21:10:51",
+      "bytes": 2041,
+      "sha256": "d739918a941035696d53c36360b55d7a1ac771f9c738fe4e1004c16cf03dcd52"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042377.554424,
+      "mtime_readable": "2026-09-10 21:12:57",
+      "bytes": 1874,
+      "sha256": "425878a97c8a98c9efcc3106b19ae256906371f9ec79f5bfa9af20a9e2ad9d09"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B2__claude-opus-5.json",
+      "mtime": 1789042955.8588884,
+      "mtime_readable": "2026-09-10 21:22:35",
+      "bytes": 2898,
+      "sha256": "ae5c95658369f0e0879c0a450d831f7ed2c45b095404181bdd3999242ed51eb9"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043199.9687183,
+      "mtime_readable": "2026-09-10 21:26:39",
+      "bytes": 3084,
+      "sha256": "e8576535858bb8ec6f1f95c2e1fe6554136facdb011e7c68f063e351e5fb96b6"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042266.384068,
+      "mtime_readable": "2026-09-10 21:11:06",
+      "bytes": 2091,
+      "sha256": "c1bc1034e691308e8725ad05354a69cfaef32e3feccfddc42f8f8fe1e9c5bbd0"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042379.8852985,
+      "mtime_readable": "2026-09-10 21:12:59",
+      "bytes": 1920,
+      "sha256": "30b25390df29e8e434837ac9b0c8b6677d5d06bc3772539b810fae0c84eabc47"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B3__claude-opus-5.json",
+      "mtime": 1789042956.8024726,
+      "mtime_readable": "2026-09-10 21:22:36",
+      "bytes": 2978,
+      "sha256": "3f1da6b1eb4b83acf543dfaf1fdf4e82d6372a132fbea9dde3b4d56a508aca58"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043200.0936944,
+      "mtime_readable": "2026-09-10 21:26:40",
+      "bytes": 3329,
+      "sha256": "e73e645deab3fad281a7d04ab4d90b4d92fc444e4833725ef0b250766b087dea"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042268.8896136,
+      "mtime_readable": "2026-09-10 21:11:08",
+      "bytes": 2108,
+      "sha256": "25cc5fb51d3af0660304cb46bf08db7798dd091d6f20fe4157b108a3f3d7ca1a"
+    },
+    {
+      "path": "data/raw/trials/sc16_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042380.8543892,
+      "mtime_readable": "2026-09-10 21:13:00",
+      "bytes": 1995,
+      "sha256": "f95fe769530e6883dbeade8e778d030178f38b6c5b7c0edcc37d84273e386a58"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B1__claude-opus-5.json",
+      "mtime": 1789042970.6835947,
+      "mtime_readable": "2026-09-10 21:22:50",
+      "bytes": 2732,
+      "sha256": "ed9f5c3df2f9482fdd36b07ec2d2692b69b115d8196575f0e0ce8ab006de4a41"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043214.7529552,
+      "mtime_readable": "2026-09-10 21:26:54",
+      "bytes": 2600,
+      "sha256": "03a2720814a997c67bc5cbe3d8a2d83585bb377d9682841b5a52f6fce8c4e71e"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042271.7019382,
+      "mtime_readable": "2026-09-10 21:11:11",
+      "bytes": 1881,
+      "sha256": "e22bd86bccbae10a470c7673b89149a301b77a05f2bbf0191df11b0ab5465917"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042387.0292337,
+      "mtime_readable": "2026-09-10 21:13:07",
+      "bytes": 1822,
+      "sha256": "806433db06fb5f86ae450e7a5f4bf2f2b4f405dfc09cb5dd55bc0bc564308c81"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B2__claude-opus-5.json",
+      "mtime": 1789042971.5902214,
+      "mtime_readable": "2026-09-10 21:22:51",
+      "bytes": 2708,
+      "sha256": "0bcfaa220b64de844acb261f1673c251e7ae57a36054474f555e57b1a9c1ee7a"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043213.928198,
+      "mtime_readable": "2026-09-10 21:26:53",
+      "bytes": 2746,
+      "sha256": "7ae8cedf07c76039f2f1d80b404710a5bbaf8bf3fb7c1ee00c27f63b0e853b85"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042279.6040554,
+      "mtime_readable": "2026-09-10 21:11:19",
+      "bytes": 1936,
+      "sha256": "63850b84e9451d016dfdf53395b523933559852809e498d9c0cc6177ac5de842"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042390.57837,
+      "mtime_readable": "2026-09-10 21:13:10",
+      "bytes": 1881,
+      "sha256": "21014b9eaf0647926b9ec1cae73b48c02af3689419634121f0e568f69fba38f4"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B3__claude-opus-5.json",
+      "mtime": 1789042985.2070973,
+      "mtime_readable": "2026-09-10 21:23:05",
+      "bytes": 2834,
+      "sha256": "6c6b62562cf38ac576c7b97d8579c37d24c4a37f696f6cd1be28b7865f6f4281"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043227.4679701,
+      "mtime_readable": "2026-09-10 21:27:07",
+      "bytes": 2721,
+      "sha256": "7f837b92810fd60fbad0ea4abe801b92baeb6d67f2a576fae6e508094143cccd"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042283.8783674,
+      "mtime_readable": "2026-09-10 21:11:23",
+      "bytes": 1935,
+      "sha256": "530f9cc127006f6eadc3e35632b63856552e19806d8cbb1f75355596ad19f0cc"
+    },
+    {
+      "path": "data/raw/trials/sc17_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042394.4211845,
+      "mtime_readable": "2026-09-10 21:13:14",
+      "bytes": 1944,
+      "sha256": "bd5c71b40c38bce8c412d32984282c5eda686cba3c10b8d692514b605e2232b1"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B1__claude-opus-5.json",
+      "mtime": 1789042980.271352,
+      "mtime_readable": "2026-09-10 21:23:00",
+      "bytes": 2707,
+      "sha256": "184f1c62b2db3b17d98986d62bb13d753da8dd106e04724d7def82b015073d29"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043232.5553305,
+      "mtime_readable": "2026-09-10 21:27:12",
+      "bytes": 3026,
+      "sha256": "ebbc07c4b2d4a592ad94669607114cf46c74b67f6fc0acd3013debc160e6fe44"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042288.7483509,
+      "mtime_readable": "2026-09-10 21:11:28",
+      "bytes": 1899,
+      "sha256": "182725826f7b90404065c62274c6d6b357d053ab4cb6ee2ba3a939c314fb3686"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042392.2135854,
+      "mtime_readable": "2026-09-10 21:13:12",
+      "bytes": 1798,
+      "sha256": "8500625559cae9033a828abbfee620364a3d33b8be4be3c9c08377af505dc488"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B2__claude-opus-5.json",
+      "mtime": 1789042989.87747,
+      "mtime_readable": "2026-09-10 21:23:09",
+      "bytes": 2897,
+      "sha256": "4312b69515a86470d3b8192bebb467061f5c399169bc00f39792eec33ddbc2a0"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043240.9620516,
+      "mtime_readable": "2026-09-10 21:27:20",
+      "bytes": 2975,
+      "sha256": "95def2c9f45e052cbb5e1aff2fe99ae0be1d30dbde952c477ca5b7b30c3c0272"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042288.9108953,
+      "mtime_readable": "2026-09-10 21:11:28",
+      "bytes": 1969,
+      "sha256": "6a971d980e1cea09f74fea73f518e38b9c0e75723c5c16767d1b789bcfeb1508"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042395.9243495,
+      "mtime_readable": "2026-09-10 21:13:15",
+      "bytes": 1809,
+      "sha256": "47bfbfa2be57ad25b3f4e97e011bcab747e90f584b2367cd6c865d97883f18bb"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B3__claude-opus-5.json",
+      "mtime": 1789042996.0629482,
+      "mtime_readable": "2026-09-10 21:23:16",
+      "bytes": 3136,
+      "sha256": "c8d445824ea76c39c603b282bddce82e8830d1703f199fe88d61a9f29828df6a"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043256.2593167,
+      "mtime_readable": "2026-09-10 21:27:36",
+      "bytes": 3440,
+      "sha256": "aea91bb0c825e3fe74584334108ab7d511c1e314a0206bf3974924989cdd90d4"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042303.567249,
+      "mtime_readable": "2026-09-10 21:11:43",
+      "bytes": 1920,
+      "sha256": "283af0284a66682cf42a2703cb0e17296c320e2cb269ecbff515f11eb87ff041"
+    },
+    {
+      "path": "data/raw/trials/sc17_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042397.9482088,
+      "mtime_readable": "2026-09-10 21:13:17",
+      "bytes": 1919,
+      "sha256": "b62d573410cbb3ddf10eda91f5f5edf21eddb3737c4e2c4c95dde093343681d8"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B1__claude-opus-5.json",
+      "mtime": 1789042998.4434135,
+      "mtime_readable": "2026-09-10 21:23:18",
+      "bytes": 2770,
+      "sha256": "c8d92602d8e00ef8af0aaa75ff9a1aaf4968952fd062666ba7703fb94d3827bf"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043255.649707,
+      "mtime_readable": "2026-09-10 21:27:35",
+      "bytes": 2786,
+      "sha256": "3fb9b8325b62034d112db3aae0d0b89614a07770d7d63a44ec5eb1381589ee86"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042298.8427637,
+      "mtime_readable": "2026-09-10 21:11:38",
+      "bytes": 1976,
+      "sha256": "021b6578d42958973ecc5e67dd6442194ee67ba10172b4faf088a60c5ad2b78d"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042401.583443,
+      "mtime_readable": "2026-09-10 21:13:21",
+      "bytes": 1874,
+      "sha256": "0b503dfd7c95fec61d1a26e4ce6c8c836e66f333dc28ec1a52e74cce02d23d1e"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B2__claude-opus-5.json",
+      "mtime": 1789043007.7820985,
+      "mtime_readable": "2026-09-10 21:23:27",
+      "bytes": 3018,
+      "sha256": "2a2b0eda46efdc93ad4e8949377bc7dfcaf4ae5b8d5613759e205a221e9b403c"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043269.239495,
+      "mtime_readable": "2026-09-10 21:27:49",
+      "bytes": 2870,
+      "sha256": "16fbe7f5b91336405994551d31d7c9cd751273e7390c86b1927cc7c537e7d84f"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042304.6550658,
+      "mtime_readable": "2026-09-10 21:11:44",
+      "bytes": 2016,
+      "sha256": "25aea58128c6b40f94d22c8441a30d4ceb37b4a5af74562a3c2980221dddf338"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042402.0563705,
+      "mtime_readable": "2026-09-10 21:13:22",
+      "bytes": 1932,
+      "sha256": "3b645c0c5c797c6505bad70bf5c7500b9a8959ee083f31656630b3c4af920f02"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B3__claude-opus-5.json",
+      "mtime": 1789043008.3326976,
+      "mtime_readable": "2026-09-10 21:23:28",
+      "bytes": 2965,
+      "sha256": "a3b8c56eb3d2d1354246ade69e9346eb6da2574b0ea3461e5d6ee413368ad413"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043286.5218236,
+      "mtime_readable": "2026-09-10 21:28:06",
+      "bytes": 3689,
+      "sha256": "a0d8415d138825fe21d1204f8dc8f4bc840d6f3192cca3cc920afed1298892d6"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042315.2068558,
+      "mtime_readable": "2026-09-10 21:11:55",
+      "bytes": 2126,
+      "sha256": "ad8162c2c25a9fa29cc098e285f9731e8d9b25e96a081eeae28a105c115fed6f"
+    },
+    {
+      "path": "data/raw/trials/sc17_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042406.4543633,
+      "mtime_readable": "2026-09-10 21:13:26",
+      "bytes": 1994,
+      "sha256": "142ca2d95f391f15fff57c7cb301840a9b2929ee03fce103463c3218b39accb5"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B1__claude-opus-5.json",
+      "mtime": 1789043022.1732476,
+      "mtime_readable": "2026-09-10 21:23:42",
+      "bytes": 2718,
+      "sha256": "503fd83a88aef84e5494813852aa5fdd6809f0a182fab7587779fee7eb07ac78"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043291.8068414,
+      "mtime_readable": "2026-09-10 21:28:11",
+      "bytes": 2673,
+      "sha256": "c186161c8103a581162fe260e24239189f1ed7fd7be5907dd85abcdfc7bd69a4"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042320.7178771,
+      "mtime_readable": "2026-09-10 21:12:00",
+      "bytes": 1909,
+      "sha256": "cf3ab943aa02eebd63fa42f73186a034ab523ec76aad2f79387536b04c0c112b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042415.2691154,
+      "mtime_readable": "2026-09-10 21:13:35",
+      "bytes": 1816,
+      "sha256": "0156c816d2c3e6a467005438e85995ad1f8b4f6bf66aba01bb6fde4070c4888b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B2__claude-opus-5.json",
+      "mtime": 1789043023.4758472,
+      "mtime_readable": "2026-09-10 21:23:43",
+      "bytes": 2701,
+      "sha256": "c2a6deba7795add0aace6dddc37435acc30b13bb71caf8b86f27a386dcac1813"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043301.972055,
+      "mtime_readable": "2026-09-10 21:28:21",
+      "bytes": 2739,
+      "sha256": "5bb4e7da0acf4e4be6a83074bca2fcb9d65c0d8c79da437035eafb598591d0d0"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042322.711111,
+      "mtime_readable": "2026-09-10 21:12:02",
+      "bytes": 1986,
+      "sha256": "aed45ce9e24b60538e051b3ac677ebb2d5c3af63121622f02a9a28d3550ee32b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042412.2510924,
+      "mtime_readable": "2026-09-10 21:13:32",
+      "bytes": 1874,
+      "sha256": "d5651e481c3a1a6e40c5cb8079d0542831f3d1f5116fc921f1267051f21c1f4b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B3__claude-opus-5.json",
+      "mtime": 1789043035.792388,
+      "mtime_readable": "2026-09-10 21:23:55",
+      "bytes": 2884,
+      "sha256": "bf80ad557ecff0662fc7121456fbc5dad433110552001163799b449c22c6bd9d"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043309.1471343,
+      "mtime_readable": "2026-09-10 21:28:29",
+      "bytes": 2918,
+      "sha256": "ae7708911aa7aaddddf39b6046bcff8ec3828b0247f73f3e939151c4a24d6c0b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042322.9781556,
+      "mtime_readable": "2026-09-10 21:12:02",
+      "bytes": 1928,
+      "sha256": "d4029b4770bf35d74a56157da8e1a9cb274efee1324cc60a83f7cdf29657c763"
+    },
+    {
+      "path": "data/raw/trials/sc18_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042419.6476233,
+      "mtime_readable": "2026-09-10 21:13:39",
+      "bytes": 1937,
+      "sha256": "cafa5b755b891618e74c6af30da5eff83161f9861ca05e092f272d8259c9bcec"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B1__claude-opus-5.json",
+      "mtime": 1789043031.254488,
+      "mtime_readable": "2026-09-10 21:23:51",
+      "bytes": 2617,
+      "sha256": "03539694d6e7d08f5c502a0f31e877d1da572586558e410247fdeb276012d4b2"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043341.0000243,
+      "mtime_readable": "2026-09-10 21:29:01",
+      "bytes": 3143,
+      "sha256": "1584771b5ca6566e38526af820621725bd7532a071a75e482e16a6c28dec6966"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042343.3173552,
+      "mtime_readable": "2026-09-10 21:12:23",
+      "bytes": 1890,
+      "sha256": "4aa1402eccf68a8b0a4b27ebbafe85da8332d7c6031bc2ce3b22ad9e367d669e"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042417.3876383,
+      "mtime_readable": "2026-09-10 21:13:37",
+      "bytes": 1744,
+      "sha256": "a8d5bdfec688d69312f393181e12ea7b6f752d55eac782518dbdc646b7e8579d"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B2__claude-opus-5.json",
+      "mtime": 1789043039.5783577,
+      "mtime_readable": "2026-09-10 21:23:59",
+      "bytes": 2820,
+      "sha256": "38fcfff6d50f153b63d8b2ff4edbe2eb71dce67f7064fa400fd05bbf06ff6808"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043322.2319899,
+      "mtime_readable": "2026-09-10 21:28:42",
+      "bytes": 2749,
+      "sha256": "f320689ec4876508f72b1d23802f962dd602cf3c781bed491f2d30af80bcf7a9"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042347.6914294,
+      "mtime_readable": "2026-09-10 21:12:27",
+      "bytes": 1830,
+      "sha256": "b8f0b23b6b7315b62c10da1ff2859403a3d4487b72071c1ea4d07c6e29a1ecc9"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042423.2052689,
+      "mtime_readable": "2026-09-10 21:13:43",
+      "bytes": 1792,
+      "sha256": "22152720af179326ced620ebbe66f014d04838c65d7ffb005cb0c0b4fb9ba721"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B3__claude-opus-5.json",
+      "mtime": 1789043046.3140302,
+      "mtime_readable": "2026-09-10 21:24:06",
+      "bytes": 3072,
+      "sha256": "eb7fba10c542b44a04ec423fbf857760e390093ced3f7d6bbaf333d9059670c6"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043342.1438782,
+      "mtime_readable": "2026-09-10 21:29:02",
+      "bytes": 3090,
+      "sha256": "66238fd3c7996ab56a765de78c2a5bea723def84864b87d25a17c9fcbbee9ffa"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042348.899407,
+      "mtime_readable": "2026-09-10 21:12:28",
+      "bytes": 1913,
+      "sha256": "a2da82ea3222063a7fb785cca088d9dc856b8195f7923a65635827555870cff2"
+    },
+    {
+      "path": "data/raw/trials/sc18_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042423.278339,
+      "mtime_readable": "2026-09-10 21:13:43",
+      "bytes": 1912,
+      "sha256": "95346f66bdf73bdd685e7363dedb6f7b8b5b9a816a1f5226fdefb2611ee8ab27"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B1__claude-opus-5.json",
+      "mtime": 1789043047.922008,
+      "mtime_readable": "2026-09-10 21:24:07",
+      "bytes": 2763,
+      "sha256": "2a4a18c4d386c9b7eed776c2c80d18986cc471077afe121dbc98e43a45fc4727"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043353.033342,
+      "mtime_readable": "2026-09-10 21:29:13",
+      "bytes": 2735,
+      "sha256": "b709f5bd41d347a563cab5c8a912dc2c551f5bf5b6e8c4a09e1d5a2b2cde06ea"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042342.0934036,
+      "mtime_readable": "2026-09-10 21:12:22",
+      "bytes": 2023,
+      "sha256": "b4a89f85cbefbe77fb0aa4043509e2f33cb127b8321789f44eaaec225e3b5ddc"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042427.784032,
+      "mtime_readable": "2026-09-10 21:13:47",
+      "bytes": 1867,
+      "sha256": "5b3022b89f3ad8eaea36a6efeaa48edb742db07bdc05d99736766d874e8ba08d"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B2__claude-opus-5.json",
+      "mtime": 1789043055.437096,
+      "mtime_readable": "2026-09-10 21:24:15",
+      "bytes": 2890,
+      "sha256": "a0670c7df32dde4f52564ac5b17bf7e415d1507216b808d10debcd6438c59d2d"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043357.7362387,
+      "mtime_readable": "2026-09-10 21:29:17",
+      "bytes": 2931,
+      "sha256": "4d62c09aa4cfb7bed15289513fdec55fb8d33c5264f9dd8d1e257106a3485cbf"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042389.2623158,
+      "mtime_readable": "2026-09-10 21:13:09",
+      "bytes": 2018,
+      "sha256": "397096e9f1d8b74a58766360ad116a3f9738bdfaa85e31f4702e5d72648c0e47"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042429.3089523,
+      "mtime_readable": "2026-09-10 21:13:49",
+      "bytes": 1924,
+      "sha256": "fb79a0e750c4915d9f90716b8f4c1cd0c779036171296802f860a2fd3203dddd"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B3__claude-opus-5.json",
+      "mtime": 1789043058.270023,
+      "mtime_readable": "2026-09-10 21:24:18",
+      "bytes": 3038,
+      "sha256": "26b03c0b12e875ea6f73fa38f178ccf773eadf3c282f96e381b71ea1f3bf3735"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043375.5672114,
+      "mtime_readable": "2026-09-10 21:29:35",
+      "bytes": 3627,
+      "sha256": "203faab604c3992923c3ec0dfd154532197e0734ae2ca2abb68cb8b911f8538b"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042357.9067187,
+      "mtime_readable": "2026-09-10 21:12:37",
+      "bytes": 2146,
+      "sha256": "b796f4f801b2e78a48f72793ee12639fdcfa2d2c43d7783ca19805f645b52ef5"
+    },
+    {
+      "path": "data/raw/trials/sc18_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042430.9919062,
+      "mtime_readable": "2026-09-10 21:13:50",
+      "bytes": 1988,
+      "sha256": "7a4c287e70eb2486488a95e2f64c3bb083b75820c9be42fa31a6ecb1b4917e07"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B1__claude-opus-5.json",
+      "mtime": 1789043069.3165457,
+      "mtime_readable": "2026-09-10 21:24:29",
+      "bytes": 2728,
+      "sha256": "9b384c882ba6a47820528f7d3c572c5b0a323ab78c59cabc5fe4db83442e63c6"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043373.8285353,
+      "mtime_readable": "2026-09-10 21:29:33",
+      "bytes": 2688,
+      "sha256": "c7f3f833ff0b5b8fc5f481bd02df3c6b21b759284fd51a3336080bce38d1ba5d"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042365.5280066,
+      "mtime_readable": "2026-09-10 21:12:45",
+      "bytes": 1815,
+      "sha256": "8320129c2e8b9b6fe846fc653bf239314545202ea16381c0c1ac55415ccbea37"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042433.991703,
+      "mtime_readable": "2026-09-10 21:13:53",
+      "bytes": 1822,
+      "sha256": "04e19277d1fb5a49c12adf231368b3e7174ad7a388eebdae8e033ebf79a5ee61"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B2__claude-opus-5.json",
+      "mtime": 1789043072.1132438,
+      "mtime_readable": "2026-09-10 21:24:32",
+      "bytes": 2718,
+      "sha256": "783c2cc176ddc1d9eb690d416a5a7ae296c5152d1a04f2773dd24fedf5adc5b4"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043406.230261,
+      "mtime_readable": "2026-09-10 21:30:06",
+      "bytes": 2735,
+      "sha256": "c3562b266aa0b79cd20328f9b75f0f947aedc01ba87e01561cd651509891cdac"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042374.0551097,
+      "mtime_readable": "2026-09-10 21:12:54",
+      "bytes": 2031,
+      "sha256": "3f1aafe3959f10c86ebb4f06be31a99fbab83438634b963de595399f0dd8c37d"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042435.9401402,
+      "mtime_readable": "2026-09-10 21:13:55",
+      "bytes": 1880,
+      "sha256": "ed0a9c3d2d58e6ad466c9fac11996cf978f63fdb7b9bd435f0e3058fccba6ae1"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B3__claude-opus-5.json",
+      "mtime": 1789043083.5715327,
+      "mtime_readable": "2026-09-10 21:24:43",
+      "bytes": 2986,
+      "sha256": "4a302c126a8cb8821936704c08545ae609d8a607ef0118071cb326b9150076d2"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043390.5981507,
+      "mtime_readable": "2026-09-10 21:29:50",
+      "bytes": 2798,
+      "sha256": "bd9112e66bd9286677e329b68bdd9490a2b6f9002288c248266793befd98ea24"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042375.5666866,
+      "mtime_readable": "2026-09-10 21:12:55",
+      "bytes": 2002,
+      "sha256": "a09139c3e72a2132096ca7c1dba905daf9abec991d155f0a30cecd6b2b6154cb"
+    },
+    {
+      "path": "data/raw/trials/sc19_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042443.446372,
+      "mtime_readable": "2026-09-10 21:14:03",
+      "bytes": 1944,
+      "sha256": "1353e0bbaab2c25933fe19405f76c03ec6021c2fd73094f52a8125e31ad366eb"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B1__claude-opus-5.json",
+      "mtime": 1789043079.70112,
+      "mtime_readable": "2026-09-10 21:24:39",
+      "bytes": 2634,
+      "sha256": "36a675233985ecd62b43d4a2e96c53e1c0598db3123abe3e20a31a2dc922806d"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043407.7410376,
+      "mtime_readable": "2026-09-10 21:30:07",
+      "bytes": 2698,
+      "sha256": "4e8195a29f6868b14cada77275fbf58d3fd44ced3f10135562ada4b84a7782f3"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042389.941319,
+      "mtime_readable": "2026-09-10 21:13:09",
+      "bytes": 1956,
+      "sha256": "2afb2cb9a814f7f85b522ae19690a5bb78a9e97bbd6545578b4e8cf789748b31"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042439.4547236,
+      "mtime_readable": "2026-09-10 21:13:59",
+      "bytes": 1741,
+      "sha256": "131a133b4f4deff43c569a673b32117316e81c6f92f49d512de6f5e1cdf932da"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B2__claude-opus-5.json",
+      "mtime": 1789043089.467559,
+      "mtime_readable": "2026-09-10 21:24:49",
+      "bytes": 2943,
+      "sha256": "a57cbea6703dbd7b4adf9b3b3b19cdb9a4db6ee4e71c4987737e06f697a82df1"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043419.4025843,
+      "mtime_readable": "2026-09-10 21:30:19",
+      "bytes": 2922,
+      "sha256": "94aecab15daa52191d11eeb194409ad0e155aa63055d3d5b5b19cc3e87827668"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042400.4697583,
+      "mtime_readable": "2026-09-10 21:13:20",
+      "bytes": 2021,
+      "sha256": "74ca6ef1c2fafe2cb5bcbeca2c37da3610a99cfd67c190bab88d09ae4cf55a21"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042441.5690136,
+      "mtime_readable": "2026-09-10 21:14:01",
+      "bytes": 1856,
+      "sha256": "5e6fb96a4e98108af3a9c18841be941c51b357b67850ee13e13ebcc444b675e3"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B3__claude-opus-5.json",
+      "mtime": 1789043093.001504,
+      "mtime_readable": "2026-09-10 21:24:53",
+      "bytes": 3002,
+      "sha256": "54eeeede4adcfc5620b852d86de14edb2336b591a540e68bd58c6c5032d3e715"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043426.324767,
+      "mtime_readable": "2026-09-10 21:30:26",
+      "bytes": 3005,
+      "sha256": "18d599124cde627a6b25b51c0e5b7e6ddae54dcaeddb2d2923c6850877bcd2a3"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042398.8897264,
+      "mtime_readable": "2026-09-10 21:13:18",
+      "bytes": 2294,
+      "sha256": "7b6a0b36aac0873852fdaef357a06e5006dcbb0a3eb38fb77497d2f3a5a3899d"
+    },
+    {
+      "path": "data/raw/trials/sc19_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042445.337156,
+      "mtime_readable": "2026-09-10 21:14:05",
+      "bytes": 1940,
+      "sha256": "08325e2062d5364195bc171876c612ea2fce6849e2694071075154b585964a32"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B1__claude-opus-5.json",
+      "mtime": 1789043097.846536,
+      "mtime_readable": "2026-09-10 21:24:57",
+      "bytes": 2777,
+      "sha256": "8a28257844ef639e11a286aa77dabf269e2e3e131bbedd8ec58f9263fd6acae8"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043429.7400825,
+      "mtime_readable": "2026-09-10 21:30:29",
+      "bytes": 2803,
+      "sha256": "6da0fde8f5a8661a5646fc99547c9bbb2956cd1883481bcdcadbb7f68ebdbd49"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042403.9340544,
+      "mtime_readable": "2026-09-10 21:13:23",
+      "bytes": 1996,
+      "sha256": "9e670ef281e9afb0dd92fd03fde57e89617f7677eb388bbb2d2abdbd0079514b"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042447.190562,
+      "mtime_readable": "2026-09-10 21:14:07",
+      "bytes": 1874,
+      "sha256": "62da0a551fa3a9d583729f6c7c407534554f6968c15c66e19792707fa75ad613"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B2__claude-opus-5.json",
+      "mtime": 1789043102.7747297,
+      "mtime_readable": "2026-09-10 21:25:02",
+      "bytes": 2954,
+      "sha256": "51704cb1f70b3e36c24b94066273657c15a9d93501dfbafb80dbc938f5f2cc8c"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043437.1567276,
+      "mtime_readable": "2026-09-10 21:30:37",
+      "bytes": 2948,
+      "sha256": "4f056499aca6123df92cd23ec3c6ac0c428e957f8e45d9bcf3f6495ea9bfb692"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042404.9261878,
+      "mtime_readable": "2026-09-10 21:13:24",
+      "bytes": 2022,
+      "sha256": "d77cee98a6d07ce04a68e7a2f443b7e62c819c7075bae278163272cdac2bd7f2"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042449.2166035,
+      "mtime_readable": "2026-09-10 21:14:09",
+      "bytes": 1932,
+      "sha256": "2955b85fbf69ef525d9d83e54508e8671fb15c079cd73f5dadc0e2503a304022"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B3__claude-opus-5.json",
+      "mtime": 1789043108.186677,
+      "mtime_readable": "2026-09-10 21:25:08",
+      "bytes": 3043,
+      "sha256": "497c85cda4658dcdb6b01c54c1208a7bf83b582e29e5b124c7a299e8fd5dce83"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043444.5663702,
+      "mtime_readable": "2026-09-10 21:30:44",
+      "bytes": 2991,
+      "sha256": "ab4e42deca10b1184bdbddce77a7413bff6bc2e40bc61d2059f485daf9b7f663"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042419.8859768,
+      "mtime_readable": "2026-09-10 21:13:39",
+      "bytes": 2121,
+      "sha256": "cbd1eaff76ed28edc9e16545eaefecfe46e5ea9d11b2cd72dae6f918abd81380"
+    },
+    {
+      "path": "data/raw/trials/sc19_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042450.7509913,
+      "mtime_readable": "2026-09-10 21:14:10",
+      "bytes": 1995,
+      "sha256": "9bdf6c45d2152ebc10fbfa3b8e48754b0b8ad59b4a710070400b941b7316420e"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B1__claude-opus-5.json",
+      "mtime": 1789043119.463072,
+      "mtime_readable": "2026-09-10 21:25:19",
+      "bytes": 2712,
+      "sha256": "da3d40d67df1ddc3365326cc10bfc86bbc9627c70a67c83915bb39c766fefc42"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B1__claude-sonnet-5.json",
+      "mtime": 1789043452.083663,
+      "mtime_readable": "2026-09-10 21:30:52",
+      "bytes": 2763,
+      "sha256": "172691ce809b0fb7c340fb4b49099c766ded63dae6917c1ed141a8ca21db4572"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042414.8220682,
+      "mtime_readable": "2026-09-10 21:13:34",
+      "bytes": 1873,
+      "sha256": "22eb2c4f653b30b5b85d8bab1d12ac83e0d2cdbbc693dceae00d8e3a34ad989c"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B1__gpt-5.6-sol.json",
+      "mtime": 1789042460.0666432,
+      "mtime_readable": "2026-09-10 21:14:20",
+      "bytes": 1815,
+      "sha256": "0556847d964b60612d8c9c5ffba6ec681a1592d34e5069b24501c3f671861d3a"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B2__claude-opus-5.json",
+      "mtime": 1789043123.7989936,
+      "mtime_readable": "2026-09-10 21:25:23",
+      "bytes": 2710,
+      "sha256": "d04b2230f0e7bc19f377c5e7b8e1ee312d27c6b17a92118ae94935c42fa4b72a"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B2__claude-sonnet-5.json",
+      "mtime": 1789043477.3794413,
+      "mtime_readable": "2026-09-10 21:31:17",
+      "bytes": 2833,
+      "sha256": "78a7496f1136c6e2d5d0fd217a9835de7b7962dbc9343ec8454b33027be298c6"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042420.875602,
+      "mtime_readable": "2026-09-10 21:13:40",
+      "bytes": 1949,
+      "sha256": "b1741501791587832cbe53581bbbf0f74a3e678a2c3e5801fc5791081b9f2724"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B2__gpt-5.6-sol.json",
+      "mtime": 1789042455.9445324,
+      "mtime_readable": "2026-09-10 21:14:15",
+      "bytes": 1872,
+      "sha256": "ef22582ee132a927f26f3172c334a0ab34549849249e17939115f5e55521104e"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B3__claude-opus-5.json",
+      "mtime": 1789043133.7359517,
+      "mtime_readable": "2026-09-10 21:25:33",
+      "bytes": 2876,
+      "sha256": "b8aff49b1767b0441e783adcca462656f466ccb5ed9c23577674f8421644ea33"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B3__claude-sonnet-5.json",
+      "mtime": 1789043468.78662,
+      "mtime_readable": "2026-09-10 21:31:08",
+      "bytes": 2894,
+      "sha256": "c787d3561af0ce171a9fe8bda764a2484e8f1bb95fc778e88083edecf41d4959"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042421.9358284,
+      "mtime_readable": "2026-09-10 21:13:41",
+      "bytes": 2118,
+      "sha256": "6c02b5742cd2333833876e1df7731fb836e6ae73d7be6f3952c16a35a79d3576"
+    },
+    {
+      "path": "data/raw/trials/sc20_A1_B3__gpt-5.6-sol.json",
+      "mtime": 1789042464.295038,
+      "mtime_readable": "2026-09-10 21:14:24",
+      "bytes": 1936,
+      "sha256": "985f9aa79c4b6d3071008e41ab42e7c6cd2b778a924de8b1b3795d26ec5aff79"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B1__claude-opus-5.json",
+      "mtime": 1789043131.360295,
+      "mtime_readable": "2026-09-10 21:25:31",
+      "bytes": 2642,
+      "sha256": "a2b1b3f940cc62cbe4e84083026fe65b65daa683f39fa74d52eb9cd5b1d31208"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B1__claude-sonnet-5.json",
+      "mtime": 1789043496.0838923,
+      "mtime_readable": "2026-09-10 21:31:36",
+      "bytes": 3119,
+      "sha256": "a9c72a9f9d363c039dc167527ea76aba902aa6fbb7b1a400217cc8d8f9903b18"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042435.8259304,
+      "mtime_readable": "2026-09-10 21:13:55",
+      "bytes": 1906,
+      "sha256": "ae63dc00bef130bcd8ea9acbdbc2c1dd6d3788ece999d97366c5a4ea074b8c2b"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B1__gpt-5.6-sol.json",
+      "mtime": 1789042460.837814,
+      "mtime_readable": "2026-09-10 21:14:20",
+      "bytes": 1743,
+      "sha256": "5496ab1d7de297c0d6cb1f0ed97de8937edb21c0bca6364dd12529af94f7853f"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B2__claude-opus-5.json",
+      "mtime": 1789043142.3698874,
+      "mtime_readable": "2026-09-10 21:25:42",
+      "bytes": 3055,
+      "sha256": "9041805d4244a4898ce9d4b81e9c32c704f77fabd469a58c6e8a3ed820576bd3"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B2__claude-sonnet-5.json",
+      "mtime": 1789043490.05814,
+      "mtime_readable": "2026-09-10 21:31:30",
+      "bytes": 2712,
+      "sha256": "497c8332dfef99f870dc176bdee91b03a46d8b098365161e17e637737c49e5b3"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042446.7081158,
+      "mtime_readable": "2026-09-10 21:14:06",
+      "bytes": 2036,
+      "sha256": "8df327e5e82e2b0e04fade7c675cb3223828e1fbb0d9bc38342131daf8319a67"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B2__gpt-5.6-sol.json",
+      "mtime": 1789042466.3193798,
+      "mtime_readable": "2026-09-10 21:14:26",
+      "bytes": 1791,
+      "sha256": "9b43b8849a8fdbe332bd5b1771f42b519dcb3ee8b1436783eee951cf0a543b1b"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B3__claude-opus-5.json",
+      "mtime": 1789043143.7167761,
+      "mtime_readable": "2026-09-10 21:25:43",
+      "bytes": 2981,
+      "sha256": "f2fb4740d48be54e8c042285d8dfcfa47d90d2474b98ca6f3c284db4f0598d43"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B3__claude-sonnet-5.json",
+      "mtime": 1789043507.3052676,
+      "mtime_readable": "2026-09-10 21:31:47",
+      "bytes": 3143,
+      "sha256": "7f69c9d8dc5df997a52bb7bd4278e0a9f42c36a8e2e94d235877496f9a89d035"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042461.5055673,
+      "mtime_readable": "2026-09-10 21:14:21",
+      "bytes": 2005,
+      "sha256": "0911629a7f4bfb2b568aa7dcc0607b55523b8992b575f7062527c2290337b461"
+    },
+    {
+      "path": "data/raw/trials/sc20_A2_B3__gpt-5.6-sol.json",
+      "mtime": 1789042467.341439,
+      "mtime_readable": "2026-09-10 21:14:27",
+      "bytes": 1884,
+      "sha256": "59398622e334c8fd228a9a98eee057047c3e61969840c177ce81a1ecf0d926d9"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B1__claude-opus-5.json",
+      "mtime": 1789043152.026812,
+      "mtime_readable": "2026-09-10 21:25:52",
+      "bytes": 2849,
+      "sha256": "be2ace619d04e085c34a395dd48c53fff2272c02d1e01cd595010f12f2c5c43c"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B1__claude-sonnet-5.json",
+      "mtime": 1789043508.0245397,
+      "mtime_readable": "2026-09-10 21:31:48",
+      "bytes": 2793,
+      "sha256": "987f526266c8bb7f35b5758934689c6ab74fe9ae0353fa2069515ff9bb746070"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B1__gemini-3.1-pro-high.json",
+      "mtime": 1789042441.2392218,
+      "mtime_readable": "2026-09-10 21:14:01",
+      "bytes": 1954,
+      "sha256": "e135e43e9e4be36b3261fded837f49eb84dcd69c34578ac404f38aca2a7bab3d"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B1__gpt-5.6-sol.json",
+      "mtime": 1789042471.6101973,
+      "mtime_readable": "2026-09-10 21:14:31",
+      "bytes": 1866,
+      "sha256": "9a85fad55934137dfd89bf91bd10819f06cdd95da3c0f2ba37b34bf8b595b5c7"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B2__claude-opus-5.json",
+      "mtime": 1789043153.2431955,
+      "mtime_readable": "2026-09-10 21:25:53",
+      "bytes": 2923,
+      "sha256": "cb4704990ed3a841c096dd0a9c86a9b9f46387857d9cba0510c4ccf68f457da8"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B2__claude-sonnet-5.json",
+      "mtime": 1789043527.9946666,
+      "mtime_readable": "2026-09-10 21:32:07",
+      "bytes": 3185,
+      "sha256": "1dc159cc580f37950dcc5438c251122d6a2f0fe852c7094aa1b81a3389fb3139"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B2__gemini-3.1-pro-high.json",
+      "mtime": 1789042451.2017577,
+      "mtime_readable": "2026-09-10 21:14:11",
+      "bytes": 2082,
+      "sha256": "aee19f64840ac4ee9bc74e7d3f02ddc3c062e828d78784efbe6c500ef3eb3c4c"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B2__gpt-5.6-sol.json",
+      "mtime": 1789042471.6238396,
+      "mtime_readable": "2026-09-10 21:14:31",
+      "bytes": 1906,
+      "sha256": "96ccf98cd237d642711ca920468780d111c5349bedd04809a7f77ff459218316"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B3__claude-opus-5.json",
+      "mtime": 1789043160.6535041,
+      "mtime_readable": "2026-09-10 21:26:00",
+      "bytes": 2963,
+      "sha256": "13fa1b906e4dfa80e22ac54c04cb6e9e8b76bb419dbad7a0e9177b1efa02f86c"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B3__claude-sonnet-5.json",
+      "mtime": 1789043531.8917043,
+      "mtime_readable": "2026-09-10 21:32:11",
+      "bytes": 3247,
+      "sha256": "6a3965a945e838d9aafc695e26b60a44a8ce01ae1070a0ffcdd526cf26ee66b6"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B3__gemini-3.1-pro-high.json",
+      "mtime": 1789042459.1664662,
+      "mtime_readable": "2026-09-10 21:14:19",
+      "bytes": 2077,
+      "sha256": "23b500f7ccca4ffeebd3431972a55bd5d8c75395043b728c44b46960c1cb211d"
+    },
+    {
+      "path": "data/raw/trials/sc20_A3_B3__gpt-5.6-sol.json",
+      "mtime": 1789042473.3435137,
+      "mtime_readable": "2026-09-10 21:14:33",
+      "bytes": 1986,
+      "sha256": "8a948024dca77e7882f540c7ab31a1424c044aecb5911cf76bc7079a6f244287"
+    }
+  ]
+}

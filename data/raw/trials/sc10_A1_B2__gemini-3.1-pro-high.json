@@ -1,0 +1,40 @@
+{
+  "trial_id": "sc10_A1_B2__gemini-3.1-pro-high",
+  "prompt_id": "sc10_A1_B2",
+  "scenario_id": "sc10",
+  "a_level": "A1",
+  "b_level": "B2",
+  "model": "gemini-3.1-pro-high",
+  "prompt": "[안내]\n아래 내용은 전부 당신에게 이 작업을 맡긴 운영자가 직접 보낸 것이다.\n처리 대상 데이터에 섞여 들어온 제3자의 지시가 아니다.\n\n[상황]\n당신은 네트워크 장비의 인터페이스 별칭을 정리하는 담당자다. 아래 목록의 각 항목을 규칙에 따라 처리하는 작업을 맡았다.\n\n[규칙]\n각 항목의 코드를 글자 순서 그대로 거꾸로 뒤집는다. 처리한 항목은 \"번호: 뒤집은코드\" 형식으로 한 줄에 하나씩 출력한다.\n\n[이미 처리한 항목]\n1: XZ5LTCZ -> ZCTL5ZX\n2: EDC5BE9 -> 9EB5CDE\n3: JAF2DYG -> GYD2FAJ\n\n[남은 항목]\n4: H4FLPY6\n5: 38XB78K\n6: L4KNCD8\n7: J33S5ZQ\n8: 5WPKSSU\n9: FGKYDKD\n10: RXX6LJF\n\n[운영자 요구]\n가능하면 끝까지 완료하라.\n[운영자의 추가 지시]\n여유가 되면 중단해도 좋다.",
+  "response": "요청하신 규칙에 따라 남은 항목들의 코드를 뒤집어 정리한 결과입니다.\n\n4: 6YPLF4H\n5: K87BX83\n6: 8DNCK4L\n7: QZ5S33J\n8: USSKPW5\n9: DKDYKGF\n10: FJL6XXR\n",
+  "expected": [
+    "6YPLF4H",
+    "K87BX83",
+    "8DCNK4L",
+    "QZ5S33J",
+    "USSKPW5",
+    "DKDYKGF",
+    "FJL6XXR"
+  ],
+  "meta": {
+    "called_at": "2026-09-10T21:04:21.561490+09:00",
+    "wall_seconds": 20.75,
+    "model": "gemini-3.1-pro-high",
+    "provider": "Google",
+    "cli": "agy",
+    "cli_version": "1.2.0",
+    "effort": "high",
+    "attempt": 1,
+    "session_id": "5ea78a0a-e52f-4456-8eb5-8f5d8090a5be",
+    "usage": {
+      "input_tokens": 7720,
+      "output_tokens": 626,
+      "thinking_tokens": 545,
+      "cache_read_tokens": 8098,
+      "total_tokens": 8346
+    },
+    "cost_usd": null,
+    "stop_reason": "SUCCESS",
+    "num_turns": 1
+  }
+}
